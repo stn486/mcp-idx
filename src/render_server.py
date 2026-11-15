@@ -1,3 +1,4 @@
+
 """Cloud entry point for IDX Stock MCP on Render."""
 
 import os
@@ -7,7 +8,8 @@ from collections.abc import AsyncIterator
 
 import uvicorn
 from starlette.applications import Starlette
-from starlette.routing import Mount
+from starlette.routing import Mount, Route
+from starlette.responses import JSONResponse
 from starlette.types import Scope, Receive, Send
 
 from mcp.server.streamable_http_manager import StreamableHTTPSessionManager
@@ -20,6 +22,13 @@ session_manager = StreamableHTTPSessionManager(
     app=server,
     json_response=True,
 )
+
+# Health check endpoint
+async def health_check(request):
+    return JSONResponse({
+        "status": "ok",
+        "service": "IDX Stock MCP",
+    })
 
 # ASGI handler
 async def handle_streamable_http(
@@ -39,6 +48,7 @@ async def lifespan(app: Starlette) -> AsyncIterator[None]:
 # Create Starlette application
 app = Starlette(
     routes=[
+        Route("/health", endpoint=health_check, methods=["GET"]),
         Mount("/mcp", app=handle_streamable_http),
     ],
     lifespan=lifespan,
