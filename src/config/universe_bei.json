@@ -1,0 +1,6616 @@
+{
+ "source": "Ekspor resmi BEI Daftar Saham (Daftar Saham  - 20261120.xlsx)",
+ "as_of": "2026-11-20",
+ "complete": true,
+ "total": 944,
+ "tickers": [
+  {
+   "ticker": "MGLV",
+   "name": "NexAI Digital Infrastruktur Tb",
+   "board": "Akselerasi",
+   "listing_date": "08 Jun 2021",
+   "shares": "2.087.668.755"
+  },
+  {
+   "ticker": "TRUE",
+   "name": "Triniti Dinamik Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jun 2021",
+   "shares": "7.571.107.860"
+  },
+  {
+   "ticker": "LABA",
+   "name": "Green Power Group Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jun 2021",
+   "shares": "1.103.402.553"
+  },
+  {
+   "ticker": "ARCI",
+   "name": "Archi Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Jun 2021",
+   "shares": "25.235.000.000"
+  },
+  {
+   "ticker": "IPAC",
+   "name": "Era Graharealty Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "30 Jun 2021",
+   "shares": "949.868.500"
+  },
+  {
+   "ticker": "MASB",
+   "name": "Bank Multiarta Sentosa Tbk.",
+   "board": "Utama",
+   "listing_date": "30 Jun 2021",
+   "shares": "1.387.737.233"
+  },
+  {
+   "ticker": "BMHS",
+   "name": "Bundamedik Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Jul 2021",
+   "shares": "8.603.416.176"
+  },
+  {
+   "ticker": "FLMC",
+   "name": "Falmaco Nonwoven Industri Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "08 Jul 2021",
+   "shares": "781.250.000"
+  },
+  {
+   "ticker": "NICL",
+   "name": "PAM Mineral Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2021",
+   "shares": "10.635.644.907"
+  },
+  {
+   "ticker": "UVCR",
+   "name": "Trimegah Karya Pratama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Jul 2021",
+   "shares": "2.000.144.838"
+  },
+  {
+   "ticker": "BUKA",
+   "name": "Bukalapak.com Tbk.",
+   "board": "Ekonomi Baru",
+   "listing_date": "06 Agt 2021",
+   "shares": "103.167.090.767"
+  },
+  {
+   "ticker": "HAIS",
+   "name": "Hasnur Internasional Shipping",
+   "board": "Pengembangan",
+   "listing_date": "01 Sep 2021",
+   "shares": "2.626.250.000"
+  },
+  {
+   "ticker": "OILS",
+   "name": "Indo Oil Perkasa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Sep 2021",
+   "shares": "454.056.563"
+  },
+  {
+   "ticker": "GPSO",
+   "name": "Geoprima Solusi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Sep 2021",
+   "shares": "733.415.103"
+  },
+  {
+   "ticker": "MCOL",
+   "name": "Prima Andalan Mandiri Tbk.",
+   "board": "Utama",
+   "listing_date": "07 Sep 2021",
+   "shares": "3.555.560.000"
+  },
+  {
+   "ticker": "RSGK",
+   "name": "Kedoya Adyaraya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Sep 2021",
+   "shares": "929.675.000"
+  },
+  {
+   "ticker": "RUNS",
+   "name": "Global Sukses Solusi Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "08 Sep 2021",
+   "shares": "983.557.875"
+  },
+  {
+   "ticker": "SBMA",
+   "name": "Surya Biru Murni Acetylene Tbk",
+   "board": "Pengembangan",
+   "listing_date": "08 Sep 2021",
+   "shares": "929.926.282"
+  },
+  {
+   "ticker": "CMNT",
+   "name": "Cemindo Gemilang Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Sep 2021",
+   "shares": "17.125.504.000"
+  },
+  {
+   "ticker": "GTSI",
+   "name": "GTS Internasional Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Sep 2021",
+   "shares": "15.819.142.767"
+  },
+  {
+   "ticker": "IDEA",
+   "name": "Idea Indonesia Akademi Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "09 Sep 2021",
+   "shares": "1.062.437.500"
+  },
+  {
+   "ticker": "KUAS",
+   "name": "Ace Oldfields Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "25 Okt 2021",
+   "shares": "1.292.808.150"
+  },
+  {
+   "ticker": "BOBA",
+   "name": "Formosa Ingredient Factory Tbk",
+   "board": "Pengembangan",
+   "listing_date": "01 Nov 2021",
+   "shares": "1.155.750.000"
+  },
+  {
+   "ticker": "MTEL",
+   "name": "Dayamitra Telekomunikasi Tbk.",
+   "board": "Utama",
+   "listing_date": "22 Nov 2021",
+   "shares": "83.559.677.444"
+  },
+  {
+   "ticker": "DEPO",
+   "name": "Caturkarda Depo Bangunan Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "25 Nov 2021",
+   "shares": "6.790.000.000"
+  },
+  {
+   "ticker": "BINO",
+   "name": "Perma Plasindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "25 Nov 2021",
+   "shares": "2.275.316.111"
+  },
+  {
+   "ticker": "CMRY",
+   "name": "Cisarua Mountain Dairy Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Des 2021",
+   "shares": "7.934.683.000"
+  },
+  {
+   "ticker": "WGSH",
+   "name": "Wira Global Solusi Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "06 Des 2021",
+   "shares": "2.085.000.000"
+  },
+  {
+   "ticker": "TAYS",
+   "name": "Jaya Swarasa Agung Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Des 2021",
+   "shares": "1.098.920.000"
+  },
+  {
+   "ticker": "WMPP",
+   "name": "Widodo Makmur Perkasa Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Des 2021",
+   "shares": "29.419.000.000"
+  },
+  {
+   "ticker": "RMKE",
+   "name": "RMK Energy Tbk.",
+   "board": "Utama",
+   "listing_date": "07 Des 2021",
+   "shares": "21.875.000.000"
+  },
+  {
+   "ticker": "OBMD",
+   "name": "OBM Drilchem Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Des 2021",
+   "shares": "805.992.931"
+  },
+  {
+   "ticker": "AVIA",
+   "name": "Avia Avian Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Des 2021",
+   "shares": "61.953.555.600"
+  },
+  {
+   "ticker": "IPPE",
+   "name": "Indo Pureco Pratama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Des 2021",
+   "shares": "4.600.000.000"
+  },
+  {
+   "ticker": "NASI",
+   "name": "Wahana Inti Makmur Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Des 2021",
+   "shares": "807.400.000"
+  },
+  {
+   "ticker": "BSML",
+   "name": "Bintang Samudera Mandiri Lines",
+   "board": "Pengembangan",
+   "listing_date": "16 Des 2021",
+   "shares": "1.850.225.000"
+  },
+  {
+   "ticker": "DRMA",
+   "name": "Dharma Polimetal Tbk.",
+   "board": "Utama",
+   "listing_date": "20 Des 2021",
+   "shares": "4.705.882.300"
+  },
+  {
+   "ticker": "ADMR",
+   "name": "Alamtri Minerals Indonesia Tbk",
+   "board": "Utama",
+   "listing_date": "03 Jan 2022",
+   "shares": "40.882.331.500"
+  },
+  {
+   "ticker": "SEMA",
+   "name": "Semacom Integrated Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jan 2022",
+   "shares": "1.347.258.842"
+  },
+  {
+   "ticker": "ASLC",
+   "name": "Autopedia Sukses Lestari Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "25 Jan 2022",
+   "shares": "12.746.354.780"
+  },
+  {
+   "ticker": "NETV",
+   "name": "MDTV Media Technologies Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "26 Jan 2022",
+   "shares": "41.360.517.722"
+  },
+  {
+   "ticker": "BAUT",
+   "name": "Mitra Angkasa Sejahtera Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Jan 2022",
+   "shares": "4.800.182.969"
+  },
+  {
+   "ticker": "ENAK",
+   "name": "Champ Resto Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Feb 2022",
+   "shares": "2.166.666.800"
+  },
+  {
+   "ticker": "NTBK",
+   "name": "Nusatama Berkah Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Feb 2022",
+   "shares": "2.700.064.877"
+  },
+  {
+   "ticker": "SMKM",
+   "name": "Sumber Mas Konstruksi Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "09 Mar 2022",
+   "shares": "1.253.000.000"
+  },
+  {
+   "ticker": "STAA",
+   "name": "Sumber Tani Agung Resources Tb",
+   "board": "Utama",
+   "listing_date": "10 Mar 2022",
+   "shares": "10.903.372.600"
+  },
+  {
+   "ticker": "NANO",
+   "name": "Nanotech Indonesia Global Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "10 Mar 2022",
+   "shares": "4.285.440.269"
+  },
+  {
+   "ticker": "BIKE",
+   "name": "Bhineka Inovasi Ketahanan Ener",
+   "board": "Pengembangan",
+   "listing_date": "21 Mar 2022",
+   "shares": "1.293.916.404"
+  },
+  {
+   "ticker": "WIRG",
+   "name": "WIR ASIA Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "04 Apr 2022",
+   "shares": "11.938.622.394"
+  },
+  {
+   "ticker": "SICO",
+   "name": "Sigma Energy Compressindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Apr 2022",
+   "shares": "910.077.764"
+  },
+  {
+   "ticker": "GOTO",
+   "name": "GoTo Gojek Tokopedia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Apr 2022",
+   "shares": "1.140.573.267.220"
+  },
+  {
+   "ticker": "TLDN",
+   "name": "Teladan Prima Agro Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Apr 2022",
+   "shares": "12.946.530.200"
+  },
+  {
+   "ticker": "MTMH",
+   "name": "Murni Sadar Tbk.",
+   "board": "Utama",
+   "listing_date": "20 Apr 2022",
+   "shares": "2.068.526.950"
+  },
+  {
+   "ticker": "WINR",
+   "name": "Winner Nusantara Jaya Tbk.",
+   "board": "Utama",
+   "listing_date": "25 Apr 2022",
+   "shares": "5.235.316.030"
+  },
+  {
+   "ticker": "IBOS",
+   "name": "Indo Boga Sukses Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "25 Apr 2022",
+   "shares": "8.065.789.529"
+  },
+  {
+   "ticker": "OLIV",
+   "name": "Atlas Nexus Group Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "17 Mei 2022",
+   "shares": "1.900.073.314"
+  },
+  {
+   "ticker": "ASHA",
+   "name": "Cilacap Samudera Fishing Indus",
+   "board": "Pengembangan",
+   "listing_date": "27 Mei 2022",
+   "shares": "5.000.000.000"
+  },
+  {
+   "ticker": "SWID",
+   "name": "Saraswanti Indoland Developmen",
+   "board": "Pengembangan",
+   "listing_date": "07 Jul 2022",
+   "shares": "5.385.019.201"
+  },
+  {
+   "ticker": "TRGU",
+   "name": "Cerestar Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Jul 2022",
+   "shares": "7.945.412.700"
+  },
+  {
+   "ticker": "ARKO",
+   "name": "Arkora Hydro Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2022",
+   "shares": "2.928.495.000"
+  },
+  {
+   "ticker": "CHEM",
+   "name": "Chemstar Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2022",
+   "shares": "1.700.014.594"
+  },
+  {
+   "ticker": "DEWI",
+   "name": "Dewi Shri Farmindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Jul 2022",
+   "shares": "2.000.000.000"
+  },
+  {
+   "ticker": "AXIO",
+   "name": "Tera Data Indonusa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "20 Jul 2022",
+   "shares": "5.840.126.500"
+  },
+  {
+   "ticker": "KRYA",
+   "name": "Bangun Karya Perkasa Jaya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "25 Jul 2022",
+   "shares": "1.663.943.474"
+  },
+  {
+   "ticker": "HATM",
+   "name": "Habco Trans Maritima Tbk.",
+   "board": "Utama",
+   "listing_date": "26 Jul 2022",
+   "shares": "9.320.000.000"
+  },
+  {
+   "ticker": "RCCC",
+   "name": "Utama Radar Cahaya Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "02 Agt 2022",
+   "shares": "787.500.000"
+  },
+  {
+   "ticker": "GULA",
+   "name": "Aman Agrindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "03 Agt 2022",
+   "shares": "1.070.362.500"
+  },
+  {
+   "ticker": "JARR",
+   "name": "Jhonlin Agro Raya Tbk.",
+   "board": "Utama",
+   "listing_date": "04 Agt 2022",
+   "shares": "9.230.665.050"
+  },
+  {
+   "ticker": "AMMS",
+   "name": "Agung Menjangan Mas Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "04 Agt 2022",
+   "shares": "1.235.296.802"
+  },
+  {
+   "ticker": "RAFI",
+   "name": "Sari Kreasi Boga Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Agt 2022",
+   "shares": "3.128.140.475"
+  },
+  {
+   "ticker": "KKES",
+   "name": "Kusuma Kemindo Sentosa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Agt 2022",
+   "shares": "1.500.000.000"
+  },
+  {
+   "ticker": "ELPI",
+   "name": "Pelayaran Nasional Ekalya Purn",
+   "board": "Utama",
+   "listing_date": "08 Agt 2022",
+   "shares": "9.524.420.000"
+  },
+  {
+   "ticker": "EURO",
+   "name": "Estee Gold Feet Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "08 Agt 2022",
+   "shares": "2.548.826.428"
+  },
+  {
+   "ticker": "KLIN",
+   "name": "Klinko Karya Imaji Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "09 Agt 2022",
+   "shares": "1.307.530.330"
+  },
+  {
+   "ticker": "TOOL",
+   "name": "Rohartindo Nusantara Luas Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Agt 2022",
+   "shares": "2.050.020.320"
+  },
+  {
+   "ticker": "BUAH",
+   "name": "Segar Kumala Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Agt 2022",
+   "shares": "2.000.000.000"
+  },
+  {
+   "ticker": "CRAB",
+   "name": "Toba Surimi Industries Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Agt 2022",
+   "shares": "1.950.000.000"
+  },
+  {
+   "ticker": "MEDS",
+   "name": "Hetzer Medical Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Agt 2022",
+   "shares": "1.562.500.000"
+  },
+  {
+   "ticker": "COAL",
+   "name": "Black Diamond Resources Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "07 Sep 2022",
+   "shares": "6.250.000.000"
+  },
+  {
+   "ticker": "PRAY",
+   "name": "Famon Awal Bros Sedaya Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Nov 2022",
+   "shares": "13.959.422.300"
+  },
+  {
+   "ticker": "CBUT",
+   "name": "Citra Borneo Utama Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Nov 2022",
+   "shares": "3.125.000.000"
+  },
+  {
+   "ticker": "BELI",
+   "name": "Global Digital Niaga Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Nov 2022",
+   "shares": "137.218.985.689"
+  },
+  {
+   "ticker": "MKTR",
+   "name": "Menthobi Karyatama Raya Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Nov 2022",
+   "shares": "12.060.428.584"
+  },
+  {
+   "ticker": "OMED",
+   "name": "Jayamas Medica Industri Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Nov 2022",
+   "shares": "27.058.850.000"
+  },
+  {
+   "ticker": "BSBK",
+   "name": "Wulandari Bangun Laksana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Nov 2022",
+   "shares": "25.091.882.375"
+  },
+  {
+   "ticker": "PDPP",
+   "name": "Primadaya Plastisindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Nov 2022",
+   "shares": "3.061.341.438"
+  },
+  {
+   "ticker": "KDTN",
+   "name": "Puri Sentul Permai Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Nov 2022",
+   "shares": "1.250.023.298"
+  },
+  {
+   "ticker": "ZATA",
+   "name": "Bersama Zatta Jaya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Nov 2022",
+   "shares": "8.496.000.000"
+  },
+  {
+   "ticker": "NINE",
+   "name": "Techno9 Indonesia Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "05 Des 2022",
+   "shares": "2.157.000.000"
+  },
+  {
+   "ticker": "MMIX",
+   "name": "Multi Medika Internasional Tbk",
+   "board": "Pengembangan",
+   "listing_date": "06 Des 2022",
+   "shares": "4.800.425.380"
+  },
+  {
+   "ticker": "PADA",
+   "name": "Personel Alih Daya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Des 2022",
+   "shares": "3.150.000.000"
+  },
+  {
+   "ticker": "ISAP",
+   "name": "Isra Presisi Indonesia Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "09 Des 2022",
+   "shares": "4.020.383.678"
+  },
+  {
+   "ticker": "VTNY",
+   "name": "Venteny Fortuna International",
+   "board": "Pengembangan",
+   "listing_date": "15 Des 2022",
+   "shares": "6.265.193.445"
+  },
+  {
+   "ticker": "SOUL",
+   "name": "Mitra Tirta Buwana Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "06 Jan 2023",
+   "shares": "1.082.526.223"
+  },
+  {
+   "ticker": "ELIT",
+   "name": "Data Sinergitama Jaya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Jan 2023",
+   "shares": "2.031.643.057"
+  },
+  {
+   "ticker": "BEER",
+   "name": "Jobubu Jarum Minahasa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Jan 2023",
+   "shares": "4.000.000.000"
+  },
+  {
+   "ticker": "CBPE",
+   "name": "Citra Buana Prasida Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Jan 2023",
+   "shares": "1.356.250.000"
+  },
+  {
+   "ticker": "SUNI",
+   "name": "Sunindo Pratama Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Jan 2023",
+   "shares": "2.500.000.000"
+  },
+  {
+   "ticker": "CBRE",
+   "name": "Cakra Buana Resources Energi T",
+   "board": "Pemantauan Khusus",
+   "listing_date": "09 Jan 2023",
+   "shares": "4.538.067.441"
+  },
+  {
+   "ticker": "WINE",
+   "name": "Hatten Bali Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jan 2023",
+   "shares": "2.710.000.000"
+  },
+  {
+   "ticker": "BMBL",
+   "name": "Lavender Bina Cendikia Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "11 Jan 2023",
+   "shares": "1.030.080.995"
+  },
+  {
+   "ticker": "PEVE",
+   "name": "Penta Valent Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "24 Jan 2023",
+   "shares": "1.765.625.000"
+  },
+  {
+   "ticker": "LAJU",
+   "name": "Jasa Berdikari Logistics Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Jan 2023",
+   "shares": "2.149.942.974"
+  },
+  {
+   "ticker": "FWCT",
+   "name": "Wijaya Cahaya Timber Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Feb 2023",
+   "shares": "1.963.000.000"
+  },
+  {
+   "ticker": "NAYZ",
+   "name": "Hassana Boga Sejahtera Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "06 Feb 2023",
+   "shares": "2.550.011.472"
+  },
+  {
+   "ticker": "IRSX",
+   "name": "Folago Global Nusantara Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Feb 2023",
+   "shares": "6.195.047.377"
+  },
+  {
+   "ticker": "PACK",
+   "name": "Abadi Nusantara Hijau Investam",
+   "board": "Akselerasi",
+   "listing_date": "08 Feb 2023",
+   "shares": "34.140.150.471"
+  },
+  {
+   "ticker": "VAST",
+   "name": "Vastland Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Feb 2023",
+   "shares": "3.055.737.049"
+  },
+  {
+   "ticker": "CHIP",
+   "name": "Pelita Teknologi Global Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "08 Feb 2023",
+   "shares": "806.000.000"
+  },
+  {
+   "ticker": "HALO",
+   "name": "Haloni Jane Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Feb 2023",
+   "shares": "6.078.729.117"
+  },
+  {
+   "ticker": "KING",
+   "name": "Hoffmen Cleanindo Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "16 Feb 2023",
+   "shares": "2.602.852.170"
+  },
+  {
+   "ticker": "PGEO",
+   "name": "Pertamina Geothermal Energy Tb",
+   "board": "Utama",
+   "listing_date": "24 Feb 2023",
+   "shares": "41.954.253.581"
+  },
+  {
+   "ticker": "FUTR",
+   "name": "Futura Energi Global Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Feb 2023",
+   "shares": "6.635.551.959"
+  },
+  {
+   "ticker": "HILL",
+   "name": "Hillcon Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "01 Mar 2023",
+   "shares": "14.741.500.000"
+  },
+  {
+   "ticker": "BDKR",
+   "name": "Berdikari Pondasi Perkasa Tbk.",
+   "board": "Utama",
+   "listing_date": "03 Mar 2023",
+   "shares": "4.725.101.522"
+  },
+  {
+   "ticker": "PTMP",
+   "name": "Mitra Pack Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Mar 2023",
+   "shares": "3.169.200.000"
+  },
+  {
+   "ticker": "SAGE",
+   "name": "Saptausaha Gemilangindah Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Mar 2023",
+   "shares": "8.033.527.260"
+  },
+  {
+   "ticker": "TRON",
+   "name": "Teknologi Karya Digital Nusa T",
+   "board": "Pengembangan",
+   "listing_date": "08 Mar 2023",
+   "shares": "2.951.328.448"
+  },
+  {
+   "ticker": "CUAN",
+   "name": "Petrindo Jaya Kreasi Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Mar 2023",
+   "shares": "112.418.900.000"
+  },
+  {
+   "ticker": "NSSS",
+   "name": "Nusantara Sawit Sejahtera Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Mar 2023",
+   "shares": "23.801.568.645"
+  },
+  {
+   "ticker": "GTRA",
+   "name": "Grahaprima Suksesmandiri Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "30 Mar 2023",
+   "shares": "1.894.375.000"
+  },
+  {
+   "ticker": "HAJJ",
+   "name": "Arsy Buana Travelindo Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "05 Apr 2023",
+   "shares": "2.468.527.572"
+  },
+  {
+   "ticker": "PIPA",
+   "name": "Oxala Energy International Tbk",
+   "board": "Pengembangan",
+   "listing_date": "10 Apr 2023",
+   "shares": "3.426.097.190"
+  },
+  {
+   "ticker": "NCKL",
+   "name": "Trimegah Bangun Persada Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Apr 2023",
+   "shares": "63.098.600.000"
+  },
+  {
+   "ticker": "MENN",
+   "name": "Menn Teknologi Indonesia Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "18 Apr 2023",
+   "shares": "1.434.052.006"
+  },
+  {
+   "ticker": "AWAN",
+   "name": "Era Digital Media Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Apr 2023",
+   "shares": "3.435.000.000"
+  },
+  {
+   "ticker": "MBMA",
+   "name": "Merdeka Battery Materials Tbk.",
+   "board": "Utama",
+   "listing_date": "18 Apr 2023",
+   "shares": "107.995.419.900"
+  },
+  {
+   "ticker": "RAAM",
+   "name": "Tripar Multivision Plus Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Mei 2023",
+   "shares": "6.813.620.000"
+  },
+  {
+   "ticker": "DOOH",
+   "name": "Era Media Sejahtera Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Mei 2023",
+   "shares": "7.738.891.036"
+  },
+  {
+   "ticker": "JATI",
+   "name": "Informasi Teknologi Indonesia",
+   "board": "Pengembangan",
+   "listing_date": "08 Mei 2023",
+   "shares": "3.262.520.106"
+  },
+  {
+   "ticker": "TYRE",
+   "name": "King Tire Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Mei 2023",
+   "shares": "3.480.581.727"
+  },
+  {
+   "ticker": "MPXL",
+   "name": "MPX Logistics International Tb",
+   "board": "Pengembangan",
+   "listing_date": "09 Mei 2023",
+   "shares": "2.000.014.587"
+  },
+  {
+   "ticker": "SMIL",
+   "name": "Sarana Mitra Luas Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Mei 2023",
+   "shares": "8.751.668.239"
+  },
+  {
+   "ticker": "KLAS",
+   "name": "Pelayaran Kurnia Lautan Semest",
+   "board": "Pengembangan",
+   "listing_date": "12 Jun 2023",
+   "shares": "3.644.415.975"
+  },
+  {
+   "ticker": "MAXI",
+   "name": "Maxindo Karya Anugerah Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Jun 2023",
+   "shares": "9.610.099.981"
+  },
+  {
+   "ticker": "VKTR",
+   "name": "VKTR Teknologi Mobilitas Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "19 Jun 2023",
+   "shares": "58.750.000.000"
+  },
+  {
+   "ticker": "RELF",
+   "name": "Graha Mitra Asia Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "22 Jun 2023",
+   "shares": "5.727.832.195"
+  },
+  {
+   "ticker": "AMMN",
+   "name": "Amman Mineral Internasional Tb",
+   "board": "Utama",
+   "listing_date": "07 Jul 2023",
+   "shares": "72.518.217.656"
+  },
+  {
+   "ticker": "CRSN",
+   "name": "Carsurin Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2023",
+   "shares": "2.892.000.000"
+  },
+  {
+   "ticker": "GRPM",
+   "name": "Graha Prima Mentari Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "10 Jul 2023",
+   "shares": "1.571.666.469"
+  },
+  {
+   "ticker": "WIDI",
+   "name": "Widiant Jaya Krenindo Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "10 Jul 2023",
+   "shares": "1.600.031.683"
+  },
+  {
+   "ticker": "TGUK",
+   "name": "Platinum Wahab Nusantara Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2023",
+   "shares": "3.571.451.815"
+  },
+  {
+   "ticker": "INET",
+   "name": "Sinergi Inti Andalan Prima Tbk",
+   "board": "Pengembangan",
+   "listing_date": "24 Jul 2023",
+   "shares": "22.378.499.865"
+  },
+  {
+   "ticker": "MAHA",
+   "name": "Mandiri Herindo Adiperkasa Tbk",
+   "board": "Utama",
+   "listing_date": "25 Jul 2023",
+   "shares": "16.666.000.000"
+  },
+  {
+   "ticker": "RMKO",
+   "name": "Royaltama Mulia Kontraktorindo",
+   "board": "Pengembangan",
+   "listing_date": "31 Jul 2023",
+   "shares": "1.576.720.595"
+  },
+  {
+   "ticker": "CNMA",
+   "name": "Nusantara Sejahtera Raya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "02 Agt 2023",
+   "shares": "83.345.000.000"
+  },
+  {
+   "ticker": "FOLK",
+   "name": "Multi Garam Utama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Agt 2023",
+   "shares": "4.091.357.544"
+  },
+  {
+   "ticker": "HBAT",
+   "name": "Minahasa Membangun Hebat Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "07 Agt 2023",
+   "shares": "1.040.740.800"
+  },
+  {
+   "ticker": "GRIA",
+   "name": "Ingria Pratama Capitalindo Tbk",
+   "board": "Pengembangan",
+   "listing_date": "08 Agt 2023",
+   "shares": "7.375.720.674"
+  },
+  {
+   "ticker": "PPRI",
+   "name": "Paperocks Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Agt 2023",
+   "shares": "1.075.027.288"
+  },
+  {
+   "ticker": "ERAL",
+   "name": "Sinar Eka Selaras Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Agt 2023",
+   "shares": "5.187.500.000"
+  },
+  {
+   "ticker": "CYBR",
+   "name": "ITSEC Asia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Agt 2023",
+   "shares": "13.488.413.844"
+  },
+  {
+   "ticker": "MUTU",
+   "name": "Mutuagung Lestari Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Agt 2023",
+   "shares": "3.452.228.885"
+  },
+  {
+   "ticker": "LMAX",
+   "name": "Lupromax Pelumas Indonesia Tbk",
+   "board": "Akselerasi",
+   "listing_date": "09 Agt 2023",
+   "shares": "650.008.775"
+  },
+  {
+   "ticker": "HUMI",
+   "name": "Humpuss Maritim Internasional",
+   "board": "Pengembangan",
+   "listing_date": "09 Agt 2023",
+   "shares": "18.063.771.579"
+  },
+  {
+   "ticker": "MSIE",
+   "name": "Multisarana Intan Eduka Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "10 Agt 2023",
+   "shares": "1.460.007.754"
+  },
+  {
+   "ticker": "RSCH",
+   "name": "Charlie Hospital Semarang Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Agt 2023",
+   "shares": "2.650.000.000"
+  },
+  {
+   "ticker": "BABY",
+   "name": "Multitrend Indo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Sep 2023",
+   "shares": "2.854.826.582"
+  },
+  {
+   "ticker": "AEGS",
+   "name": "Anugerah Spareparts Sejahtera",
+   "board": "Akselerasi",
+   "listing_date": "11 Sep 2023",
+   "shares": "1.006.080.721"
+  },
+  {
+   "ticker": "IOTF",
+   "name": "Sumber Sinergi Makmur Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Okt 2023",
+   "shares": "5.290.298.067"
+  },
+  {
+   "ticker": "KOCI",
+   "name": "Kokoh Exa Nusantara Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Okt 2023",
+   "shares": "4.470.679.376"
+  },
+  {
+   "ticker": "PTPS",
+   "name": "Pulau Subur Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Okt 2023",
+   "shares": "2.167.514.856"
+  },
+  {
+   "ticker": "BREN",
+   "name": "Barito Renewables Energy Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Okt 2023",
+   "shares": "133.786.220.000"
+  },
+  {
+   "ticker": "STRK",
+   "name": "Lovina Beach Brewery Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Okt 2023",
+   "shares": "10.721.835.562"
+  },
+  {
+   "ticker": "KOKA",
+   "name": "Koka Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Okt 2023",
+   "shares": "2.861.333.000"
+  },
+  {
+   "ticker": "LOPI",
+   "name": "Logisticsplus International Tb",
+   "board": "Akselerasi",
+   "listing_date": "11 Okt 2023",
+   "shares": "1.100.011.289"
+  },
+  {
+   "ticker": "UDNG",
+   "name": "Agro Bahari Nusantara Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "31 Okt 2023",
+   "shares": "1.750.040.072"
+  },
+  {
+   "ticker": "RGAS",
+   "name": "Kian Santang Muliatama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Nov 2023",
+   "shares": "1.459.234.110"
+  },
+  {
+   "ticker": "MSTI",
+   "name": "Mastersystem Infotama Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Nov 2023",
+   "shares": "3.139.416.200"
+  },
+  {
+   "ticker": "IKPM",
+   "name": "Ikapharmindo Putramas Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Nov 2023",
+   "shares": "1.684.662.500"
+  },
+  {
+   "ticker": "AYAM",
+   "name": "Janu Putra Sejahtera Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "30 Nov 2023",
+   "shares": "4.000.000.000"
+  },
+  {
+   "ticker": "SURI",
+   "name": "Maja Agung Latexindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Des 2023",
+   "shares": "6.334.375.000"
+  },
+  {
+   "ticker": "ASLI",
+   "name": "Asri Karya Lestari Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Jan 2024",
+   "shares": "6.250.000.000"
+  },
+  {
+   "ticker": "CGAS",
+   "name": "Citra Nusantara Gemilang Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jan 2024",
+   "shares": "1.771.499.039"
+  },
+  {
+   "ticker": "NICE",
+   "name": "Adhi Kartiko Pratama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jan 2024",
+   "shares": "6.082.020.000"
+  },
+  {
+   "ticker": "MSJA",
+   "name": "Multi Spunindo Jaya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jan 2024",
+   "shares": "5.882.352.900"
+  },
+  {
+   "ticker": "SMLE",
+   "name": "Sinergi Multi Lestarindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jan 2024",
+   "shares": "2.328.153.048"
+  },
+  {
+   "ticker": "ACRO",
+   "name": "Samcro Hyosung Adilestari Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Jan 2024",
+   "shares": "3.469.345.537"
+  },
+  {
+   "ticker": "MANG",
+   "name": "Manggung Polahraya Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "11 Jan 2024",
+   "shares": "3.812.608.835"
+  },
+  {
+   "ticker": "GRPH",
+   "name": "Griptha Putra Persada Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "17 Jan 2024",
+   "shares": "1.000.000.000"
+  },
+  {
+   "ticker": "SMGA",
+   "name": "Sumber Mineral Global Abadi Tb",
+   "board": "Pengembangan",
+   "listing_date": "30 Jan 2024",
+   "shares": "8.750.000.000"
+  },
+  {
+   "ticker": "UNTD",
+   "name": "Terang Dunia Internusa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Feb 2024",
+   "shares": "6.666.666.700"
+  },
+  {
+   "ticker": "TOSK",
+   "name": "Topindo Solusi Komunika Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Feb 2024",
+   "shares": "4.375.277.300"
+  },
+  {
+   "ticker": "MPIX",
+   "name": "Mitra Pedagang Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Feb 2024",
+   "shares": "1.562.574.308"
+  },
+  {
+   "ticker": "ALII",
+   "name": "Ancara Logistics Indonesia Tbk",
+   "board": "Utama",
+   "listing_date": "07 Feb 2024",
+   "shares": "15.825.800.000"
+  },
+  {
+   "ticker": "MKAP",
+   "name": "Multikarya Asia Pasifik Raya T",
+   "board": "Pengembangan",
+   "listing_date": "12 Feb 2024",
+   "shares": "3.250.000.000"
+  },
+  {
+   "ticker": "MEJA",
+   "name": "Harta Djaya Karya Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "12 Feb 2024",
+   "shares": "2.608.081.058"
+  },
+  {
+   "ticker": "LIVE",
+   "name": "Homeco Victoria Makmur Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Feb 2024",
+   "shares": "4.593.005.014"
+  },
+  {
+   "ticker": "HYGN",
+   "name": "Ecocare Indo Pasifik Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Feb 2024",
+   "shares": "2.525.000.000"
+  },
+  {
+   "ticker": "BAIK",
+   "name": "Bersama Mencapai Puncak Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Feb 2024",
+   "shares": "1.127.497.572"
+  },
+  {
+   "ticker": "VISI",
+   "name": "Satu Visi Putra Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Feb 2024",
+   "shares": "3.195.724.400"
+  },
+  {
+   "ticker": "AREA",
+   "name": "Dunia Virtual Online Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Apr 2024",
+   "shares": "2.539.601.000"
+  },
+  {
+   "ticker": "MHKI",
+   "name": "Multi Hanna Kreasindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "16 Apr 2024",
+   "shares": "3.750.000.000"
+  },
+  {
+   "ticker": "ATLA",
+   "name": "Atlantis Subsea Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "16 Apr 2024",
+   "shares": "6.199.577.693"
+  },
+  {
+   "ticker": "DATA",
+   "name": "Remala Abadi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Mei 2024",
+   "shares": "1.375.000.000"
+  },
+  {
+   "ticker": "SOLA",
+   "name": "Xolare RCR Energy Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Mei 2024",
+   "shares": "3.287.375.000"
+  },
+  {
+   "ticker": "BATR",
+   "name": "Benteng Api Technic Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jun 2024",
+   "shares": "3.025.037.353"
+  },
+  {
+   "ticker": "SPRE",
+   "name": "Soraya Berjaya Indonesia Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "03 Jul 2024",
+   "shares": "800.000.000"
+  },
+  {
+   "ticker": "PART",
+   "name": "Cipta Perdana Lancar Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Jul 2024",
+   "shares": "2.850.594.054"
+  },
+  {
+   "ticker": "GOLF",
+   "name": "Intra Golflink Resorts Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Jul 2024",
+   "shares": "19.486.760.000"
+  },
+  {
+   "ticker": "ISEA",
+   "name": "Indo American Seafoods Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2024",
+   "shares": "1.390.013.370"
+  },
+  {
+   "ticker": "BLES",
+   "name": "Superior Prima Sukses Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2024",
+   "shares": "8.890.206.400"
+  },
+  {
+   "ticker": "GUNA",
+   "name": "Gunanusa Eramandiri Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2024",
+   "shares": "2.500.000.000"
+  },
+  {
+   "ticker": "LABS",
+   "name": "UBC Medical Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2024",
+   "shares": "3.950.000.000"
+  },
+  {
+   "ticker": "DOSS",
+   "name": "Global Sukses Digital Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Agt 2024",
+   "shares": "1.725.000.000"
+  },
+  {
+   "ticker": "NEST",
+   "name": "Esta Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Agt 2024",
+   "shares": "4.112.500.000"
+  },
+  {
+   "ticker": "PTMR",
+   "name": "Master Print Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Okt 2024",
+   "shares": "1.907.000.000"
+  },
+  {
+   "ticker": "VERN",
+   "name": "Verona Indah Pictures Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Okt 2024",
+   "shares": "4.765.648.183"
+  },
+  {
+   "ticker": "DAAZ",
+   "name": "Daaz Bara Lestari Tbk.",
+   "board": "Utama",
+   "listing_date": "11 Nov 2024",
+   "shares": "1.997.000.000"
+  },
+  {
+   "ticker": "BOAT",
+   "name": "Newport Marine Services Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Nov 2024",
+   "shares": "3.501.680.000"
+  },
+  {
+   "ticker": "NAIK",
+   "name": "Adiwarna Anugerah Abadi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Nov 2024",
+   "shares": "3.329.422.047"
+  },
+  {
+   "ticker": "AADI",
+   "name": "Adaro Andalan Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "05 Des 2024",
+   "shares": "7.786.891.760"
+  },
+  {
+   "ticker": "CBDK",
+   "name": "Bangun Kosambi Sukses Tbk.",
+   "board": "Utama",
+   "listing_date": "13 Jan 2025",
+   "shares": "5.668.944.500"
+  },
+  {
+   "ticker": "OBAT",
+   "name": "Brigit Biofarmaka Teknologi Tb",
+   "board": "Pengembangan",
+   "listing_date": "13 Jan 2025",
+   "shares": "680.376.575"
+  },
+  {
+   "ticker": "MINE",
+   "name": "Sinar Terang Mandiri Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Mar 2025",
+   "shares": "4.084.435.300"
+  },
+  {
+   "ticker": "KAQI",
+   "name": "Jantra Grupo Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Mar 2025",
+   "shares": "2.075.800.000"
+  },
+  {
+   "ticker": "YUPI",
+   "name": "Yupi Indo Jelly Gum Tbk.",
+   "board": "Utama",
+   "listing_date": "25 Mar 2025",
+   "shares": "8.544.488.700"
+  },
+  {
+   "ticker": "FORE",
+   "name": "Fore Kopi Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "14 Apr 2025",
+   "shares": "8.918.359.270"
+  },
+  {
+   "ticker": "MDLA",
+   "name": "Medela Potentia Tbk.",
+   "board": "Utama",
+   "listing_date": "15 Apr 2025",
+   "shares": "14.012.825.000"
+  },
+  {
+   "ticker": "DKHH",
+   "name": "Cipta Sarana Medika Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Mei 2025",
+   "shares": "2.550.312.624"
+  },
+  {
+   "ticker": "ASPR",
+   "name": "Asia Pramulia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2025",
+   "shares": "2.712.000.000"
+  },
+  {
+   "ticker": "PSAT",
+   "name": "Pancaran Samudera Transport Tb",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2025",
+   "shares": "1.482.353.000"
+  },
+  {
+   "ticker": "COIN",
+   "name": "Indokripto Koin Semesta Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2025",
+   "shares": "14.705.882.400"
+  },
+  {
+   "ticker": "CDIA",
+   "name": "Chandra Daya Investasi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2025",
+   "shares": "124.829.374.700"
+  },
+  {
+   "ticker": "BLOG",
+   "name": "Trimitra Trans Persada Tbk.",
+   "board": "Utama",
+   "listing_date": "10 Jul 2025",
+   "shares": "3.379.487.200"
+  },
+  {
+   "ticker": "MERI",
+   "name": "Merry Riana Edukasi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2025",
+   "shares": "1.035.132.500"
+  },
+  {
+   "ticker": "CHEK",
+   "name": "Diastika Biotekindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2025",
+   "shares": "4.113.331.485"
+  },
+  {
+   "ticker": "PMUI",
+   "name": "Prima Multi Usaha Indonesia Tb",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2025",
+   "shares": "5.800.000.000"
+  },
+  {
+   "ticker": "EMAS",
+   "name": "Merdeka Gold Resources Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "23 Sep 2025",
+   "shares": "14.731.366.060"
+  },
+  {
+   "ticker": "PJHB",
+   "name": "Pelayaran Jaya Hidup Baru Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Nov 2025",
+   "shares": "1.921.346.333"
+  },
+  {
+   "ticker": "RLCO",
+   "name": "Abadi Lestari Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Des 2025",
+   "shares": "3.125.000.000"
+  },
+  {
+   "ticker": "SUPA",
+   "name": "Super Bank Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "17 Des 2025",
+   "shares": "33.558.047.450"
+  },
+  {
+   "ticker": "WBSA",
+   "name": "BSA Logistics Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Apr 2026",
+   "shares": "8.675.000.000"
+  },
+  {
+   "ticker": "JECX",
+   "name": "Nitrasanata Dharma Tbk.",
+   "board": "Utama",
+   "listing_date": "07 Jul 2026",
+   "shares": "3.253.222.300"
+  },
+  {
+   "ticker": "JELI",
+   "name": "Niramas Utama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Jul 2026",
+   "shares": "1.266.000.000"
+  },
+  {
+   "ticker": "EMMI",
+   "name": "Esa Medika Mandiri Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2026",
+   "shares": "1.742.857.000"
+  },
+  {
+   "ticker": "BACH",
+   "name": "Bach Multi Global Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Jul 2026",
+   "shares": "4.084.430.000"
+  },
+  {
+   "ticker": "PRDL",
+   "name": "Prodia Diagnostic Line Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2026",
+   "shares": "1.742.900.000"
+  },
+  {
+   "ticker": "RANS",
+   "name": "Rans Entertainmen Indonesia Tb",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2026",
+   "shares": "12.609.250.000"
+  },
+  {
+   "ticker": "AALI",
+   "name": "Astra Agro Lestari Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Des 1997",
+   "shares": "1.924.688.333"
+  },
+  {
+   "ticker": "ABBA",
+   "name": "Mahaka Media Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "03 Apr 2002",
+   "shares": "3.935.892.857"
+  },
+  {
+   "ticker": "ABDA",
+   "name": "Asuransi Bina Dana Arta Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Jul 1989",
+   "shares": "620.806.680"
+  },
+  {
+   "ticker": "ABMM",
+   "name": "ABM Investama Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Des 2011",
+   "shares": "2.753.165.000"
+  },
+  {
+   "ticker": "ACES",
+   "name": "Aspirasi Hidup Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Nov 2007",
+   "shares": "17.120.389.700"
+  },
+  {
+   "ticker": "ACST",
+   "name": "Acset Indonusa Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "24 Jun 2013",
+   "shares": "17.675.160.000"
+  },
+  {
+   "ticker": "ADES",
+   "name": "Akasha Wira International Tbk.",
+   "board": "Utama",
+   "listing_date": "13 Jun 1994",
+   "shares": "589.896.800"
+  },
+  {
+   "ticker": "ADHI",
+   "name": "Adhi Karya (Persero) Tbk.",
+   "board": "Utama",
+   "listing_date": "18 Mar 2004",
+   "shares": "8.407.608.979"
+  },
+  {
+   "ticker": "ADMF",
+   "name": "Adira Dinamika Multi Finance T",
+   "board": "Pengembangan",
+   "listing_date": "31 Mar 2004",
+   "shares": "1.235.803.109"
+  },
+  {
+   "ticker": "ADMG",
+   "name": "Polychem Indonesia Tbk",
+   "board": "Pengembangan",
+   "listing_date": "20 Okt 1993",
+   "shares": "3.889.179.559"
+  },
+  {
+   "ticker": "ADRO",
+   "name": "Alamtri Resources Indonesia Tb",
+   "board": "Utama",
+   "listing_date": "16 Jul 2008",
+   "shares": "28.800.494.200"
+  },
+  {
+   "ticker": "AGII",
+   "name": "Samator Indo Gas Tbk.",
+   "board": "Utama",
+   "listing_date": "28 Sep 2016",
+   "shares": "3.066.660.000"
+  },
+  {
+   "ticker": "AGRO",
+   "name": "Bank Raya Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Agt 2003",
+   "shares": "24.493.093.216"
+  },
+  {
+   "ticker": "AGRS",
+   "name": "Bank IBK Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "22 Des 2014",
+   "shares": "47.367.057.874"
+  },
+  {
+   "ticker": "AHAP",
+   "name": "Asuransi Harta Aman Pratama Tb",
+   "board": "Pengembangan",
+   "listing_date": "14 Sep 1990",
+   "shares": "7.730.150.865"
+  },
+  {
+   "ticker": "CASH",
+   "name": "Cashlez Worldwide Indonesia Tb",
+   "board": "Akselerasi",
+   "listing_date": "04 Mei 2020",
+   "shares": "2.427.802.216"
+  },
+  {
+   "ticker": "TECH",
+   "name": "Indosterling Technomedia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "04 Jun 2020",
+   "shares": "1.256.300.000"
+  },
+  {
+   "ticker": "BSSR",
+   "name": "Baramulti Suksessarana Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Nov 2012",
+   "shares": "2.616.500.000"
+  },
+  {
+   "ticker": "BSWD",
+   "name": "Bank Of India Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Mei 2002",
+   "shares": "3.651.978.177"
+  },
+  {
+   "ticker": "BTEK",
+   "name": "Bumi Teknokultura Unggul Tbk",
+   "board": "Pengembangan",
+   "listing_date": "14 Mei 2004",
+   "shares": "46.277.496.376"
+  },
+  {
+   "ticker": "BTEL",
+   "name": "Bakrie Telecom Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "03 Feb 2006",
+   "shares": "61.847.903.535"
+  },
+  {
+   "ticker": "BTON",
+   "name": "Betonjaya Manunggal Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Jul 2001",
+   "shares": "720.000.000"
+  },
+  {
+   "ticker": "BTPN",
+   "name": "Bank SMBC Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Mar 2008",
+   "shares": "10.536.203.690"
+  },
+  {
+   "ticker": "BUDI",
+   "name": "Budi Starch & Sweetener Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Mei 1995",
+   "shares": "4.498.997.362"
+  },
+  {
+   "ticker": "MDIY",
+   "name": "Daya Intiguna Yasa Tbk.",
+   "board": "Utama",
+   "listing_date": "19 Des 2024",
+   "shares": "25.190.392.000"
+  },
+  {
+   "ticker": "KSIX",
+   "name": "Kentanix Supra International T",
+   "board": "Pengembangan",
+   "listing_date": "08 Jan 2025",
+   "shares": "2.137.831.800"
+  },
+  {
+   "ticker": "RATU",
+   "name": "Raharja Energi Cepu Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jan 2025",
+   "shares": "2.715.053.800"
+  },
+  {
+   "ticker": "YOII",
+   "name": "Asuransi Digital Bersama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jan 2025",
+   "shares": "3.926.983.181"
+  },
+  {
+   "ticker": "HGII",
+   "name": "Hero Global Investment Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jan 2025",
+   "shares": "6.500.000.000"
+  },
+  {
+   "ticker": "BRRC",
+   "name": "Raja Roti Cemerlang Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "09 Jan 2025",
+   "shares": "994.603.036"
+  },
+  {
+   "ticker": "DGWG",
+   "name": "Delta Giri Wacana Tbk.",
+   "board": "Utama",
+   "listing_date": "13 Jan 2025",
+   "shares": "5.882.353.000"
+  },
+  {
+   "ticker": "LMPI",
+   "name": "Langgeng Makmur Industri Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "17 Okt 1994",
+   "shares": "1.008.517.669"
+  },
+  {
+   "ticker": "LMSH",
+   "name": "Lionmesh Prima Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "04 Jun 1990",
+   "shares": "96.000.000"
+  },
+  {
+   "ticker": "LPCK",
+   "name": "Lippo Cikarang Tbk",
+   "board": "Utama",
+   "listing_date": "24 Jul 1997",
+   "shares": "5.134.685.692"
+  },
+  {
+   "ticker": "LPGI",
+   "name": "Lippo General Insurance Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "22 Jul 1997",
+   "shares": "3.000.000.000"
+  },
+  {
+   "ticker": "LPIN",
+   "name": "Multi Prima Sejahtera Tbk",
+   "board": "Pengembangan",
+   "listing_date": "05 Feb 1990",
+   "shares": "425.000.000"
+  },
+  {
+   "ticker": "LPKR",
+   "name": "Lippo Karawaci Tbk.",
+   "board": "Utama",
+   "listing_date": "28 Jun 1996",
+   "shares": "70.898.018.369"
+  },
+  {
+   "ticker": "LPLI",
+   "name": "Star Pacific Tbk",
+   "board": "Pengembangan",
+   "listing_date": "23 Okt 1989",
+   "shares": "1.170.432.803"
+  },
+  {
+   "ticker": "LPPF",
+   "name": "MDS Retailing Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Okt 1989",
+   "shares": "2.227.279.280"
+  },
+  {
+   "ticker": "AIMS",
+   "name": "Artha Mahiya Investama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "20 Jul 2001",
+   "shares": "220.000.000"
+  },
+  {
+   "ticker": "AISA",
+   "name": "FKS Food Sejahtera Tbk.",
+   "board": "Utama",
+   "listing_date": "11 Jun 1997",
+   "shares": "9.311.800.000"
+  },
+  {
+   "ticker": "AKKU",
+   "name": "Anugerah Kagum Karya Utama Tbk",
+   "board": "Pengembangan",
+   "listing_date": "01 Nov 2004",
+   "shares": "6.449.463.636"
+  },
+  {
+   "ticker": "AKPI",
+   "name": "Argha Karya Prima Industry Tbk",
+   "board": "Pengembangan",
+   "listing_date": "18 Des 1992",
+   "shares": "612.248.000"
+  },
+  {
+   "ticker": "AKRA",
+   "name": "AKR Corporindo Tbk.",
+   "board": "Utama",
+   "listing_date": "03 Okt 1994",
+   "shares": "20.073.474.600"
+  },
+  {
+   "ticker": "AKSI",
+   "name": "Mineral Sumberdaya Mandiri Tbk",
+   "board": "Pengembangan",
+   "listing_date": "13 Jul 2001",
+   "shares": "720.000.000"
+  },
+  {
+   "ticker": "ALDO",
+   "name": "Alkindo Naratama Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Jul 2011",
+   "shares": "2.700.713.744"
+  },
+  {
+   "ticker": "ALKA",
+   "name": "Alakasa Industrindo Tbk",
+   "board": "Pengembangan",
+   "listing_date": "12 Jul 1990",
+   "shares": "507.665.055"
+  },
+  {
+   "ticker": "ALMI",
+   "name": "Alumindo Light Metal Industry",
+   "board": "Pengembangan",
+   "listing_date": "02 Jan 1997",
+   "shares": "3.816.000.000"
+  },
+  {
+   "ticker": "ALTO",
+   "name": "Tri Banyan Tirta Tbk.",
+   "board": "Utama",
+   "listing_date": "10 Jul 2012",
+   "shares": "2.191.870.558"
+  },
+  {
+   "ticker": "AMAG",
+   "name": "Asuransi Multi Artha Guna Tbk.",
+   "board": "Utama",
+   "listing_date": "23 Des 2005",
+   "shares": "5.001.552.516"
+  },
+  {
+   "ticker": "AMFG",
+   "name": "Asahimas Flat Glass Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Nov 1995",
+   "shares": "434.000.000"
+  },
+  {
+   "ticker": "AMIN",
+   "name": "Ateliers Mecaniques D Indonesi",
+   "board": "Pengembangan",
+   "listing_date": "10 Des 2015",
+   "shares": "1.080.000.000"
+  },
+  {
+   "ticker": "AMRT",
+   "name": "Sumber Alfaria Trijaya Tbk.",
+   "board": "Utama",
+   "listing_date": "15 Jan 2009",
+   "shares": "41.524.501.700"
+  },
+  {
+   "ticker": "ANJT",
+   "name": "Austindo Nusantara Jaya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Mei 2013",
+   "shares": "3.354.175.000"
+  },
+  {
+   "ticker": "ANTM",
+   "name": "ANTAM (Persero) Tbk.",
+   "board": "Utama",
+   "listing_date": "27 Nov 1997",
+   "shares": "24.030.764.725"
+  },
+  {
+   "ticker": "APEX",
+   "name": "Apexindo Pratama Duta Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Jun 2013",
+   "shares": "3.764.556.978"
+  },
+  {
+   "ticker": "APIC",
+   "name": "Pacific Strategic Financial Tb",
+   "board": "Pengembangan",
+   "listing_date": "18 Des 2002",
+   "shares": "11.766.313.488"
+  },
+  {
+   "ticker": "APII",
+   "name": "Arita Prima Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "29 Okt 2013",
+   "shares": "1.075.760.000"
+  },
+  {
+   "ticker": "APLI",
+   "name": "Asiaplast Industries Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Mei 2000",
+   "shares": "1.362.671.400"
+  },
+  {
+   "ticker": "APLN",
+   "name": "Agung Podomoro Land Tbk.",
+   "board": "Utama",
+   "listing_date": "11 Nov 2010",
+   "shares": "22.699.326.779"
+  },
+  {
+   "ticker": "ARGO",
+   "name": "Argo Pantes Tbk",
+   "board": "Pengembangan",
+   "listing_date": "07 Jan 1991",
+   "shares": "3.174.339.029"
+  },
+  {
+   "ticker": "ARII",
+   "name": "Atlas Resources Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Nov 2011",
+   "shares": "3.750.000.000"
+  },
+  {
+   "ticker": "ARNA",
+   "name": "Arwana Citramulia Tbk.",
+   "board": "Utama",
+   "listing_date": "17 Jul 2001",
+   "shares": "7.341.430.976"
+  },
+  {
+   "ticker": "ARTA",
+   "name": "Arthavest Tbk",
+   "board": "Pengembangan",
+   "listing_date": "05 Nov 2002",
+   "shares": "446.674.175"
+  },
+  {
+   "ticker": "ARTI",
+   "name": "Ratu Prabu Energi Tbk",
+   "board": "Pemantauan Khusus",
+   "listing_date": "30 Apr 2003",
+   "shares": "7.840.000.000"
+  },
+  {
+   "ticker": "ARTO",
+   "name": "Bank Jago Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Jan 2016",
+   "shares": "13.722.768.400"
+  },
+  {
+   "ticker": "ASBI",
+   "name": "Asuransi Bintang Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "29 Nov 1989",
+   "shares": "348.386.472"
+  },
+  {
+   "ticker": "ASDM",
+   "name": "Asuransi Dayin Mitra Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Des 1989",
+   "shares": "384.000.000"
+  },
+  {
+   "ticker": "ASGR",
+   "name": "Astra Graphia Tbk.",
+   "board": "Utama",
+   "listing_date": "15 Nov 1989",
+   "shares": "1.348.780.500"
+  },
+  {
+   "ticker": "ASII",
+   "name": "Astra International Tbk.",
+   "board": "Utama",
+   "listing_date": "04 Apr 1990",
+   "shares": "40.483.553.140"
+  },
+  {
+   "ticker": "ASJT",
+   "name": "Asuransi Jasa Tania Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "23 Des 2003",
+   "shares": "1.400.000.000"
+  },
+  {
+   "ticker": "ASMI",
+   "name": "Asuransi Maximus Graha Persada",
+   "board": "Utama",
+   "listing_date": "16 Jan 2014",
+   "shares": "8.958.380.460"
+  },
+  {
+   "ticker": "ASRI",
+   "name": "Alam Sutera Realty Tbk.",
+   "board": "Utama",
+   "listing_date": "18 Des 2007",
+   "shares": "19.649.411.888"
+  },
+  {
+   "ticker": "ASRM",
+   "name": "Asuransi Ramayana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "19 Mar 1990",
+   "shares": "1.277.992.036"
+  },
+  {
+   "ticker": "ASSA",
+   "name": "Adi Sarana Armada Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Nov 2012",
+   "shares": "3.691.137.517"
+  },
+  {
+   "ticker": "ATIC",
+   "name": "Anabatic Technologies Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2015",
+   "shares": "2.894.201.693"
+  },
+  {
+   "ticker": "AUTO",
+   "name": "Astra Otoparts Tbk.",
+   "board": "Utama",
+   "listing_date": "15 Jun 1998",
+   "shares": "4.819.733.000"
+  },
+  {
+   "ticker": "BABP",
+   "name": "Bank MNC Internasional Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Jul 2002",
+   "shares": "44.014.333.126"
+  },
+  {
+   "ticker": "BACA",
+   "name": "Bank Capital Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "04 Okt 2007",
+   "shares": "19.753.494.636"
+  },
+  {
+   "ticker": "BAJA",
+   "name": "Saranacentral Bajatama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Des 2011",
+   "shares": "2.700.000.000"
+  },
+  {
+   "ticker": "BALI",
+   "name": "Bali Towerindo Sentra Tbk.",
+   "board": "Utama",
+   "listing_date": "13 Mar 2014",
+   "shares": "3.934.592.500"
+  },
+  {
+   "ticker": "BAPA",
+   "name": "Bekasi Asri Pemula Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "14 Jan 2008",
+   "shares": "661.784.520"
+  },
+  {
+   "ticker": "BATA",
+   "name": "Sepatu Bata Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "24 Mar 1982",
+   "shares": "1.300.000.000"
+  },
+  {
+   "ticker": "BAYU",
+   "name": "Bayu Buana Tbk",
+   "board": "Utama",
+   "listing_date": "30 Okt 1989",
+   "shares": "353.220.780"
+  },
+  {
+   "ticker": "BBCA",
+   "name": "Bank Central Asia Tbk.",
+   "board": "Utama",
+   "listing_date": "31 Mei 2000",
+   "shares": "122.042.299.500"
+  },
+  {
+   "ticker": "BBHI",
+   "name": "Allo Bank Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Agt 2015",
+   "shares": "21.512.953.877"
+  },
+  {
+   "ticker": "BBKP",
+   "name": "Bank KB Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2006",
+   "shares": "185.819.884.852"
+  },
+  {
+   "ticker": "BBLD",
+   "name": "Buana Finance Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Mei 1990",
+   "shares": "1.645.796.054"
+  },
+  {
+   "ticker": "BBMD",
+   "name": "Bank Mestika Dharma Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Jul 2013",
+   "shares": "4.049.189.100"
+  },
+  {
+   "ticker": "BBNI",
+   "name": "Bank Negara Indonesia (Persero",
+   "board": "Utama",
+   "listing_date": "25 Nov 1996",
+   "shares": "36.924.339.786"
+  },
+  {
+   "ticker": "BBRI",
+   "name": "Bank Rakyat Indonesia (Persero",
+   "board": "Utama",
+   "listing_date": "10 Nov 2003",
+   "shares": "150.043.411.587"
+  },
+  {
+   "ticker": "BBRM",
+   "name": "Pelayaran Nasional Bina Buana",
+   "board": "Pengembangan",
+   "listing_date": "09 Jan 2013",
+   "shares": "8.479.490.328"
+  },
+  {
+   "ticker": "BBTN",
+   "name": "Bank Tabungan Negara (Persero)",
+   "board": "Utama",
+   "listing_date": "17 Des 2009",
+   "shares": "13.894.099.969"
+  },
+  {
+   "ticker": "BBYB",
+   "name": "Bank Neo Commerce Tbk.",
+   "board": "Utama",
+   "listing_date": "13 Jan 2015",
+   "shares": "13.216.977.523"
+  },
+  {
+   "ticker": "BCAP",
+   "name": "MNC Kapital Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Jun 2001",
+   "shares": "42.618.850.927"
+  },
+  {
+   "ticker": "BCIC",
+   "name": "Bank JTrust Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "25 Jun 1997",
+   "shares": "17.926.071.041"
+  },
+  {
+   "ticker": "BCIP",
+   "name": "Bumi Citra Permai Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Des 2009",
+   "shares": "1.429.915.525"
+  },
+  {
+   "ticker": "BDMN",
+   "name": "Bank Danamon Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Des 1989",
+   "shares": "9.675.817.341"
+  },
+  {
+   "ticker": "BEKS",
+   "name": "Bank Pembangunan Daerah Banten",
+   "board": "Pengembangan",
+   "listing_date": "13 Jul 2001",
+   "shares": "51.351.733.883"
+  },
+  {
+   "ticker": "BEST",
+   "name": "Bekasi Fajar Industrial Estate",
+   "board": "Utama",
+   "listing_date": "10 Apr 2012",
+   "shares": "9.647.311.150"
+  },
+  {
+   "ticker": "BFIN",
+   "name": "BFI Finance  Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "16 Mei 1990",
+   "shares": "15.039.383.620"
+  },
+  {
+   "ticker": "BGTG",
+   "name": "Bank Ganesha Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Mei 2016",
+   "shares": "23.731.287.132"
+  },
+  {
+   "ticker": "BHIT",
+   "name": "MNC Asia Holding Tbk.",
+   "board": "Utama",
+   "listing_date": "24 Nov 1997",
+   "shares": "86.068.156.705"
+  },
+  {
+   "ticker": "BIKA",
+   "name": "Binakarya Jaya Abadi Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "14 Jul 2015",
+   "shares": "592.280.000"
+  },
+  {
+   "ticker": "BIMA",
+   "name": "Primarindo Asia Infrastructure",
+   "board": "Pemantauan Khusus",
+   "listing_date": "30 Agt 1994",
+   "shares": "608.175.716"
+  },
+  {
+   "ticker": "BINA",
+   "name": "Bank Ina Perdana Tbk.",
+   "board": "Utama",
+   "listing_date": "16 Jan 2014",
+   "shares": "6.087.043.531"
+  },
+  {
+   "ticker": "BIPI",
+   "name": "Astrindo Nusantara Infrastrukt",
+   "board": "Pengembangan",
+   "listing_date": "11 Feb 2010",
+   "shares": "63.710.196.917"
+  },
+  {
+   "ticker": "BIPP",
+   "name": "Bhuwanatala Indah Permai Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "23 Okt 1995",
+   "shares": "5.531.536.313"
+  },
+  {
+   "ticker": "BIRD",
+   "name": "Blue Bird Tbk.",
+   "board": "Utama",
+   "listing_date": "05 Nov 2014",
+   "shares": "2.502.100.000"
+  },
+  {
+   "ticker": "BISI",
+   "name": "BISI International Tbk.",
+   "board": "Utama",
+   "listing_date": "28 Mei 2007",
+   "shares": "3.000.000.000"
+  },
+  {
+   "ticker": "BJBR",
+   "name": "Bank Pembangunan Daerah Jawa B",
+   "board": "Utama",
+   "listing_date": "08 Jul 2010",
+   "shares": "10.416.229.249"
+  },
+  {
+   "ticker": "BJTM",
+   "name": "Bank Pembangunan Daerah Jawa T",
+   "board": "Utama",
+   "listing_date": "12 Jul 2012",
+   "shares": "14.865.343.101"
+  },
+  {
+   "ticker": "BKDP",
+   "name": "Bukit Darmo Property Tbk",
+   "board": "Pengembangan",
+   "listing_date": "15 Jun 2007",
+   "shares": "7.513.992.252"
+  },
+  {
+   "ticker": "BKSL",
+   "name": "Sentul City Tbk.",
+   "board": "Utama",
+   "listing_date": "28 Jul 1997",
+   "shares": "167.708.902.705"
+  },
+  {
+   "ticker": "BKSW",
+   "name": "Bank QNB Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Nov 2002",
+   "shares": "34.806.467.881"
+  },
+  {
+   "ticker": "BLTA",
+   "name": "Berlian Laju Tanker Tbk",
+   "board": "Utama",
+   "listing_date": "26 Mar 1990",
+   "shares": "25.940.187.103"
+  },
+  {
+   "ticker": "BLTZ",
+   "name": "Graha Layar Prima Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Apr 2014",
+   "shares": "873.937.142"
+  },
+  {
+   "ticker": "BMAS",
+   "name": "Bank Kasikorn Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Jul 2013",
+   "shares": "17.921.635.680"
+  },
+  {
+   "ticker": "BMRI",
+   "name": "Bank Mandiri (Persero) Tbk.",
+   "board": "Utama",
+   "listing_date": "14 Jul 2003",
+   "shares": "92.399.999.996"
+  },
+  {
+   "ticker": "BMSR",
+   "name": "Bintang Mitra Semestaraya Tbk",
+   "board": "Pengembangan",
+   "listing_date": "29 Des 1999",
+   "shares": "1.159.200.024"
+  },
+  {
+   "ticker": "BMTR",
+   "name": "Global Mediacom Tbk.",
+   "board": "Utama",
+   "listing_date": "17 Jul 1995",
+   "shares": "16.583.997.586"
+  },
+  {
+   "ticker": "BNBA",
+   "name": "Bank Bumi Arta Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Jun 2006",
+   "shares": "3.354.120.000"
+  },
+  {
+   "ticker": "BNBR",
+   "name": "Bakrie & Brothers Tbk",
+   "board": "Pengembangan",
+   "listing_date": "28 Agt 1989",
+   "shares": "263.336.671.587"
+  },
+  {
+   "ticker": "BNGA",
+   "name": "Bank CIMB Niaga Tbk.",
+   "board": "Utama",
+   "listing_date": "29 Nov 1989",
+   "shares": "24.890.783.784"
+  },
+  {
+   "ticker": "BNII",
+   "name": "Bank Maybank Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "21 Nov 1989",
+   "shares": "75.357.433.911"
+  },
+  {
+   "ticker": "BNLI",
+   "name": "Bank Permata Tbk.",
+   "board": "Utama",
+   "listing_date": "15 Jan 1990",
+   "shares": "35.819.545.925"
+  },
+  {
+   "ticker": "BOLT",
+   "name": "Garuda Metalindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Jul 2015",
+   "shares": "2.343.750.000"
+  },
+  {
+   "ticker": "BPFI",
+   "name": "Woori Finance Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Jun 2009",
+   "shares": "2.673.995.362"
+  },
+  {
+   "ticker": "BPII",
+   "name": "Batavia Prosperindo Internasio",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2014",
+   "shares": "9.884.153.240"
+  },
+  {
+   "ticker": "BRAM",
+   "name": "Indo Kordsa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Sep 1990",
+   "shares": "450.056.980"
+  },
+  {
+   "ticker": "BRMS",
+   "name": "Bumi Resources Minerals Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Des 2010",
+   "shares": "141.784.040.338"
+  },
+  {
+   "ticker": "BRNA",
+   "name": "Berlina Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Nov 1989",
+   "shares": "1.365.340.107"
+  },
+  {
+   "ticker": "BRPT",
+   "name": "Barito Pacific Tbk.",
+   "board": "Utama",
+   "listing_date": "01 Okt 1993",
+   "shares": "93.747.218.044"
+  },
+  {
+   "ticker": "BSDE",
+   "name": "Bumi Serpong Damai Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Jun 2008",
+   "shares": "21.171.365.812"
+  },
+  {
+   "ticker": "BSIM",
+   "name": "Bank Sinarmas Tbk.",
+   "board": "Utama",
+   "listing_date": "13 Des 2010",
+   "shares": "19.517.921.842"
+  },
+  {
+   "ticker": "BUKK",
+   "name": "Bukaka Teknik Utama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "29 Jun 2015",
+   "shares": "2.640.452.000"
+  },
+  {
+   "ticker": "BULL",
+   "name": "Buana Lintas Lautan Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "23 Mei 2011",
+   "shares": "15.494.436.593"
+  },
+  {
+   "ticker": "BUMI",
+   "name": "Bumi Resources Tbk.",
+   "board": "Utama",
+   "listing_date": "30 Jul 1990",
+   "shares": "371.335.392.068"
+  },
+  {
+   "ticker": "BUVA",
+   "name": "Bukit Uluwatu Villa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Jul 2010",
+   "shares": "30.771.318.302"
+  },
+  {
+   "ticker": "BVIC",
+   "name": "Bank Victoria International Tb",
+   "board": "Utama",
+   "listing_date": "30 Jun 1999",
+   "shares": "18.235.266.754"
+  },
+  {
+   "ticker": "BWPT",
+   "name": "Eagle High Plantations Tbk.",
+   "board": "Utama",
+   "listing_date": "27 Okt 2009",
+   "shares": "31.525.291.000"
+  },
+  {
+   "ticker": "BYAN",
+   "name": "Bayan Resources Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Agt 2008",
+   "shares": "33.333.335.000"
+  },
+  {
+   "ticker": "CANI",
+   "name": "Capitol Nusantara Indonesia Tb",
+   "board": "Pemantauan Khusus",
+   "listing_date": "16 Jan 2014",
+   "shares": "833.440.000"
+  },
+  {
+   "ticker": "CASS",
+   "name": "Cahaya Aero Services Tbk.",
+   "board": "Utama",
+   "listing_date": "05 Des 2011",
+   "shares": "2.086.950.000"
+  },
+  {
+   "ticker": "CEKA",
+   "name": "Wilmar Cahaya Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 1996",
+   "shares": "595.000.000"
+  },
+  {
+   "ticker": "CENT",
+   "name": "Centratama Telekomunikasi Indo",
+   "board": "Pengembangan",
+   "listing_date": "01 Nov 2001",
+   "shares": "31.183.464.900"
+  },
+  {
+   "ticker": "CFIN",
+   "name": "Clipan Finance Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "27 Agt 1990",
+   "shares": "3.984.520.457"
+  },
+  {
+   "ticker": "CINT",
+   "name": "Chitose Internasional Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Jun 2014",
+   "shares": "1.000.000.000"
+  },
+  {
+   "ticker": "CITA",
+   "name": "Cita Mineral Investindo Tbk.",
+   "board": "Utama",
+   "listing_date": "20 Mar 2002",
+   "shares": "3.960.361.250"
+  },
+  {
+   "ticker": "CLPI",
+   "name": "Colorpak Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "30 Nov 2001",
+   "shares": "306.338.500"
+  },
+  {
+   "ticker": "CMNP",
+   "name": "Citra Marga Nusaphala Persada",
+   "board": "Utama",
+   "listing_date": "10 Jan 1995",
+   "shares": "6.696.354.391"
+  },
+  {
+   "ticker": "CMPP",
+   "name": "AirAsia Indonesia Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "08 Des 1994",
+   "shares": "10.685.124.441"
+  },
+  {
+   "ticker": "CNKO",
+   "name": "Exploitasi Energi Indonesia Tb",
+   "board": "Pemantauan Khusus",
+   "listing_date": "20 Nov 2001",
+   "shares": "8.956.361.206"
+  },
+  {
+   "ticker": "CPIN",
+   "name": "Charoen Pokphand Indonesia Tbk",
+   "board": "Utama",
+   "listing_date": "18 Mar 1991",
+   "shares": "16.398.000.000"
+  },
+  {
+   "ticker": "CPRO",
+   "name": "Central Proteina Prima Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Nov 2006",
+   "shares": "59.572.382.787"
+  },
+  {
+   "ticker": "CSAP",
+   "name": "Catur Sentosa Adiprana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Des 2007",
+   "shares": "5.683.175.151"
+  },
+  {
+   "ticker": "CTBN",
+   "name": "Citra Tubindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Nov 1989",
+   "shares": "800.371.500"
+  },
+  {
+   "ticker": "CTRA",
+   "name": "Ciputra Development Tbk.",
+   "board": "Utama",
+   "listing_date": "28 Mar 1994",
+   "shares": "18.535.695.255"
+  },
+  {
+   "ticker": "CTTH",
+   "name": "Citatah Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "03 Jul 1996",
+   "shares": "1.230.839.821"
+  },
+  {
+   "ticker": "DART",
+   "name": "Duta Anggada Realty Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Mei 1990",
+   "shares": "3.141.390.962"
+  },
+  {
+   "ticker": "DEFI",
+   "name": "Danasupra Erapacific Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Jul 2001",
+   "shares": "687.266.666"
+  },
+  {
+   "ticker": "DEWA",
+   "name": "Darma Henwa Tbk",
+   "board": "Utama",
+   "listing_date": "26 Sep 2007",
+   "shares": "40.687.434.244"
+  },
+  {
+   "ticker": "DGIK",
+   "name": "Nusa Konstruksi Enjiniring Tbk",
+   "board": "Pengembangan",
+   "listing_date": "19 Des 2007",
+   "shares": "5.541.165.000"
+  },
+  {
+   "ticker": "DILD",
+   "name": "Intiland Development Tbk.",
+   "board": "Utama",
+   "listing_date": "04 Sep 1991",
+   "shares": "10.365.854.185"
+  },
+  {
+   "ticker": "DKFT",
+   "name": "Central Omega Resources Tbk.",
+   "board": "Utama",
+   "listing_date": "21 Nov 1997",
+   "shares": "5.638.246.600"
+  },
+  {
+   "ticker": "DLTA",
+   "name": "Delta Djakarta Tbk.",
+   "board": "Utama",
+   "listing_date": "27 Feb 1984",
+   "shares": "800.659.050"
+  },
+  {
+   "ticker": "DMAS",
+   "name": "Puradelta Lestari Tbk.",
+   "board": "Utama",
+   "listing_date": "29 Mei 2015",
+   "shares": "48.198.111.100"
+  },
+  {
+   "ticker": "DNAR",
+   "name": "Bank Oke Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Jul 2014",
+   "shares": "16.721.891.185"
+  },
+  {
+   "ticker": "DNET",
+   "name": "Indoritel Makmur Internasional",
+   "board": "Utama",
+   "listing_date": "11 Des 2000",
+   "shares": "14.184.000.000"
+  },
+  {
+   "ticker": "DOID",
+   "name": "BUMA Internasional Grup Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Jun 2001",
+   "shares": "7.651.007.132"
+  },
+  {
+   "ticker": "DPNS",
+   "name": "Duta Pertiwi Nusantara Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Agt 1990",
+   "shares": "331.129.952"
+  },
+  {
+   "ticker": "DSFI",
+   "name": "Dharma Samudera Fishing Indust",
+   "board": "Pengembangan",
+   "listing_date": "24 Mar 2000",
+   "shares": "1.857.135.500"
+  },
+  {
+   "ticker": "DSNG",
+   "name": "Dharma Satya Nusantara Tbk.",
+   "board": "Utama",
+   "listing_date": "14 Jun 2013",
+   "shares": "10.599.842.400"
+  },
+  {
+   "ticker": "DSSA",
+   "name": "Dian Swastatika Sentosa Tbk",
+   "board": "Utama",
+   "listing_date": "10 Des 2009",
+   "shares": "192.638.080.000"
+  },
+  {
+   "ticker": "DUTI",
+   "name": "Duta Pertiwi Tbk",
+   "board": "Pengembangan",
+   "listing_date": "02 Nov 1994",
+   "shares": "1.850.000.000"
+  },
+  {
+   "ticker": "DVLA",
+   "name": "Darya-Varia Laboratoria Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Nov 1994",
+   "shares": "1.120.000.000"
+  },
+  {
+   "ticker": "DYAN",
+   "name": "Dyandra Media International Tb",
+   "board": "Pengembangan",
+   "listing_date": "25 Mar 2013",
+   "shares": "4.272.964.279"
+  },
+  {
+   "ticker": "ECII",
+   "name": "Electronic City Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "03 Jul 2013",
+   "shares": "1.334.333.000"
+  },
+  {
+   "ticker": "EKAD",
+   "name": "Ekadharma International Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "14 Agt 1990",
+   "shares": "3.493.875.000"
+  },
+  {
+   "ticker": "ELSA",
+   "name": "Elnusa Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Feb 2008",
+   "shares": "7.298.500.000"
+  },
+  {
+   "ticker": "ELTY",
+   "name": "Bakrieland Development Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "30 Okt 1995",
+   "shares": "43.521.913.019"
+  },
+  {
+   "ticker": "EMDE",
+   "name": "Megapolitan Developments Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Jan 2011",
+   "shares": "3.350.000.000"
+  },
+  {
+   "ticker": "EMTK",
+   "name": "Elang Mahkota Teknologi Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Jan 2010",
+   "shares": "61.426.451.483"
+  },
+  {
+   "ticker": "ENRG",
+   "name": "Energi Mega Persada Tbk.",
+   "board": "Utama",
+   "listing_date": "07 Jun 2004",
+   "shares": "39.846.815.625"
+  },
+  {
+   "ticker": "EPMT",
+   "name": "Enseval Putera Megatrading Tbk",
+   "board": "Utama",
+   "listing_date": "01 Agt 1994",
+   "shares": "2.708.640.000"
+  },
+  {
+   "ticker": "ERAA",
+   "name": "Erajaya Swasembada Tbk.",
+   "board": "Utama",
+   "listing_date": "14 Des 2011",
+   "shares": "15.950.000.000"
+  },
+  {
+   "ticker": "ERTX",
+   "name": "Eratex Djaja Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Agt 1990",
+   "shares": "1.286.539.792"
+  },
+  {
+   "ticker": "ESSA",
+   "name": "ESSA Industries Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "01 Feb 2012",
+   "shares": "17.226.975.700"
+  },
+  {
+   "ticker": "ESTI",
+   "name": "Ever Shine Tex Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Okt 1992",
+   "shares": "2.015.208.720"
+  },
+  {
+   "ticker": "ETWA",
+   "name": "Eterindo Wahanatama Tbk",
+   "board": "Pemantauan Khusus",
+   "listing_date": "16 Mei 1997",
+   "shares": "4.668.671.400"
+  },
+  {
+   "ticker": "EXCL",
+   "name": "XLSMART Telecom Sejahtera Tbk.",
+   "board": "Utama",
+   "listing_date": "29 Sep 2005",
+   "shares": "18.199.862.451"
+  },
+  {
+   "ticker": "FAST",
+   "name": "Fast Food Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Mei 1993",
+   "shares": "4.523.610.492"
+  },
+  {
+   "ticker": "FASW",
+   "name": "Fajar Surya Wisesa Tbk.",
+   "board": "Utama",
+   "listing_date": "19 Des 1994",
+   "shares": "3.221.255.423"
+  },
+  {
+   "ticker": "FISH",
+   "name": "FKS Multi Agro Tbk.",
+   "board": "Utama",
+   "listing_date": "18 Jan 2002",
+   "shares": "4.800.000.000"
+  },
+  {
+   "ticker": "FMII",
+   "name": "Fortune Mate Indonesia Tbk",
+   "board": "Pengembangan",
+   "listing_date": "30 Jun 2000",
+   "shares": "6.400.000.000"
+  },
+  {
+   "ticker": "FORU",
+   "name": "Fortune Indonesia Tbk",
+   "board": "Pengembangan",
+   "listing_date": "17 Jan 2002",
+   "shares": "170.075.257.380"
+  },
+  {
+   "ticker": "FPNI",
+   "name": "Lotte Chemical Titan Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Mar 2002",
+   "shares": "5.566.414.000"
+  },
+  {
+   "ticker": "GAMA",
+   "name": "Aksara Global Development Tbk.",
+   "board": "Utama",
+   "listing_date": "11 Jul 2012",
+   "shares": "10.011.027.656"
+  },
+  {
+   "ticker": "GDST",
+   "name": "Gunawan Dianjaya Steel Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "23 Des 2009",
+   "shares": "9.242.500.000"
+  },
+  {
+   "ticker": "GDYR",
+   "name": "Goodyear Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "22 Des 1980",
+   "shares": "410.000.000"
+  },
+  {
+   "ticker": "GEMA",
+   "name": "Gema Grahasarana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Agt 2002",
+   "shares": "1.600.000.000"
+  },
+  {
+   "ticker": "GEMS",
+   "name": "Golden Energy Mines Tbk.",
+   "board": "Utama",
+   "listing_date": "17 Nov 2011",
+   "shares": "5.882.353.000"
+  },
+  {
+   "ticker": "GGRM",
+   "name": "Gudang Garam Tbk.",
+   "board": "Utama",
+   "listing_date": "27 Agt 1990",
+   "shares": "1.924.088.000"
+  },
+  {
+   "ticker": "GIAA",
+   "name": "Garuda Indonesia (Persero) Tbk",
+   "board": "Pemantauan Khusus",
+   "listing_date": "11 Feb 2011",
+   "shares": "407.091.703.837"
+  },
+  {
+   "ticker": "GJTL",
+   "name": "Gajah Tunggal Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Mei 1990",
+   "shares": "3.484.800.000"
+  },
+  {
+   "ticker": "GLOB",
+   "name": "Globe Kita Terang Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "10 Jul 2012",
+   "shares": "1.111.112.000"
+  },
+  {
+   "ticker": "GMTD",
+   "name": "Gowa Makassar Tourism Developm",
+   "board": "Pengembangan",
+   "listing_date": "11 Des 2000",
+   "shares": "1.015.380.000"
+  },
+  {
+   "ticker": "GOLD",
+   "name": "Visi Telekomunikasi Infrastruk",
+   "board": "Pengembangan",
+   "listing_date": "07 Jul 2010",
+   "shares": "1.277.276.000"
+  },
+  {
+   "ticker": "GPRA",
+   "name": "Perdana Gapuraprima Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Okt 2007",
+   "shares": "4.276.655.336"
+  },
+  {
+   "ticker": "GSMF",
+   "name": "Equity Development Investment",
+   "board": "Pengembangan",
+   "listing_date": "23 Okt 1989",
+   "shares": "15.456.814.805"
+  },
+  {
+   "ticker": "GTBO",
+   "name": "Garda Tujuh Buana Tbk",
+   "board": "Pemantauan Khusus",
+   "listing_date": "09 Jul 2009",
+   "shares": "2.500.000.000"
+  },
+  {
+   "ticker": "GWSA",
+   "name": "Greenwood Sejahtera Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "23 Des 2011",
+   "shares": "7.800.760.000"
+  },
+  {
+   "ticker": "GZCO",
+   "name": "Gozco Plantations Tbk.",
+   "board": "Utama",
+   "listing_date": "15 Mei 2008",
+   "shares": "6.000.000.000"
+  },
+  {
+   "ticker": "HADE",
+   "name": "Himalaya Energi Perkasa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Apr 2004",
+   "shares": "2.120.000.000"
+  },
+  {
+   "ticker": "HDFA",
+   "name": "Radana Bhaskara Finance Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Mei 2011",
+   "shares": "6.542.445.783"
+  },
+  {
+   "ticker": "HERO",
+   "name": "DFI Retail Nusantara Tbk.",
+   "board": "Utama",
+   "listing_date": "21 Agt 1989",
+   "shares": "4.183.634.000"
+  },
+  {
+   "ticker": "HEXA",
+   "name": "Hexindo Adiperkasa Tbk.",
+   "board": "Utama",
+   "listing_date": "13 Feb 1995",
+   "shares": "840.000.000"
+  },
+  {
+   "ticker": "HITS",
+   "name": "Humpuss Intermoda Transportasi",
+   "board": "Pengembangan",
+   "listing_date": "15 Des 1997",
+   "shares": "7.101.084.801"
+  },
+  {
+   "ticker": "HMSP",
+   "name": "H.M. Sampoerna Tbk.",
+   "board": "Utama",
+   "listing_date": "15 Agt 1990",
+   "shares": "116.318.076.900"
+  },
+  {
+   "ticker": "HOME",
+   "name": "Hotel Mandarine Regency Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "17 Jul 2008",
+   "shares": "22.212.194.782"
+  },
+  {
+   "ticker": "HOTL",
+   "name": "Saraswati Griya Lestari Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "10 Jan 2013",
+   "shares": "3.550.001.452"
+  },
+  {
+   "ticker": "HRUM",
+   "name": "Harum Energy Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Okt 2010",
+   "shares": "13.518.100.000"
+  },
+  {
+   "ticker": "IATA",
+   "name": "Karya Pacific Energy Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Sep 2006",
+   "shares": "31.275.829.981"
+  },
+  {
+   "ticker": "IBFN",
+   "name": "Intan Baru Prana Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "22 Des 2014",
+   "shares": "1.517.332.349"
+  },
+  {
+   "ticker": "IBST",
+   "name": "Inti Bangun Sejahtera Tbk.",
+   "board": "Utama",
+   "listing_date": "31 Agt 2012",
+   "shares": "1.350.904.927"
+  },
+  {
+   "ticker": "ICBP",
+   "name": "Indofood CBP Sukses Makmur Tbk",
+   "board": "Utama",
+   "listing_date": "07 Okt 2010",
+   "shares": "11.661.908.000"
+  },
+  {
+   "ticker": "ICON",
+   "name": "Island Concepts Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2005",
+   "shares": "1.089.750.000"
+  },
+  {
+   "ticker": "IGAR",
+   "name": "Champion Pacific Indonesia Tbk",
+   "board": "Pengembangan",
+   "listing_date": "05 Nov 1990",
+   "shares": "927.780.600"
+  },
+  {
+   "ticker": "IIKP",
+   "name": "Inti Agri Resources Tbk",
+   "board": "Pengembangan",
+   "listing_date": "14 Okt 2002",
+   "shares": "33.600.000.000"
+  },
+  {
+   "ticker": "IKAI",
+   "name": "Intikeramik Alamasri Industri",
+   "board": "Utama",
+   "listing_date": "04 Jun 1997",
+   "shares": "13.305.799.387"
+  },
+  {
+   "ticker": "IKBI",
+   "name": "Sumi Indo Kabel Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Jan 1991",
+   "shares": "1.224.000.000"
+  },
+  {
+   "ticker": "IMAS",
+   "name": "Indomobil Sukses Internasional",
+   "board": "Utama",
+   "listing_date": "15 Nov 1993",
+   "shares": "3.994.291.039"
+  },
+  {
+   "ticker": "IMJS",
+   "name": "Indomobil Multi Jasa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Des 2013",
+   "shares": "10.849.262.500"
+  },
+  {
+   "ticker": "IMPC",
+   "name": "Impack Pratama Industri Tbk.",
+   "board": "Utama",
+   "listing_date": "17 Des 2014",
+   "shares": "54.907.000.000"
+  },
+  {
+   "ticker": "INAF",
+   "name": "Indofarma Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "17 Apr 2001",
+   "shares": "3.099.267.500"
+  },
+  {
+   "ticker": "INAI",
+   "name": "Indal Aluminium Industry Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Des 1994",
+   "shares": "633.600.000"
+  },
+  {
+   "ticker": "INCI",
+   "name": "Intanwijaya Internasional Tbk",
+   "board": "Pengembangan",
+   "listing_date": "24 Jul 1990",
+   "shares": "207.656.617"
+  },
+  {
+   "ticker": "INCO",
+   "name": "Vale Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "16 Mei 1990",
+   "shares": "10.539.784.534"
+  },
+  {
+   "ticker": "INDF",
+   "name": "Indofood Sukses Makmur Tbk.",
+   "board": "Utama",
+   "listing_date": "14 Jul 1994",
+   "shares": "8.780.426.500"
+  },
+  {
+   "ticker": "INDR",
+   "name": "Indo-Rama Synthetics Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "03 Agt 1990",
+   "shares": "654.351.707"
+  },
+  {
+   "ticker": "INDS",
+   "name": "Indospring Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Agt 1990",
+   "shares": "6.562.497.100"
+  },
+  {
+   "ticker": "INDX",
+   "name": "Tanah Laut Tbk",
+   "board": "Pengembangan",
+   "listing_date": "17 Mei 2001",
+   "shares": "437.913.588"
+  },
+  {
+   "ticker": "INDY",
+   "name": "Indika Energy Tbk.",
+   "board": "Utama",
+   "listing_date": "11 Jun 2008",
+   "shares": "5.210.192.000"
+  },
+  {
+   "ticker": "INKP",
+   "name": "Indah Kiat Pulp & Paper Tbk.",
+   "board": "Utama",
+   "listing_date": "16 Jul 1990",
+   "shares": "5.470.982.941"
+  },
+  {
+   "ticker": "INPC",
+   "name": "Bank Artha Graha Internasional",
+   "board": "Utama",
+   "listing_date": "23 Agt 1990",
+   "shares": "20.021.178.779"
+  },
+  {
+   "ticker": "INPP",
+   "name": "Indonesian Paradise Property T",
+   "board": "Pengembangan",
+   "listing_date": "12 Jan 2004",
+   "shares": "11.181.971.732"
+  },
+  {
+   "ticker": "INRU",
+   "name": "Toba Pulp Lestari Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Jun 1990",
+   "shares": "1.388.883.283"
+  },
+  {
+   "ticker": "INTA",
+   "name": "Intraco Penta Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "23 Agt 1993",
+   "shares": "3.343.935.022"
+  },
+  {
+   "ticker": "INTD",
+   "name": "Inter Delta Tbk",
+   "board": "Pengembangan",
+   "listing_date": "18 Des 1989",
+   "shares": "591.828.000"
+  },
+  {
+   "ticker": "INTP",
+   "name": "Indocement Tunggal Prakarsa Tb",
+   "board": "Utama",
+   "listing_date": "05 Des 1989",
+   "shares": "3.431.073.399"
+  },
+  {
+   "ticker": "IPOL",
+   "name": "Indopoly Swakarsa Industry Tbk",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2010",
+   "shares": "6.443.379.509"
+  },
+  {
+   "ticker": "ISAT",
+   "name": "Indosat Tbk.",
+   "board": "Utama",
+   "listing_date": "19 Okt 1994",
+   "shares": "32.250.810.957"
+  },
+  {
+   "ticker": "ISSP",
+   "name": "Steel Pipe Industry of Indones",
+   "board": "Utama",
+   "listing_date": "22 Feb 2013",
+   "shares": "7.185.992.035"
+  },
+  {
+   "ticker": "ITMA",
+   "name": "Sumber Energi Andalan Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Des 1990",
+   "shares": "999.053.167"
+  },
+  {
+   "ticker": "ITMG",
+   "name": "Indo Tambangraya Megah Tbk.",
+   "board": "Utama",
+   "listing_date": "18 Des 2007",
+   "shares": "1.129.925.000"
+  },
+  {
+   "ticker": "JAWA",
+   "name": "Jaya Agra Wattie Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "30 Mei 2011",
+   "shares": "16.232.951.842"
+  },
+  {
+   "ticker": "JECC",
+   "name": "Jembo Cable Company Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Nov 1992",
+   "shares": "756.000.000"
+  },
+  {
+   "ticker": "JIHD",
+   "name": "Jakarta International Hotels &",
+   "board": "Utama",
+   "listing_date": "29 Feb 1984",
+   "shares": "2.329.040.482"
+  },
+  {
+   "ticker": "JKON",
+   "name": "Jaya Konstruksi Manggala Prata",
+   "board": "Utama",
+   "listing_date": "04 Des 2007",
+   "shares": "16.308.519.860"
+  },
+  {
+   "ticker": "JPFA",
+   "name": "Japfa Comfeed Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "23 Okt 1989",
+   "shares": "11.726.575.201"
+  },
+  {
+   "ticker": "JRPT",
+   "name": "Jaya Real Property Tbk.",
+   "board": "Utama",
+   "listing_date": "29 Jun 1994",
+   "shares": "12.910.719.100"
+  },
+  {
+   "ticker": "JSMR",
+   "name": "Jasa Marga (Persero) Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Nov 2007",
+   "shares": "7.257.871.200"
+  },
+  {
+   "ticker": "JSPT",
+   "name": "Jakarta Setiabudi Internasiona",
+   "board": "Utama",
+   "listing_date": "12 Jan 1998",
+   "shares": "2.318.736.000"
+  },
+  {
+   "ticker": "JTPE",
+   "name": "Jasuindo Tiga Perkasa Tbk.",
+   "board": "Utama",
+   "listing_date": "16 Apr 2002",
+   "shares": "6.852.050.000"
+  },
+  {
+   "ticker": "KAEF",
+   "name": "Kimia Farma (Persero) Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "04 Jul 2001",
+   "shares": "5.566.589.677"
+  },
+  {
+   "ticker": "KARW",
+   "name": "Meratus Jasa Prima Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "20 Des 1994",
+   "shares": "587.152.700"
+  },
+  {
+   "ticker": "KBLI",
+   "name": "KMI Wire & Cable Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Jul 1992",
+   "shares": "4.007.235.107"
+  },
+  {
+   "ticker": "KBLM",
+   "name": "Kabelindo Murni Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Jun 1992",
+   "shares": "1.120.000.000"
+  },
+  {
+   "ticker": "KBLV",
+   "name": "First Media Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "25 Feb 2000",
+   "shares": "1.742.167.907"
+  },
+  {
+   "ticker": "KBRI",
+   "name": "Kertas Basuki Rachmat Indonesi",
+   "board": "Pemantauan Khusus",
+   "listing_date": "11 Jul 2008",
+   "shares": "8.687.995.734"
+  },
+  {
+   "ticker": "KDSI",
+   "name": "Kedawung Setia Industrial Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "29 Jul 1996",
+   "shares": "1.620.000.000"
+  },
+  {
+   "ticker": "KIAS",
+   "name": "Keramika Indonesia Assosiasi T",
+   "board": "Pengembangan",
+   "listing_date": "08 Des 1994",
+   "shares": "14.929.100.000"
+  },
+  {
+   "ticker": "KICI",
+   "name": "Kedaung Indah Can Tbk",
+   "board": "Pengembangan",
+   "listing_date": "28 Okt 1993",
+   "shares": "276.000.000"
+  },
+  {
+   "ticker": "KIJA",
+   "name": "Kawasan Industri Jababeka Tbk.",
+   "board": "Utama",
+   "listing_date": "10 Jan 1995",
+   "shares": "20.824.888.369"
+  },
+  {
+   "ticker": "KKGI",
+   "name": "Resource Alam Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "01 Jul 1991",
+   "shares": "5.000.000.000"
+  },
+  {
+   "ticker": "KLBF",
+   "name": "Kalbe Farma Tbk.",
+   "board": "Utama",
+   "listing_date": "30 Jul 1991",
+   "shares": "46.813.391.540"
+  },
+  {
+   "ticker": "KOBX",
+   "name": "Kobexindo Tractors Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Jul 2012",
+   "shares": "2.272.500.000"
+  },
+  {
+   "ticker": "KOIN",
+   "name": "Kokoh Inti Arebama Tbk",
+   "board": "Pemantauan Khusus",
+   "listing_date": "09 Apr 2008",
+   "shares": "980.843.732"
+  },
+  {
+   "ticker": "KONI",
+   "name": "Perdana Bangun Pusaka Tbk",
+   "board": "Pengembangan",
+   "listing_date": "22 Agt 1995",
+   "shares": "312.000.000"
+  },
+  {
+   "ticker": "KOPI",
+   "name": "Mitra Energi Persada Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "04 Mei 2015",
+   "shares": "697.266.668"
+  },
+  {
+   "ticker": "KPIG",
+   "name": "MNC Tourism Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "30 Mar 2000",
+   "shares": "107.312.842.189"
+  },
+  {
+   "ticker": "KRAS",
+   "name": "Krakatau Steel (Persero) Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Nov 2010",
+   "shares": "19.346.396.900"
+  },
+  {
+   "ticker": "KREN",
+   "name": "Quantum Clovera Investama Tbk.",
+   "board": "Utama",
+   "listing_date": "28 Jun 2002",
+   "shares": "18.208.470.100"
+  },
+  {
+   "ticker": "LAPD",
+   "name": "JSI Sinergi Internasional Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "17 Jul 2001",
+   "shares": "3.966.350.139"
+  },
+  {
+   "ticker": "LEAD",
+   "name": "Logindo Samudramakmur Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Des 2013",
+   "shares": "5.799.616.328"
+  },
+  {
+   "ticker": "LINK",
+   "name": "Link Net Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "02 Jun 2014",
+   "shares": "2.863.195.484"
+  },
+  {
+   "ticker": "LION",
+   "name": "Lion Metal Works Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "20 Agt 1993",
+   "shares": "520.160.000"
+  },
+  {
+   "ticker": "LPPS",
+   "name": "Lenox Pasifik Investama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Mar 1994",
+   "shares": "2.588.250.000"
+  },
+  {
+   "ticker": "LRNA",
+   "name": "Eka Sari Lorena Transport Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Apr 2014",
+   "shares": "350.000.022"
+  },
+  {
+   "ticker": "LSIP",
+   "name": "PP London Sumatra Indonesia Tb",
+   "board": "Utama",
+   "listing_date": "05 Jul 1996",
+   "shares": "6.819.963.965"
+  },
+  {
+   "ticker": "LTLS",
+   "name": "Lautan Luas Tbk.",
+   "board": "Utama",
+   "listing_date": "21 Jul 1997",
+   "shares": "1.560.000.000"
+  },
+  {
+   "ticker": "MAGP",
+   "name": "Multi Agro Gemilang Plantation",
+   "board": "Pengembangan",
+   "listing_date": "16 Jan 2013",
+   "shares": "9.000.000.004"
+  },
+  {
+   "ticker": "MAIN",
+   "name": "Malindo Feedmill Tbk.",
+   "board": "Utama",
+   "listing_date": "10 Feb 2006",
+   "shares": "2.238.750.000"
+  },
+  {
+   "ticker": "MAPI",
+   "name": "Mitra Adiperkasa Tbk.",
+   "board": "Utama",
+   "listing_date": "10 Nov 2004",
+   "shares": "16.600.000.000"
+  },
+  {
+   "ticker": "MAYA",
+   "name": "Bank Mayapada Internasional Tb",
+   "board": "Utama",
+   "listing_date": "29 Agt 1997",
+   "shares": "25.906.179.152"
+  },
+  {
+   "ticker": "MBAP",
+   "name": "Mitrabara Adiperdana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2014",
+   "shares": "1.227.271.952"
+  },
+  {
+   "ticker": "MBSS",
+   "name": "Mitrabahtera Segara Sejati Tbk",
+   "board": "Utama",
+   "listing_date": "06 Apr 2011",
+   "shares": "1.750.026.639"
+  },
+  {
+   "ticker": "MBTO",
+   "name": "Martina Berto Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Jan 2011",
+   "shares": "1.070.000.000"
+  },
+  {
+   "ticker": "MCOR",
+   "name": "Bank China Construction Bank I",
+   "board": "Utama",
+   "listing_date": "03 Jul 2007",
+   "shares": "37.540.533.209"
+  },
+  {
+   "ticker": "MDIA",
+   "name": "Intermedia Capital Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Apr 2014",
+   "shares": "39.215.538.400"
+  },
+  {
+   "ticker": "MDKA",
+   "name": "Merdeka Copper Gold Tbk.",
+   "board": "Utama",
+   "listing_date": "19 Jun 2015",
+   "shares": "24.472.983.771"
+  },
+  {
+   "ticker": "MDLN",
+   "name": "Modernland Realty Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Jan 1993",
+   "shares": "12.533.067.322"
+  },
+  {
+   "ticker": "MDRN",
+   "name": "Modern Internasional Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "16 Jul 1991",
+   "shares": "7.632.167.798"
+  },
+  {
+   "ticker": "MEDC",
+   "name": "Medco Energi Internasional Tbk",
+   "board": "Utama",
+   "listing_date": "12 Okt 1994",
+   "shares": "25.136.231.252"
+  },
+  {
+   "ticker": "MEGA",
+   "name": "Bank Mega Tbk.",
+   "board": "Utama",
+   "listing_date": "17 Apr 2000",
+   "shares": "23.247.028.262"
+  },
+  {
+   "ticker": "MERK",
+   "name": "Merck Tbk.",
+   "board": "Utama",
+   "listing_date": "23 Jul 1981",
+   "shares": "448.000.000"
+  },
+  {
+   "ticker": "META",
+   "name": "Nusantara Infrastructure Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Jul 2001",
+   "shares": "17.710.708.194"
+  },
+  {
+   "ticker": "MFMI",
+   "name": "Multifiling Mitra Indonesia Tb",
+   "board": "Pengembangan",
+   "listing_date": "29 Des 2010",
+   "shares": "757.581.000"
+  },
+  {
+   "ticker": "MGNA",
+   "name": "Magna Investama Mandiri Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2014",
+   "shares": "3.411.187.564"
+  },
+  {
+   "ticker": "MICE",
+   "name": "Multi Indocitra Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Des 2005",
+   "shares": "600.000.000"
+  },
+  {
+   "ticker": "MIDI",
+   "name": "Midi Utama Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "30 Nov 2010",
+   "shares": "33.435.294.800"
+  },
+  {
+   "ticker": "MIKA",
+   "name": "Mitra Keluarga Karyasehat Tbk.",
+   "board": "Utama",
+   "listing_date": "24 Mar 2015",
+   "shares": "13.907.481.500"
+  },
+  {
+   "ticker": "MIRA",
+   "name": "Mitra International Resources",
+   "board": "Pengembangan",
+   "listing_date": "30 Jan 1997",
+   "shares": "3.961.452.039"
+  },
+  {
+   "ticker": "MITI",
+   "name": "Mitra Investindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "16 Jul 1997",
+   "shares": "3.750.526.603"
+  },
+  {
+   "ticker": "MKPI",
+   "name": "Metropolitan Kentjana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2009",
+   "shares": "948.194.000"
+  },
+  {
+   "ticker": "MLBI",
+   "name": "Multi Bintang Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "15 Des 1981",
+   "shares": "2.107.000.000"
+  },
+  {
+   "ticker": "MLIA",
+   "name": "Mulia Industrindo Tbk",
+   "board": "Utama",
+   "listing_date": "17 Jan 1994",
+   "shares": "6.615.000.000"
+  },
+  {
+   "ticker": "MLPL",
+   "name": "Multipolar Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Nov 1989",
+   "shares": "15.682.323.987"
+  },
+  {
+   "ticker": "MLPT",
+   "name": "Multipolar Technology Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2013",
+   "shares": "46.875.000.000"
+  },
+  {
+   "ticker": "MMLP",
+   "name": "Mega Manunggal Property Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Jun 2015",
+   "shares": "6.889.134.608"
+  },
+  {
+   "ticker": "MNCN",
+   "name": "Media Nusantara Citra Tbk.",
+   "board": "Utama",
+   "listing_date": "22 Jun 2007",
+   "shares": "15.049.787.710"
+  },
+  {
+   "ticker": "MPMX",
+   "name": "Mitra Pinasthika Mustika Tbk.",
+   "board": "Utama",
+   "listing_date": "29 Mei 2013",
+   "shares": "4.386.963.276"
+  },
+  {
+   "ticker": "MPPA",
+   "name": "Matahari Putra Prima Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Des 1992",
+   "shares": "33.828.872.408"
+  },
+  {
+   "ticker": "MRAT",
+   "name": "Mustika Ratu Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Jul 1995",
+   "shares": "428.000.000"
+  },
+  {
+   "ticker": "MREI",
+   "name": "Maskapai Reasuransi Indonesia",
+   "board": "Pengembangan",
+   "listing_date": "04 Sep 1989",
+   "shares": "517.791.681"
+  },
+  {
+   "ticker": "MSKY",
+   "name": "MNC Sky Vision Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2012",
+   "shares": "1.994.370.480"
+  },
+  {
+   "ticker": "MTDL",
+   "name": "Metrodata Electronics Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Apr 1990",
+   "shares": "12.276.884.585"
+  },
+  {
+   "ticker": "MTFN",
+   "name": "Capitalinc Investment Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "16 Apr 1990",
+   "shares": "31.842.082.852"
+  },
+  {
+   "ticker": "MTLA",
+   "name": "Metropolitan Land Tbk.",
+   "board": "Utama",
+   "listing_date": "20 Jun 2011",
+   "shares": "7.655.126.330"
+  },
+  {
+   "ticker": "MTSM",
+   "name": "Metro Realty Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jan 1992",
+   "shares": "232.848.000"
+  },
+  {
+   "ticker": "MYOH",
+   "name": "Samindo Resources Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Jul 2000",
+   "shares": "2.206.312.500"
+  },
+  {
+   "ticker": "MYOR",
+   "name": "Mayora Indah Tbk.",
+   "board": "Utama",
+   "listing_date": "04 Jul 1990",
+   "shares": "22.358.699.725"
+  },
+  {
+   "ticker": "MYTX",
+   "name": "Asia Pacific Investama Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "10 Okt 1989",
+   "shares": "7.747.281.949"
+  },
+  {
+   "ticker": "NELY",
+   "name": "Pelayaran Nelly Dwi Putri Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Okt 2012",
+   "shares": "2.350.000.000"
+  },
+  {
+   "ticker": "NIKL",
+   "name": "Pelat Timah Nusantara Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "14 Des 2009",
+   "shares": "2.523.350.000"
+  },
+  {
+   "ticker": "NIRO",
+   "name": "City Retail Developments Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Sep 2012",
+   "shares": "22.198.871.804"
+  },
+  {
+   "ticker": "NISP",
+   "name": "Bank OCBC NISP Tbk.",
+   "board": "Utama",
+   "listing_date": "20 Okt 1994",
+   "shares": "22.715.776.032"
+  },
+  {
+   "ticker": "NOBU",
+   "name": "Bank Nationalnobu Tbk.",
+   "board": "Utama",
+   "listing_date": "20 Mei 2013",
+   "shares": "7.403.659.460"
+  },
+  {
+   "ticker": "NRCA",
+   "name": "Nusa Raya Cipta Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Jun 2013",
+   "shares": "2.496.258.344"
+  },
+  {
+   "ticker": "OCAP",
+   "name": "Onix Capital Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "10 Okt 2003",
+   "shares": "273.200.000"
+  },
+  {
+   "ticker": "OKAS",
+   "name": "Ancora Indonesia Resources Tbk",
+   "board": "Pengembangan",
+   "listing_date": "29 Mar 2006",
+   "shares": "2.373.449.165"
+  },
+  {
+   "ticker": "OMRE",
+   "name": "Indonesia Prima Property Tbk",
+   "board": "Pengembangan",
+   "listing_date": "22 Agt 1994",
+   "shares": "2.945.211.000"
+  },
+  {
+   "ticker": "PADI",
+   "name": "Minna Padi Investama Sekuritas",
+   "board": "Utama",
+   "listing_date": "09 Jan 2012",
+   "shares": "13.568.695.829"
+  },
+  {
+   "ticker": "PALM",
+   "name": "Provident Investasi Bersama Tb",
+   "board": "Utama",
+   "listing_date": "08 Okt 2012",
+   "shares": "15.732.874.458"
+  },
+  {
+   "ticker": "PANR",
+   "name": "Panorama Sentrawisata Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Sep 2001",
+   "shares": "1.387.500.000"
+  },
+  {
+   "ticker": "PANS",
+   "name": "Panin Sekuritas Tbk.",
+   "board": "Utama",
+   "listing_date": "31 Mei 2000",
+   "shares": "720.000.000"
+  },
+  {
+   "ticker": "PBRX",
+   "name": "Pan Brothers Tbk.",
+   "board": "Utama",
+   "listing_date": "16 Agt 1990",
+   "shares": "21.482.028.246"
+  },
+  {
+   "ticker": "PDES",
+   "name": "Destinasi Tirta Nusantara Tbk",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2008",
+   "shares": "715.000.000"
+  },
+  {
+   "ticker": "PEGE",
+   "name": "Panca Global Kapital Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "24 Jun 2005",
+   "shares": "3.777.889.408"
+  },
+  {
+   "ticker": "PGAS",
+   "name": "Perusahaan Gas Negara (Persero",
+   "board": "Utama",
+   "listing_date": "15 Des 2003",
+   "shares": "24.241.508.196"
+  },
+  {
+   "ticker": "PGLI",
+   "name": "Pembangunan Graha Lestari Inda",
+   "board": "Pengembangan",
+   "listing_date": "05 Apr 2000",
+   "shares": "488.000.000"
+  },
+  {
+   "ticker": "PICO",
+   "name": "Pelangi Indah Canindo Tbk",
+   "board": "Pengembangan",
+   "listing_date": "23 Sep 1996",
+   "shares": "568.375.000"
+  },
+  {
+   "ticker": "PJAA",
+   "name": "Pembangunan Jaya Ancol Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "02 Jul 2004",
+   "shares": "1.599.999.996"
+  },
+  {
+   "ticker": "PKPK",
+   "name": "Paragon Karya Perkasa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Jul 2007",
+   "shares": "1.200.000.000"
+  },
+  {
+   "ticker": "PLIN",
+   "name": "Plaza Indonesia Realty Tbk.",
+   "board": "Utama",
+   "listing_date": "15 Jun 1992",
+   "shares": "3.550.000.000"
+  },
+  {
+   "ticker": "PNBN",
+   "name": "Bank Pan Indonesia Tbk",
+   "board": "Utama",
+   "listing_date": "29 Des 1982",
+   "shares": "23.837.645.998"
+  },
+  {
+   "ticker": "PNBS",
+   "name": "Bank Panin Dubai Syariah Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Jan 2014",
+   "shares": "38.425.504.906"
+  },
+  {
+   "ticker": "PNIN",
+   "name": "Paninvest Tbk.",
+   "board": "Utama",
+   "listing_date": "20 Sep 1983",
+   "shares": "4.068.323.920"
+  },
+  {
+   "ticker": "PNLF",
+   "name": "Panin Financial Tbk.",
+   "board": "Utama",
+   "listing_date": "14 Jun 1983",
+   "shares": "32.022.073.293"
+  },
+  {
+   "ticker": "PNSE",
+   "name": "Pudjiadi & Sons Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Mei 1990",
+   "shares": "797.813.496"
+  },
+  {
+   "ticker": "POLY",
+   "name": "Asia Pacific Fibers Tbk",
+   "board": "Pemantauan Khusus",
+   "listing_date": "12 Mar 1991",
+   "shares": "2.495.753.334"
+  },
+  {
+   "ticker": "POOL",
+   "name": "Pool Advista Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "20 Mei 1991",
+   "shares": "2.341.366.264"
+  },
+  {
+   "ticker": "PPRO",
+   "name": "PP Properti Tbk.",
+   "board": "Utama",
+   "listing_date": "19 Mei 2015",
+   "shares": "61.675.671.883"
+  },
+  {
+   "ticker": "PSAB",
+   "name": "J Resources Asia Pasifik Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "22 Apr 2003",
+   "shares": "26.460.000.000"
+  },
+  {
+   "ticker": "PSDN",
+   "name": "Prasidha Aneka Niaga Tbk",
+   "board": "Pengembangan",
+   "listing_date": "18 Okt 1994",
+   "shares": "1.440.000.000"
+  },
+  {
+   "ticker": "PSKT",
+   "name": "Red Planet Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "19 Sep 1995",
+   "shares": "10.351.231.636"
+  },
+  {
+   "ticker": "PTBA",
+   "name": "Bukit Asam (Persero) Tbk.",
+   "board": "Utama",
+   "listing_date": "23 Des 2002",
+   "shares": "11.520.659.250"
+  },
+  {
+   "ticker": "PTIS",
+   "name": "Indo Straits Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Jul 2011",
+   "shares": "550.165.300"
+  },
+  {
+   "ticker": "PTPP",
+   "name": "PP (Persero) Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Feb 2010",
+   "shares": "6.199.897.354"
+  },
+  {
+   "ticker": "PTRO",
+   "name": "Petrosea Tbk.",
+   "board": "Utama",
+   "listing_date": "21 Mei 1990",
+   "shares": "10.086.050.000"
+  },
+  {
+   "ticker": "PTSN",
+   "name": "Sat Nusapersada Tbk",
+   "board": "Pengembangan",
+   "listing_date": "08 Nov 2007",
+   "shares": "5.314.344.000"
+  },
+  {
+   "ticker": "PTSP",
+   "name": "Pioneerindo Gourmet Internatio",
+   "board": "Pengembangan",
+   "listing_date": "30 Mei 1994",
+   "shares": "220.808.000"
+  },
+  {
+   "ticker": "PUDP",
+   "name": "Pudjiadi Prestige Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Nov 1994",
+   "shares": "659.120.000"
+  },
+  {
+   "ticker": "PWON",
+   "name": "Pakuwon Jati Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Okt 1989",
+   "shares": "48.159.602.400"
+  },
+  {
+   "ticker": "PYFA",
+   "name": "Pyridam Farma Tbk",
+   "board": "Pengembangan",
+   "listing_date": "16 Okt 2001",
+   "shares": "11.236.752.641"
+  },
+  {
+   "ticker": "RAJA",
+   "name": "Rukun Raharja Tbk.",
+   "board": "Utama",
+   "listing_date": "19 Apr 2006",
+   "shares": "21.135.412.500"
+  },
+  {
+   "ticker": "RALS",
+   "name": "Ramayana Lestari Sentosa Tbk.",
+   "board": "Utama",
+   "listing_date": "24 Jul 1996",
+   "shares": "7.096.000.000"
+  },
+  {
+   "ticker": "RANC",
+   "name": "Supra Boga Lestari Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Jun 2012",
+   "shares": "1.564.487.500"
+  },
+  {
+   "ticker": "RBMS",
+   "name": "Ristia Bintang Mahkotasejati T",
+   "board": "Pengembangan",
+   "listing_date": "19 Des 1997",
+   "shares": "2.656.212.826"
+  },
+  {
+   "ticker": "RDTX",
+   "name": "Roda Vivatex Tbk",
+   "board": "Pengembangan",
+   "listing_date": "14 Mei 1990",
+   "shares": "268.800.000"
+  },
+  {
+   "ticker": "RELI",
+   "name": "Reliance Sekuritas Indonesia T",
+   "board": "Pengembangan",
+   "listing_date": "13 Jul 2005",
+   "shares": "1.800.000.000"
+  },
+  {
+   "ticker": "RICY",
+   "name": "Ricky Putra Globalindo Tbk",
+   "board": "Pengembangan",
+   "listing_date": "22 Jan 1998",
+   "shares": "641.717.510"
+  },
+  {
+   "ticker": "RIGS",
+   "name": "Rig Tenders Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Mar 1990",
+   "shares": "609.130.000"
+  },
+  {
+   "ticker": "RIMO",
+   "name": "Rimo International Lestari Tbk",
+   "board": "Pengembangan",
+   "listing_date": "10 Nov 2000",
+   "shares": "45.080.600.000"
+  },
+  {
+   "ticker": "RODA",
+   "name": "Pikko Land Development Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "22 Okt 2001",
+   "shares": "13.592.128.209"
+  },
+  {
+   "ticker": "ROTI",
+   "name": "Nippon Indosari Corpindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Jun 2010",
+   "shares": "6.186.488.888"
+  },
+  {
+   "ticker": "RUIS",
+   "name": "Radiant Utama Interinsco Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Jul 2006",
+   "shares": "770.000.000"
+  },
+  {
+   "ticker": "SAFE",
+   "name": "Steady Safe Tbk",
+   "board": "Pengembangan",
+   "listing_date": "15 Agt 1994",
+   "shares": "821.207.512"
+  },
+  {
+   "ticker": "SAME",
+   "name": "Sarana Meditama Metropolitan T",
+   "board": "Utama",
+   "listing_date": "11 Jan 2013",
+   "shares": "17.164.632.545"
+  },
+  {
+   "ticker": "SCCO",
+   "name": "Supreme Cable Manufacturing &",
+   "board": "Pengembangan",
+   "listing_date": "20 Jul 1982",
+   "shares": "822.333.600"
+  },
+  {
+   "ticker": "SCMA",
+   "name": "Surya Citra Media Tbk.",
+   "board": "Utama",
+   "listing_date": "16 Jul 2002",
+   "shares": "63.564.703.280"
+  },
+  {
+   "ticker": "SCPI",
+   "name": "Organon Pharma Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jun 1990",
+   "shares": "3.600.000"
+  },
+  {
+   "ticker": "SDMU",
+   "name": "Sidomulyo Selaras Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Jul 2011",
+   "shares": "2.250.691.100"
+  },
+  {
+   "ticker": "SDPC",
+   "name": "Millennium Pharmacon Internati",
+   "board": "Pengembangan",
+   "listing_date": "07 Mei 1990",
+   "shares": "1.274.000.000"
+  },
+  {
+   "ticker": "SDRA",
+   "name": "Bank Woori Saudara Indonesia 1",
+   "board": "Pengembangan",
+   "listing_date": "15 Des 2006",
+   "shares": "14.545.267.990"
+  },
+  {
+   "ticker": "SGRO",
+   "name": "Prime Agri Resources Tbk.",
+   "board": "Utama",
+   "listing_date": "18 Jun 2007",
+   "shares": "1.818.622.000"
+  },
+  {
+   "ticker": "SHID",
+   "name": "Hotel Sahid Jaya International",
+   "board": "Pengembangan",
+   "listing_date": "08 Mei 1990",
+   "shares": "1.119.326.168"
+  },
+  {
+   "ticker": "SIDO",
+   "name": "Industri Jamu dan Farmasi Sido",
+   "board": "Utama",
+   "listing_date": "18 Des 2013",
+   "shares": "30.000.000.000"
+  },
+  {
+   "ticker": "SILO",
+   "name": "Siloam International Hospitals",
+   "board": "Utama",
+   "listing_date": "12 Sep 2013",
+   "shares": "13.006.125.000"
+  },
+  {
+   "ticker": "SIMA",
+   "name": "Siwani Makmur Tbk",
+   "board": "Pemantauan Khusus",
+   "listing_date": "03 Jun 1994",
+   "shares": "442.589.871"
+  },
+  {
+   "ticker": "SIMP",
+   "name": "Salim Ivomas Pratama Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Jun 2011",
+   "shares": "15.501.310.000"
+  },
+  {
+   "ticker": "SIPD",
+   "name": "Sreeya Sewu Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Des 1996",
+   "shares": "1.839.102.056"
+  },
+  {
+   "ticker": "SKBM",
+   "name": "Sekar Bumi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Sep 2012",
+   "shares": "1.730.103.217"
+  },
+  {
+   "ticker": "SKLT",
+   "name": "Sekar Laut Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Sep 1993",
+   "shares": "6.907.405.000"
+  },
+  {
+   "ticker": "SMAR",
+   "name": "Sinar Mas Agro Resources and T",
+   "board": "Utama",
+   "listing_date": "20 Nov 1992",
+   "shares": "2.872.193.366"
+  },
+  {
+   "ticker": "SMBR",
+   "name": "Semen Baturaja (Persero) Tbk.",
+   "board": "Utama",
+   "listing_date": "28 Jun 2013",
+   "shares": "9.932.534.336"
+  },
+  {
+   "ticker": "SMCB",
+   "name": "Solusi Bangun Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "10 Agt 1977",
+   "shares": "9.019.381.973"
+  },
+  {
+   "ticker": "SMDM",
+   "name": "Suryamas Dutamakmur Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Okt 1995",
+   "shares": "4.772.138.237"
+  },
+  {
+   "ticker": "SMDR",
+   "name": "Samudera Indonesia  Tbk.",
+   "board": "Utama",
+   "listing_date": "05 Jul 1999",
+   "shares": "16.375.600.000"
+  },
+  {
+   "ticker": "SMGR",
+   "name": "Semen Indonesia (Persero) Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Jul 1991",
+   "shares": "6.751.540.089"
+  },
+  {
+   "ticker": "SMMA",
+   "name": "Sinarmas Multiartha Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Jul 1995",
+   "shares": "6.367.664.717"
+  },
+  {
+   "ticker": "SMMT",
+   "name": "Golden Eagle Energy Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Des 1997",
+   "shares": "3.425.000.000"
+  },
+  {
+   "ticker": "SMRA",
+   "name": "Summarecon Agung Tbk.",
+   "board": "Utama",
+   "listing_date": "07 Mei 1990",
+   "shares": "16.508.568.358"
+  },
+  {
+   "ticker": "SMRU",
+   "name": "SMR Utama Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "10 Okt 2011",
+   "shares": "12.499.385.782"
+  },
+  {
+   "ticker": "SMSM",
+   "name": "Selamat Sempurna Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Sep 1996",
+   "shares": "5.758.675.440"
+  },
+  {
+   "ticker": "SOCI",
+   "name": "Soechi Lines Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "03 Des 2014",
+   "shares": "7.059.000.000"
+  },
+  {
+   "ticker": "SONA",
+   "name": "Sona Topas Tourism Industry Tb",
+   "board": "Pengembangan",
+   "listing_date": "21 Jul 1992",
+   "shares": "662.400.000"
+  },
+  {
+   "ticker": "SPMA",
+   "name": "Suparma Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "16 Nov 1994",
+   "shares": "5.330.410.085"
+  },
+  {
+   "ticker": "SQMI",
+   "name": "Wilton Makmur Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Jul 2004",
+   "shares": "15.537.591.429"
+  },
+  {
+   "ticker": "SRAJ",
+   "name": "Sejahteraraya Anugrahjaya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Apr 2011",
+   "shares": "12.238.959.990"
+  },
+  {
+   "ticker": "SRSN",
+   "name": "Indo Acidatama Tbk",
+   "board": "Pengembangan",
+   "listing_date": "11 Jan 1993",
+   "shares": "6.020.000.000"
+  },
+  {
+   "ticker": "SRTG",
+   "name": "Saratoga Investama Sedaya Tbk.",
+   "board": "Utama",
+   "listing_date": "26 Jun 2013",
+   "shares": "13.564.835.000"
+  },
+  {
+   "ticker": "SSIA",
+   "name": "Surya Semesta Internusa Tbk.",
+   "board": "Utama",
+   "listing_date": "27 Mar 1997",
+   "shares": "4.705.249.440"
+  },
+  {
+   "ticker": "SSMS",
+   "name": "Sawit Sumbermas Sarana Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Des 2013",
+   "shares": "9.525.000.000"
+  },
+  {
+   "ticker": "SSTM",
+   "name": "Sunson Textile Manufacture Tbk",
+   "board": "Pengembangan",
+   "listing_date": "20 Agt 1997",
+   "shares": "1.170.909.181"
+  },
+  {
+   "ticker": "STAR",
+   "name": "Calculus Global Ventures Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Jul 2011",
+   "shares": "4.800.000.602"
+  },
+  {
+   "ticker": "STTP",
+   "name": "Siantar Top Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "16 Des 1996",
+   "shares": "1.310.000.000"
+  },
+  {
+   "ticker": "SULI",
+   "name": "SLJ Global Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Mar 1994",
+   "shares": "6.320.776.836"
+  },
+  {
+   "ticker": "SUPR",
+   "name": "Solusi Tunas Pratama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Okt 2011",
+   "shares": "1.137.579.698"
+  },
+  {
+   "ticker": "TALF",
+   "name": "Tunas Alfin Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "17 Jan 2014",
+   "shares": "1.353.435.000"
+  },
+  {
+   "ticker": "TARA",
+   "name": "Agung Semesta Sejahtera Tbk.",
+   "board": "Utama",
+   "listing_date": "11 Jul 2014",
+   "shares": "10.069.645.750"
+  },
+  {
+   "ticker": "TAXI",
+   "name": "Express Transindo Utama Tbk.",
+   "board": "Utama",
+   "listing_date": "02 Nov 2012",
+   "shares": "10.223.647.156"
+  },
+  {
+   "ticker": "TBIG",
+   "name": "Tower Bersama Infrastructure T",
+   "board": "Utama",
+   "listing_date": "26 Okt 2010",
+   "shares": "22.656.999.445"
+  },
+  {
+   "ticker": "TBLA",
+   "name": "Tunas Baru Lampung Tbk.",
+   "board": "Utama",
+   "listing_date": "14 Feb 2000",
+   "shares": "6.025.373.372"
+  },
+  {
+   "ticker": "TBMS",
+   "name": "Tembaga Mulia Semanan Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "23 Mei 1990",
+   "shares": "734.680.000"
+  },
+  {
+   "ticker": "TCID",
+   "name": "Mandom Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "30 Sep 1993",
+   "shares": "402.133.334"
+  },
+  {
+   "ticker": "TFCO",
+   "name": "Tifico Fiber Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "26 Feb 1980",
+   "shares": "4.823.076.400"
+  },
+  {
+   "ticker": "TGKA",
+   "name": "Tigaraksa Satria Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Jun 1990",
+   "shares": "918.492.750"
+  },
+  {
+   "ticker": "TIFA",
+   "name": "KDB Tifa Finance Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2011",
+   "shares": "3.552.213.000"
+  },
+  {
+   "ticker": "TINS",
+   "name": "TIMAH (Persero) Tbk.",
+   "board": "Utama",
+   "listing_date": "19 Okt 1995",
+   "shares": "7.447.753.454"
+  },
+  {
+   "ticker": "TIRA",
+   "name": "Tira Austenite Tbk",
+   "board": "Pengembangan",
+   "listing_date": "27 Jul 1993",
+   "shares": "588.000.000"
+  },
+  {
+   "ticker": "TIRT",
+   "name": "Tirta Mahakam Resources Tbk",
+   "board": "Pemantauan Khusus",
+   "listing_date": "13 Des 1999",
+   "shares": "1.011.774.750"
+  },
+  {
+   "ticker": "TKIM",
+   "name": "Pabrik Kertas Tjiwi Kimia Tbk.",
+   "board": "Utama",
+   "listing_date": "03 Apr 1990",
+   "shares": "3.113.223.570"
+  },
+  {
+   "ticker": "TLKM",
+   "name": "Telkom Indonesia (Persero) Tbk",
+   "board": "Utama",
+   "listing_date": "14 Nov 1995",
+   "shares": "99.062.216.600"
+  },
+  {
+   "ticker": "TMAS",
+   "name": "Temas Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Jul 2003",
+   "shares": "57.051.500.000"
+  },
+  {
+   "ticker": "TMPO",
+   "name": "Tempo Intimedia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jan 2001",
+   "shares": "1.058.333.250"
+  },
+  {
+   "ticker": "TOBA",
+   "name": "TBS Energi Utama Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Jul 2012",
+   "shares": "8.319.512.975"
+  },
+  {
+   "ticker": "TOTL",
+   "name": "Total Bangun Persada Tbk.",
+   "board": "Utama",
+   "listing_date": "25 Jul 2006",
+   "shares": "3.410.000.000"
+  },
+  {
+   "ticker": "TOTO",
+   "name": "Surya Toto Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "30 Okt 1990",
+   "shares": "10.320.000.000"
+  },
+  {
+   "ticker": "TOWR",
+   "name": "Sarana Menara Nusantara Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Mar 2010",
+   "shares": "59.098.103.731"
+  },
+  {
+   "ticker": "TPIA",
+   "name": "Chandra Asri Pacific Tbk.",
+   "board": "Utama",
+   "listing_date": "26 Mei 2008",
+   "shares": "86.511.545.092"
+  },
+  {
+   "ticker": "TPMA",
+   "name": "Trans Power Marine Tbk.",
+   "board": "Utama",
+   "listing_date": "20 Feb 2013",
+   "shares": "3.507.420.034"
+  },
+  {
+   "ticker": "TRAM",
+   "name": "Trada Alam Minera Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Sep 2008",
+   "shares": "49.643.627.934"
+  },
+  {
+   "ticker": "TRIM",
+   "name": "Trimegah Sekuritas Indonesia T",
+   "board": "Utama",
+   "listing_date": "31 Jan 2000",
+   "shares": "7.109.300.000"
+  },
+  {
+   "ticker": "TRIO",
+   "name": "Trikomsel Oke Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "14 Apr 2009",
+   "shares": "26.007.494.645"
+  },
+  {
+   "ticker": "TRIS",
+   "name": "Trisula International Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Jun 2012",
+   "shares": "3.141.443.831"
+  },
+  {
+   "ticker": "TRST",
+   "name": "Trias Sentosa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "02 Jul 1990",
+   "shares": "2.808.000.000"
+  },
+  {
+   "ticker": "TRUS",
+   "name": "Trust Finance Indonesia Tbk",
+   "board": "Pengembangan",
+   "listing_date": "28 Nov 2002",
+   "shares": "800.000.000"
+  },
+  {
+   "ticker": "TSPC",
+   "name": "Tempo Scan Pacific Tbk.",
+   "board": "Utama",
+   "listing_date": "17 Jun 1994",
+   "shares": "4.509.864.300"
+  },
+  {
+   "ticker": "ULTJ",
+   "name": "Ultrajaya Milk Industry & Trad",
+   "board": "Utama",
+   "listing_date": "02 Jul 1990",
+   "shares": "10.398.175.200"
+  },
+  {
+   "ticker": "UNIC",
+   "name": "Unggul Indah Cahaya Tbk.",
+   "board": "Utama",
+   "listing_date": "06 Nov 1989",
+   "shares": "383.331.363"
+  },
+  {
+   "ticker": "UNSP",
+   "name": "Bakrie Sumatera Plantations Tb",
+   "board": "Pengembangan",
+   "listing_date": "06 Mar 1990",
+   "shares": "17.005.275.078"
+  },
+  {
+   "ticker": "UNTR",
+   "name": "United Tractors Tbk.",
+   "board": "Utama",
+   "listing_date": "19 Sep 1989",
+   "shares": "3.730.135.136"
+  },
+  {
+   "ticker": "UNVR",
+   "name": "Unilever Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "11 Jan 1982",
+   "shares": "38.150.000.000"
+  },
+  {
+   "ticker": "VICO",
+   "name": "Victoria Investama Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Jul 2013",
+   "shares": "15.217.075.658"
+  },
+  {
+   "ticker": "VINS",
+   "name": "Victoria Insurance Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Sep 2015",
+   "shares": "1.553.430.759"
+  },
+  {
+   "ticker": "VIVA",
+   "name": "Visi Media Asia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Nov 2011",
+   "shares": "16.464.270.400"
+  },
+  {
+   "ticker": "VOKS",
+   "name": "Voksel Electric Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "20 Des 1990",
+   "shares": "4.155.602.595"
+  },
+  {
+   "ticker": "VRNA",
+   "name": "Mizuho Leasing Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "25 Jun 2008",
+   "shares": "5.687.353.997"
+  },
+  {
+   "ticker": "WAPO",
+   "name": "Wahana Pronatural Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "22 Jun 2001",
+   "shares": "1.240.923.111"
+  },
+  {
+   "ticker": "WEHA",
+   "name": "WEHA Transportasi Indonesia Tb",
+   "board": "Pengembangan",
+   "listing_date": "31 Mei 2007",
+   "shares": "1.460.554.819"
+  },
+  {
+   "ticker": "WICO",
+   "name": "Wicaksana Overseas Internation",
+   "board": "Pemantauan Khusus",
+   "listing_date": "08 Agt 1994",
+   "shares": "2.393.710.348"
+  },
+  {
+   "ticker": "WIIM",
+   "name": "Wismilak Inti Makmur Tbk.",
+   "board": "Utama",
+   "listing_date": "18 Des 2012",
+   "shares": "2.099.873.760"
+  },
+  {
+   "ticker": "WIKA",
+   "name": "Wijaya Karya (Persero) Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "29 Okt 2007",
+   "shares": "39.873.063.858"
+  },
+  {
+   "ticker": "WINS",
+   "name": "Wintermar Offshore Marine Tbk.",
+   "board": "Utama",
+   "listing_date": "29 Nov 2010",
+   "shares": "4.523.065.893"
+  },
+  {
+   "ticker": "WOMF",
+   "name": "Wahana Ottomitra Multiartha Tb",
+   "board": "Pengembangan",
+   "listing_date": "13 Des 2004",
+   "shares": "3.481.481.480"
+  },
+  {
+   "ticker": "WSKT",
+   "name": "Waskita Karya (Persero) Tbk.",
+   "board": "Utama",
+   "listing_date": "19 Des 2012",
+   "shares": "28.806.807.016"
+  },
+  {
+   "ticker": "WTON",
+   "name": "Wijaya Karya Beton Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Apr 2014",
+   "shares": "8.715.466.600"
+  },
+  {
+   "ticker": "YPAS",
+   "name": "Yanaprima Hastapersada Tbk",
+   "board": "Pengembangan",
+   "listing_date": "05 Mar 2008",
+   "shares": "668.000.089"
+  },
+  {
+   "ticker": "YULE",
+   "name": "Yulie Sekuritas Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Des 2004",
+   "shares": "1.785.000.000"
+  },
+  {
+   "ticker": "ZBRA",
+   "name": "Dosni Roha Indonesia Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "01 Agt 1991",
+   "shares": "2.510.706.263"
+  },
+  {
+   "ticker": "SHIP",
+   "name": "Sillo Maritime Perdana Tbk.",
+   "board": "Utama",
+   "listing_date": "16 Jun 2016",
+   "shares": "2.719.790.000"
+  },
+  {
+   "ticker": "CASA",
+   "name": "Capital Financial Indonesia Tb",
+   "board": "Pengembangan",
+   "listing_date": "19 Jul 2016",
+   "shares": "54.476.269.803"
+  },
+  {
+   "ticker": "DAYA",
+   "name": "Duta Intidaya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Jun 2016",
+   "shares": "2.420.547.025"
+  },
+  {
+   "ticker": "DPUM",
+   "name": "Dua Putra Utama Makmur Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Des 2015",
+   "shares": "4.175.000.000"
+  },
+  {
+   "ticker": "IDPR",
+   "name": "Indonesia Pondasi Raya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Des 2015",
+   "shares": "2.003.000.000"
+  },
+  {
+   "ticker": "JGLE",
+   "name": "Graha Andrasentra Propertindo",
+   "board": "Pengembangan",
+   "listing_date": "29 Jun 2016",
+   "shares": "22.581.909.405"
+  },
+  {
+   "ticker": "KINO",
+   "name": "Kino Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Des 2015",
+   "shares": "1.428.571.500"
+  },
+  {
+   "ticker": "MARI",
+   "name": "Mahaka Radio Integra Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "11 Feb 2016",
+   "shares": "5.252.644.000"
+  },
+  {
+   "ticker": "MKNT",
+   "name": "Remitra Global International T",
+   "board": "Pengembangan",
+   "listing_date": "26 Okt 2015",
+   "shares": "1.029.990.000.000"
+  },
+  {
+   "ticker": "OASA",
+   "name": "Maharaksa Biru Energi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Jul 2016",
+   "shares": "6.347.220.000"
+  },
+  {
+   "ticker": "POWR",
+   "name": "Cikarang Listrindo Tbk.",
+   "board": "Utama",
+   "listing_date": "14 Jun 2016",
+   "shares": "16.087.156.000"
+  },
+  {
+   "ticker": "INCF",
+   "name": "Indo Komoditi Korpora Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Sep 2016",
+   "shares": "1.438.370.465"
+  },
+  {
+   "ticker": "WSBP",
+   "name": "Waskita Beton Precast Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "20 Sep 2016",
+   "shares": "57.013.458.811"
+  },
+  {
+   "ticker": "PBSA",
+   "name": "Paramita Bangun Sarana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Sep 2016",
+   "shares": "6.000.000.000"
+  },
+  {
+   "ticker": "PRDA",
+   "name": "Prodia Widyahusada Tbk.",
+   "board": "Utama",
+   "listing_date": "07 Des 2016",
+   "shares": "937.500.000"
+  },
+  {
+   "ticker": "BOGA",
+   "name": "Apollo Global Interactive Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "19 Des 2016",
+   "shares": "3.803.526.210"
+  },
+  {
+   "ticker": "BRIS",
+   "name": "Bank Syariah Indonesia (Perser",
+   "board": "Utama",
+   "listing_date": "09 Mei 2018",
+   "shares": "45.667.877.639"
+  },
+  {
+   "ticker": "PORT",
+   "name": "Nusantara Pelabuhan Handal Tbk",
+   "board": "Utama",
+   "listing_date": "16 Mar 2017",
+   "shares": "2.813.941.985"
+  },
+  {
+   "ticker": "CARS",
+   "name": "Industri dan Perdagangan Bintr",
+   "board": "Utama",
+   "listing_date": "10 Apr 2017",
+   "shares": "15.000.000.000"
+  },
+  {
+   "ticker": "MINA",
+   "name": "Sanurhasta Mitra Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Apr 2017",
+   "shares": "9.843.750.000"
+  },
+  {
+   "ticker": "CLEO",
+   "name": "Sariguna Primatirta Tbk.",
+   "board": "Utama",
+   "listing_date": "05 Mei 2017",
+   "shares": "24.000.000.000"
+  },
+  {
+   "ticker": "TAMU",
+   "name": "Pelayaran Tamarin Samudra Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Mei 2017",
+   "shares": "37.500.000.000"
+  },
+  {
+   "ticker": "CSIS",
+   "name": "Cahayasakti Investindo Sukses",
+   "board": "Pengembangan",
+   "listing_date": "10 Mei 2017",
+   "shares": "1.829.805.257"
+  },
+  {
+   "ticker": "TGRA",
+   "name": "Terregra Asia Energy Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "16 Mei 2017",
+   "shares": "2.750.000.000"
+  },
+  {
+   "ticker": "FIRE",
+   "name": "Alfa Energi Investama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jun 2017",
+   "shares": "1.475.363.179"
+  },
+  {
+   "ticker": "TOPS",
+   "name": "Totalindo Eka Persada Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "16 Jun 2017",
+   "shares": "33.330.000.000"
+  },
+  {
+   "ticker": "KMTR",
+   "name": "Kirana Megatara Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "19 Jun 2017",
+   "shares": "8.215.366.379"
+  },
+  {
+   "ticker": "ARMY",
+   "name": "Armidian Karyatama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Jun 2017",
+   "shares": "9.006.250.000"
+  },
+  {
+   "ticker": "MAPB",
+   "name": "MAP Boga Adiperkasa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Jun 2017",
+   "shares": "2.387.922.900"
+  },
+  {
+   "ticker": "WOOD",
+   "name": "Integra Indocabinet Tbk.",
+   "board": "Utama",
+   "listing_date": "21 Jun 2017",
+   "shares": "6.437.500.000"
+  },
+  {
+   "ticker": "HRTA",
+   "name": "Hartadinata Abadi Tbk.",
+   "board": "Utama",
+   "listing_date": "21 Jun 2017",
+   "shares": "4.605.262.400"
+  },
+  {
+   "ticker": "HOKI",
+   "name": "Buyung Poetra Sembada Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "22 Jun 2017",
+   "shares": "9.677.752.680"
+  },
+  {
+   "ticker": "MPOW",
+   "name": "Megapower Makmur Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Jul 2017",
+   "shares": "816.997.053"
+  },
+  {
+   "ticker": "MARK",
+   "name": "Mark Dynamics Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Jul 2017",
+   "shares": "3.800.000.310"
+  },
+  {
+   "ticker": "NASA",
+   "name": "Andalan Perkasa Abadi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Agt 2017",
+   "shares": "11.004.929.322"
+  },
+  {
+   "ticker": "MDKI",
+   "name": "Emdeki Utama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "25 Sep 2017",
+   "shares": "2.530.150.002"
+  },
+  {
+   "ticker": "BELL",
+   "name": "Trisula Textile Industries Tbk",
+   "board": "Pengembangan",
+   "listing_date": "03 Okt 2017",
+   "shares": "7.250.000.000"
+  },
+  {
+   "ticker": "KIOS",
+   "name": "Kioson Komersial Indonesia Tbk",
+   "board": "Pengembangan",
+   "listing_date": "05 Okt 2017",
+   "shares": "1.075.862.960"
+  },
+  {
+   "ticker": "GMFI",
+   "name": "Garuda Maintenance Facility Ae",
+   "board": "Pengembangan",
+   "listing_date": "10 Okt 2017",
+   "shares": "124.835.258.434"
+  },
+  {
+   "ticker": "MTWI",
+   "name": "Malacca Trust Wuwungan Insuran",
+   "board": "Pengembangan",
+   "listing_date": "12 Okt 2017",
+   "shares": "2.924.486.639"
+  },
+  {
+   "ticker": "ZINC",
+   "name": "Kapuas Prima Coal Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "16 Okt 2017",
+   "shares": "25.250.000.000"
+  },
+  {
+   "ticker": "MCAS",
+   "name": "M Cash Integrasi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Nov 2017",
+   "shares": "867.933.300"
+  },
+  {
+   "ticker": "PPRE",
+   "name": "PP Presisi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "24 Nov 2017",
+   "shares": "10.224.271.000"
+  },
+  {
+   "ticker": "WEGE",
+   "name": "Wijaya Karya Bangunan Gedung T",
+   "board": "Pengembangan",
+   "listing_date": "30 Nov 2017",
+   "shares": "9.572.000.000"
+  },
+  {
+   "ticker": "PSSI",
+   "name": "IMC Pelita Logistik Tbk.",
+   "board": "Utama",
+   "listing_date": "05 Des 2017",
+   "shares": "5.417.063.153"
+  },
+  {
+   "ticker": "MORA",
+   "name": "Ekamas Mora Republik Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Agt 2022",
+   "shares": "47.774.192.736"
+  },
+  {
+   "ticker": "DWGL",
+   "name": "Dwi Guna Laksana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Des 2017",
+   "shares": "9.252.820.991"
+  },
+  {
+   "ticker": "PBID",
+   "name": "Panca Budi Idaman Tbk.",
+   "board": "Utama",
+   "listing_date": "13 Des 2017",
+   "shares": "7.500.000.000"
+  },
+  {
+   "ticker": "JMAS",
+   "name": "Asuransi Jiwa Syariah Jasa Mit",
+   "board": "Pengembangan",
+   "listing_date": "18 Des 2017",
+   "shares": "1.000.000.000"
+  },
+  {
+   "ticker": "CAMP",
+   "name": "Campina Ice Cream Industry Tbk",
+   "board": "Pengembangan",
+   "listing_date": "19 Des 2017",
+   "shares": "5.885.000.000"
+  },
+  {
+   "ticker": "IPCM",
+   "name": "Jasa Armada Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "22 Des 2017",
+   "shares": "5.284.811.100"
+  },
+  {
+   "ticker": "PCAR",
+   "name": "Prima Cakrawala Abadi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "29 Des 2017",
+   "shares": "1.166.666.700"
+  },
+  {
+   "ticker": "LCKM",
+   "name": "LCK Global Kedaton Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "16 Jan 2018",
+   "shares": "1.000.000.000"
+  },
+  {
+   "ticker": "BOSS",
+   "name": "Borneo Olah Sarana Sukses Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "15 Feb 2018",
+   "shares": "1.400.000.000"
+  },
+  {
+   "ticker": "HELI",
+   "name": "Jaya Trishindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Mar 2018",
+   "shares": "832.862.387"
+  },
+  {
+   "ticker": "JSKY",
+   "name": "Sky Energy Indonesia Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "28 Mar 2018",
+   "shares": "2.032.540.000"
+  },
+  {
+   "ticker": "INPS",
+   "name": "Indah Prakasa Sentosa Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "06 Apr 2018",
+   "shares": "650.000.000"
+  },
+  {
+   "ticker": "GHON",
+   "name": "Gihon Telekomunikasi Indonesia",
+   "board": "Pengembangan",
+   "listing_date": "09 Apr 2018",
+   "shares": "550.000.000"
+  },
+  {
+   "ticker": "DFAM",
+   "name": "Dafam Property Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Apr 2018",
+   "shares": "1.899.852.850"
+  },
+  {
+   "ticker": "NICK",
+   "name": "Charnic Capital Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "02 Mei 2018",
+   "shares": "651.150.000"
+  },
+  {
+   "ticker": "BTPS",
+   "name": "Bank BTPN Syariah Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Mei 2018",
+   "shares": "7.626.663.000"
+  },
+  {
+   "ticker": "SPTO",
+   "name": "Surya Pertiwi Tbk.",
+   "board": "Utama",
+   "listing_date": "14 Mei 2018",
+   "shares": "2.700.000.000"
+  },
+  {
+   "ticker": "PRIM",
+   "name": "Royal Prima Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Mei 2018",
+   "shares": "3.393.434.905"
+  },
+  {
+   "ticker": "HEAL",
+   "name": "Medikaloka Hermina Tbk.",
+   "board": "Utama",
+   "listing_date": "16 Mei 2018",
+   "shares": "15.365.950.000"
+  },
+  {
+   "ticker": "TRUK",
+   "name": "Guna Timur Raya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "23 Mei 2018",
+   "shares": "435.000.000"
+  },
+  {
+   "ticker": "PZZA",
+   "name": "Sarimelati Kencana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "23 Mei 2018",
+   "shares": "3.021.875.000"
+  },
+  {
+   "ticker": "TUGU",
+   "name": "Asuransi Tugu Pratama Indonesi",
+   "board": "Utama",
+   "listing_date": "28 Mei 2018",
+   "shares": "3.555.575.600"
+  },
+  {
+   "ticker": "MSIN",
+   "name": "MNC Digital Entertainment Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Jun 2018",
+   "shares": "60.676.178.205"
+  },
+  {
+   "ticker": "SWAT",
+   "name": "Sriwahana Adityakarta Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "08 Jun 2018",
+   "shares": "3.019.200.000"
+  },
+  {
+   "ticker": "TNCA",
+   "name": "Trimuda Nuansa Citra Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Jun 2018",
+   "shares": "421.640.000"
+  },
+  {
+   "ticker": "MAPA",
+   "name": "Map Aktif Adiperkasa Tbk.",
+   "board": "Utama",
+   "listing_date": "05 Jul 2018",
+   "shares": "28.504.000.000"
+  },
+  {
+   "ticker": "TCPI",
+   "name": "Transcoal Pacific Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Jul 2018",
+   "shares": "5.000.000.000"
+  },
+  {
+   "ticker": "IPCC",
+   "name": "Indonesia Kendaraan Terminal T",
+   "board": "Utama",
+   "listing_date": "09 Jul 2018",
+   "shares": "1.818.384.820"
+  },
+  {
+   "ticker": "RISE",
+   "name": "Jaya Sukses Makmur Sentosa Tbk",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2018",
+   "shares": "16.198.599.990"
+  },
+  {
+   "ticker": "BPTR",
+   "name": "Batavia Prosperindo Trans Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2018",
+   "shares": "3.534.000.000"
+  },
+  {
+   "ticker": "POLL",
+   "name": "Pollux Properties Indonesia Tb",
+   "board": "Pengembangan",
+   "listing_date": "11 Jul 2018",
+   "shares": "8.318.823.600"
+  },
+  {
+   "ticker": "NFCX",
+   "name": "NFC Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Jul 2018",
+   "shares": "666.667.500"
+  },
+  {
+   "ticker": "MGRO",
+   "name": "Mahkota Group Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Jul 2018",
+   "shares": "3.554.445.700"
+  },
+  {
+   "ticker": "NUSA",
+   "name": "Sinergi Megah Internusa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Jul 2018",
+   "shares": "7.700.000.148"
+  },
+  {
+   "ticker": "FILM",
+   "name": "MD Entertainment Tbk.",
+   "board": "Utama",
+   "listing_date": "07 Agt 2018",
+   "shares": "10.887.566.758"
+  },
+  {
+   "ticker": "ANDI",
+   "name": "Andira Agro Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "16 Agt 2018",
+   "shares": "9.350.000.000"
+  },
+  {
+   "ticker": "LAND",
+   "name": "Trimitra Propertindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "23 Agt 2018",
+   "shares": "2.792.620.000"
+  },
+  {
+   "ticker": "MOLI",
+   "name": "Madusari Murni Indah Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "30 Agt 2018",
+   "shares": "2.724.036.581"
+  },
+  {
+   "ticker": "PANI",
+   "name": "Pantai Indah Kapuk Dua Tbk.",
+   "board": "Utama",
+   "listing_date": "18 Sep 2018",
+   "shares": "18.189.502.198"
+  },
+  {
+   "ticker": "DIGI",
+   "name": "Arkadia Digital Media Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "18 Sep 2018",
+   "shares": "1.625.000.000"
+  },
+  {
+   "ticker": "CITY",
+   "name": "Natura City Developments Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Sep 2018",
+   "shares": "5.405.188.966"
+  },
+  {
+   "ticker": "SAPX",
+   "name": "Satria Antaran Prima Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "03 Okt 2018",
+   "shares": "833.333.300"
+  },
+  {
+   "ticker": "SURE",
+   "name": "Super Energy Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Okt 2018",
+   "shares": "1.497.576.771"
+  },
+  {
+   "ticker": "HKMU",
+   "name": "HK Metals Utama Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "09 Okt 2018",
+   "shares": "3.221.750.000"
+  },
+  {
+   "ticker": "MPRO",
+   "name": "Maha Properti Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Okt 2018",
+   "shares": "9.942.500.000"
+  },
+  {
+   "ticker": "GOOD",
+   "name": "Garudafood Putra Putri Jaya Tb",
+   "board": "Utama",
+   "listing_date": "10 Okt 2018",
+   "shares": "36.897.901.455"
+  },
+  {
+   "ticker": "SKRN",
+   "name": "Superkrane Mitra Utama Tbk.",
+   "board": "Utama",
+   "listing_date": "11 Okt 2018",
+   "shares": "7.500.000.000"
+  },
+  {
+   "ticker": "YELO",
+   "name": "Yelooo Integra Datanet Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "29 Okt 2018",
+   "shares": "1.912.774.405"
+  },
+  {
+   "ticker": "CAKK",
+   "name": "Cahayaputra Asa Keramik Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "31 Okt 2018",
+   "shares": "1.203.300.219"
+  },
+  {
+   "ticker": "SATU",
+   "name": "Kota Satu Properti Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Nov 2018",
+   "shares": "1.375.000.000"
+  },
+  {
+   "ticker": "SOSS",
+   "name": "ALSOK Indonesia Services Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Nov 2018",
+   "shares": "974.525.743"
+  },
+  {
+   "ticker": "DEAL",
+   "name": "Dewata Freightinternational Tb",
+   "board": "Pemantauan Khusus",
+   "listing_date": "11 Nov 2018",
+   "shares": "1.146.170.959"
+  },
+  {
+   "ticker": "POLA",
+   "name": "Pool Advista Finance Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "16 Nov 2018",
+   "shares": "3.351.075.600"
+  },
+  {
+   "ticker": "DIVA",
+   "name": "Distribusi Voucher Nusantara T",
+   "board": "Pengembangan",
+   "listing_date": "27 Nov 2018",
+   "shares": "1.428.571.400"
+  },
+  {
+   "ticker": "LUCK",
+   "name": "Sentral Mitra Informatika Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "28 Nov 2018",
+   "shares": "715.749.640"
+  },
+  {
+   "ticker": "URBN",
+   "name": "Urban Jakarta Propertindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Des 2018",
+   "shares": "3.232.122.640"
+  },
+  {
+   "ticker": "SOTS",
+   "name": "Satria Mega Kencana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Des 2018",
+   "shares": "1.000.003.979"
+  },
+  {
+   "ticker": "ZONE",
+   "name": "Mega Perintis Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Des 2018",
+   "shares": "870.171.478"
+  },
+  {
+   "ticker": "PEHA",
+   "name": "Phapros Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "26 Des 2018",
+   "shares": "840.000.000"
+  },
+  {
+   "ticker": "FOOD",
+   "name": "Sentra Food Indonesia Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "08 Jan 2019",
+   "shares": "650.000.000"
+  },
+  {
+   "ticker": "BEEF",
+   "name": "Estika Tata Tiara Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jan 2019",
+   "shares": "8.120.249.598"
+  },
+  {
+   "ticker": "POLI",
+   "name": "Pollux Hotels Group Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jan 2019",
+   "shares": "2.010.526.400"
+  },
+  {
+   "ticker": "CLAY",
+   "name": "Citra Putra Realty Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Jan 2019",
+   "shares": "2.570.000.000"
+  },
+  {
+   "ticker": "NATO",
+   "name": "Olympus Strategic Indonesia Tb",
+   "board": "Pengembangan",
+   "listing_date": "18 Jan 2019",
+   "shares": "8.001.111.504"
+  },
+  {
+   "ticker": "JAYA",
+   "name": "Armada Berjaya Trans Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Feb 2019",
+   "shares": "798.499.394"
+  },
+  {
+   "ticker": "COCO",
+   "name": "Wahana Interfood Nusantara Tbk",
+   "board": "Pengembangan",
+   "listing_date": "20 Mar 2019",
+   "shares": "14.237.823.696"
+  },
+  {
+   "ticker": "MTPS",
+   "name": "Meta Epsi Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "10 Apr 2019",
+   "shares": "2.084.850.829"
+  },
+  {
+   "ticker": "CPRI",
+   "name": "Capri Nusa Satu Properti Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Apr 2019",
+   "shares": "2.433.379.958"
+  },
+  {
+   "ticker": "HRME",
+   "name": "Menteng Heritage Realty Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Apr 2019",
+   "shares": "5.958.750.000"
+  },
+  {
+   "ticker": "POSA",
+   "name": "Bliss Properti Indonesia Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "10 Mei 2019",
+   "shares": "8.388.870.206"
+  },
+  {
+   "ticker": "JAST",
+   "name": "Jasnita Telekomindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "16 Mei 2019",
+   "shares": "1.082.575.738"
+  },
+  {
+   "ticker": "FITT",
+   "name": "Fortune Resources Investment T",
+   "board": "Pengembangan",
+   "listing_date": "11 Jun 2019",
+   "shares": "1.304.272.051"
+  },
+  {
+   "ticker": "BOLA",
+   "name": "Bali Bintang Sejahtera Tbk.",
+   "board": "Utama",
+   "listing_date": "17 Jun 2019",
+   "shares": "6.000.000.000"
+  },
+  {
+   "ticker": "CCSI",
+   "name": "Communication Cable Systems In",
+   "board": "Pengembangan",
+   "listing_date": "18 Jun 2019",
+   "shares": "1.333.333.331"
+  },
+  {
+   "ticker": "SFAN",
+   "name": "Surya Fajar Capital Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "19 Jun 2019",
+   "shares": "1.359.934.021"
+  },
+  {
+   "ticker": "POLU",
+   "name": "Golden Flower Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "26 Jun 2019",
+   "shares": "750.000.000"
+  },
+  {
+   "ticker": "KJEN",
+   "name": "Krida Jaringan Nusantara Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Jul 2019",
+   "shares": "500.000.000"
+  },
+  {
+   "ticker": "KAYU",
+   "name": "Darmi Bersaudara Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "04 Jul 2019",
+   "shares": "665.000.000"
+  },
+  {
+   "ticker": "ITIC",
+   "name": "Indonesian Tobacco Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "04 Jul 2019",
+   "shares": "940.720.000"
+  },
+  {
+   "ticker": "PAMG",
+   "name": "Bima Sakti Pertiwi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Jul 2019",
+   "shares": "3.125.000.000"
+  },
+  {
+   "ticker": "IPTV",
+   "name": "MNC Vision Networks Tbk.",
+   "board": "Utama",
+   "listing_date": "08 Jul 2019",
+   "shares": "42.197.950.841"
+  },
+  {
+   "ticker": "BLUE",
+   "name": "Berkah Prima Perkasa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Jul 2019",
+   "shares": "418.000.000"
+  },
+  {
+   "ticker": "EAST",
+   "name": "Eastparc Hotel Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2019",
+   "shares": "4.126.405.336"
+  },
+  {
+   "ticker": "LIFE",
+   "name": "MSIG Life Insurance Indonesia",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2019",
+   "shares": "2.100.000.000"
+  },
+  {
+   "ticker": "FUJI",
+   "name": "Fuji Finance Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jul 2019",
+   "shares": "1.300.000.000"
+  },
+  {
+   "ticker": "KOTA",
+   "name": "DMS Propertindo Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Jul 2019",
+   "shares": "10.546.185.701"
+  },
+  {
+   "ticker": "INOV",
+   "name": "Inocycle Technology Group Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2019",
+   "shares": "1.808.221.900"
+  },
+  {
+   "ticker": "ARKA",
+   "name": "Arkha Jayanti Persada Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Jul 2019",
+   "shares": "2.000.000.000"
+  },
+  {
+   "ticker": "SMKL",
+   "name": "Satyamitra Kemas Lestari Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Jul 2019",
+   "shares": "3.418.085.290"
+  },
+  {
+   "ticker": "HDIT",
+   "name": "Hensel Davest Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Jul 2019",
+   "shares": "1.524.680.000"
+  },
+  {
+   "ticker": "KEEN",
+   "name": "Kencana Energi Lestari Tbk.",
+   "board": "Utama",
+   "listing_date": "02 Sep 2019",
+   "shares": "3.666.312.500"
+  },
+  {
+   "ticker": "BAPI",
+   "name": "Bhakti Agung Propertindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "16 Sep 2019",
+   "shares": "5.591.980.103"
+  },
+  {
+   "ticker": "TFAS",
+   "name": "Telefast Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "17 Sep 2019",
+   "shares": "1.666.666.500"
+  },
+  {
+   "ticker": "GGRP",
+   "name": "Gunung Raja Paksi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "19 Sep 2019",
+   "shares": "12.111.376.157"
+  },
+  {
+   "ticker": "OPMS",
+   "name": "Optima Prima Metal Sinergi Tbk",
+   "board": "Pengembangan",
+   "listing_date": "23 Sep 2019",
+   "shares": "1.000.000.000"
+  },
+  {
+   "ticker": "NZIA",
+   "name": "Nusantara Almazia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "25 Sep 2019",
+   "shares": "2.197.540.705"
+  },
+  {
+   "ticker": "SLIS",
+   "name": "Gaya Abadi Sempurna Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Okt 2019",
+   "shares": "2.463.367.996"
+  },
+  {
+   "ticker": "PURE",
+   "name": "Trinitan Metals and Minerals T",
+   "board": "Pemantauan Khusus",
+   "listing_date": "09 Okt 2019",
+   "shares": "1.375.181.505"
+  },
+  {
+   "ticker": "IRRA",
+   "name": "Itama Ranoraya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Okt 2019",
+   "shares": "1.600.000.000"
+  },
+  {
+   "ticker": "DMMX",
+   "name": "Digital Mediatama Maxima Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Okt 2019",
+   "shares": "7.692.307.700"
+  },
+  {
+   "ticker": "SINI",
+   "name": "Singaraja Putra Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Nov 2019",
+   "shares": "1.202.500.000"
+  },
+  {
+   "ticker": "WOWS",
+   "name": "Ginting Jaya Energi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Nov 2019",
+   "shares": "2.475.720.000"
+  },
+  {
+   "ticker": "ESIP",
+   "name": "Sinergi Inti Plastindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "14 Nov 2019",
+   "shares": "1.109.953.847"
+  },
+  {
+   "ticker": "TEBE",
+   "name": "Dana Brata Luhur Tbk.",
+   "board": "Utama",
+   "listing_date": "18 Nov 2019",
+   "shares": "1.285.000.000"
+  },
+  {
+   "ticker": "KEJU",
+   "name": "Mulia Boga Raya Tbk.",
+   "board": "Utama",
+   "listing_date": "25 Nov 2019",
+   "shares": "5.624.999.999"
+  },
+  {
+   "ticker": "PSGO",
+   "name": "Palma Serasih Tbk.",
+   "board": "Utama",
+   "listing_date": "25 Nov 2019",
+   "shares": "18.850.000.000"
+  },
+  {
+   "ticker": "AGAR",
+   "name": "Asia Sejahtera Mina Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "02 Des 2019",
+   "shares": "1.000.000.000"
+  },
+  {
+   "ticker": "IFSH",
+   "name": "Ifishdeco Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "05 Des 2019",
+   "shares": "2.125.000.000"
+  },
+  {
+   "ticker": "REAL",
+   "name": "Repower Asia Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Des 2019",
+   "shares": "6.633.610.151"
+  },
+  {
+   "ticker": "IFII",
+   "name": "Indonesia Fibreboard Industry",
+   "board": "Pengembangan",
+   "listing_date": "10 Des 2019",
+   "shares": "9.412.000.000"
+  },
+  {
+   "ticker": "PMJS",
+   "name": "Putra Mandiri Jembar Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "18 Des 2019",
+   "shares": "13.755.600.000"
+  },
+  {
+   "ticker": "UCID",
+   "name": "Uni-Charm Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "20 Des 2019",
+   "shares": "4.156.572.300"
+  },
+  {
+   "ticker": "GLVA",
+   "name": "Galva Technologies Tbk.",
+   "board": "Utama",
+   "listing_date": "23 Des 2019",
+   "shares": "1.500.000.000"
+  },
+  {
+   "ticker": "PGJO",
+   "name": "Bahtera Bumi Raya Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "08 Jan 2020",
+   "shares": "795.859.095"
+  },
+  {
+   "ticker": "AMAR",
+   "name": "Bank Amar Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "09 Jan 2020",
+   "shares": "18.197.283.760"
+  },
+  {
+   "ticker": "CSRA",
+   "name": "Cisadane Sawit Raya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Jan 2020",
+   "shares": "2.050.000.000"
+  },
+  {
+   "ticker": "INDO",
+   "name": "Royalindo Investa Wijaya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Jan 2020",
+   "shares": "4.480.741.638"
+  },
+  {
+   "ticker": "AMOR",
+   "name": "Ashmore Asset Management Indon",
+   "board": "Pengembangan",
+   "listing_date": "14 Jan 2020",
+   "shares": "2.222.222.400"
+  },
+  {
+   "ticker": "TRIN",
+   "name": "Perintis Triniti Properti Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Jan 2020",
+   "shares": "4.551.457.789"
+  },
+  {
+   "ticker": "DMND",
+   "name": "Diamond Food Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "22 Jan 2020",
+   "shares": "9.468.359.000"
+  },
+  {
+   "ticker": "PURA",
+   "name": "Putra Rajawali Kencana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "29 Jan 2020",
+   "shares": "6.301.930.902"
+  },
+  {
+   "ticker": "PTPW",
+   "name": "Pratama Widya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Feb 2020",
+   "shares": "878.187.500"
+  },
+  {
+   "ticker": "TAMA",
+   "name": "Lancartama Sejati Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "10 Feb 2020",
+   "shares": "1.200.000.696"
+  },
+  {
+   "ticker": "IKAN",
+   "name": "Era Mandiri Cemerlang Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Feb 2020",
+   "shares": "833.333.000"
+  },
+  {
+   "ticker": "AYLS",
+   "name": "Arkayana Lestari Grup Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "12 Feb 2020",
+   "shares": "853.423.236"
+  },
+  {
+   "ticker": "DADA",
+   "name": "Diamond Citra Propertindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "14 Feb 2020",
+   "shares": "7.431.530.800"
+  },
+  {
+   "ticker": "ASPI",
+   "name": "Andalan Sakti Primaindo Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "17 Feb 2020",
+   "shares": "683.810.725"
+  },
+  {
+   "ticker": "ESTA",
+   "name": "Esta Multi Usaha Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Mar 2020",
+   "shares": "2.425.354.179"
+  },
+  {
+   "ticker": "BESS",
+   "name": "Batulicin Nusantara Maritim Tb",
+   "board": "Pengembangan",
+   "listing_date": "09 Mar 2020",
+   "shares": "3.440.455.528"
+  },
+  {
+   "ticker": "AMAN",
+   "name": "Makmur Berkah Amanda Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "13 Mar 2020",
+   "shares": "3.873.500.000"
+  },
+  {
+   "ticker": "CARE",
+   "name": "Metro Healthcare Indonesia Tbk",
+   "board": "Pengembangan",
+   "listing_date": "13 Mar 2020",
+   "shares": "33.250.000.000"
+  },
+  {
+   "ticker": "SAMF",
+   "name": "Saraswanti Anugerah Makmur Tbk",
+   "board": "Utama",
+   "listing_date": "31 Mar 2020",
+   "shares": "10.250.000.000"
+  },
+  {
+   "ticker": "KBAG",
+   "name": "Karya Bersama Anugerah Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Apr 2020",
+   "shares": "7.150.002.603"
+  },
+  {
+   "ticker": "CBMF",
+   "name": "Cahaya Bintang Medan Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Apr 2020",
+   "shares": "1.875.000.000"
+  },
+  {
+   "ticker": "RONY",
+   "name": "Aracord Nusantara Group Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Apr 2020",
+   "shares": "1.250.000.000"
+  },
+  {
+   "ticker": "CSMI",
+   "name": "Cipta Selera Murni Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "09 Apr 2020",
+   "shares": "816.061.500"
+  },
+  {
+   "ticker": "BBSS",
+   "name": "Bumi Benowo Sukses Sejahtera T",
+   "board": "Pengembangan",
+   "listing_date": "15 Apr 2020",
+   "shares": "4.800.016.020"
+  },
+  {
+   "ticker": "BHAT",
+   "name": "Bhakti Multi Artha Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "15 Apr 2020",
+   "shares": "5.000.000.000"
+  },
+  {
+   "ticker": "EPAC",
+   "name": "Megalestari Epack Sentosaraya",
+   "board": "Pengembangan",
+   "listing_date": "01 Jul 2020",
+   "shares": "3.303.400.000"
+  },
+  {
+   "ticker": "UANG",
+   "name": "Pakuan Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Jul 2020",
+   "shares": "1.210.000.000"
+  },
+  {
+   "ticker": "PGUN",
+   "name": "Pradiksi Gunatama Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Jul 2020",
+   "shares": "5.737.848.882"
+  },
+  {
+   "ticker": "SOFA",
+   "name": "Solusi Environment Asia Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "07 Jul 2020",
+   "shares": "1.653.574.499"
+  },
+  {
+   "ticker": "PPGL",
+   "name": "Prima Globalindo Logistik Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "20 Jul 2020",
+   "shares": "771.178.020"
+  },
+  {
+   "ticker": "SGER",
+   "name": "Sumber Global Energy Tbk.",
+   "board": "Utama",
+   "listing_date": "10 Agt 2020",
+   "shares": "15.586.909.438"
+  },
+  {
+   "ticker": "TRJA",
+   "name": "Transkon Jaya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "27 Agt 2020",
+   "shares": "1.510.200.000"
+  },
+  {
+   "ticker": "PNGO",
+   "name": "AEP Pinago Plantations Tbk.",
+   "board": "Utama",
+   "listing_date": "31 Agt 2020",
+   "shares": "781.250.000"
+  },
+  {
+   "ticker": "SCNP",
+   "name": "Selaras Citra Nusantara Perkas",
+   "board": "Pengembangan",
+   "listing_date": "07 Sep 2020",
+   "shares": "2.500.000.000"
+  },
+  {
+   "ticker": "BBSI",
+   "name": "Krom Bank Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "07 Sep 2020",
+   "shares": "3.637.976.068"
+  },
+  {
+   "ticker": "KMDS",
+   "name": "Kurniamitra Duta Sentosa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "07 Sep 2020",
+   "shares": "800.000.000"
+  },
+  {
+   "ticker": "PURI",
+   "name": "Puri Global Sukses Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Sep 2020",
+   "shares": "1.000.000.000"
+  },
+  {
+   "ticker": "SOHO",
+   "name": "Soho Global Health Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Sep 2020",
+   "shares": "12.691.682.390"
+  },
+  {
+   "ticker": "HOMI",
+   "name": "Grand House Mulia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Sep 2020",
+   "shares": "1.575.000.000"
+  },
+  {
+   "ticker": "ROCK",
+   "name": "Rockfields Properti Indonesia",
+   "board": "Pengembangan",
+   "listing_date": "10 Sep 2020",
+   "shares": "1.435.185.100"
+  },
+  {
+   "ticker": "ENZO",
+   "name": "Morenzo Abadi Perkasa Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "14 Sep 2020",
+   "shares": "2.162.547.122"
+  },
+  {
+   "ticker": "PLAN",
+   "name": "Planet Properindo Jaya Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "15 Sep 2020",
+   "shares": "896.709.596"
+  },
+  {
+   "ticker": "PTDU",
+   "name": "Djasa Ubersakti Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "08 Des 2020",
+   "shares": "1.500.000.000"
+  },
+  {
+   "ticker": "ATAP",
+   "name": "Trimitra Prawara Goldland Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Des 2020",
+   "shares": "1.250.000.000"
+  },
+  {
+   "ticker": "VICI",
+   "name": "Victoria Care Indonesia Tbk.",
+   "board": "Utama",
+   "listing_date": "17 Des 2020",
+   "shares": "6.708.000.000"
+  },
+  {
+   "ticker": "PMMP",
+   "name": "Panca Mitra Multiperdana Tbk.",
+   "board": "Pemantauan Khusus",
+   "listing_date": "18 Des 2020",
+   "shares": "2.588.300.000"
+  },
+  {
+   "ticker": "WIFI",
+   "name": "Solusi Sinergi Digital Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "30 Des 2020",
+   "shares": "5.308.549.015"
+  },
+  {
+   "ticker": "FAPA",
+   "name": "FAP Agri Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "04 Jan 2021",
+   "shares": "3.629.411.800"
+  },
+  {
+   "ticker": "DCII",
+   "name": "DCI Indonesia Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "06 Jan 2021",
+   "shares": "2.383.745.900"
+  },
+  {
+   "ticker": "KETR",
+   "name": "Ketrosden Triasmitra Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "11 Jan 2021",
+   "shares": "2.841.262.838"
+  },
+  {
+   "ticker": "DGNS",
+   "name": "Diagnos Laboratorium Utama Tbk",
+   "board": "Pengembangan",
+   "listing_date": "15 Jan 2021",
+   "shares": "1.375.000.000"
+  },
+  {
+   "ticker": "UFOE",
+   "name": "Damai Sejahtera Abadi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Feb 2021",
+   "shares": "2.898.261.693"
+  },
+  {
+   "ticker": "BANK",
+   "name": "Bank Aladin Syariah Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "01 Feb 2021",
+   "shares": "14.793.174.908"
+  },
+  {
+   "ticker": "WMUU",
+   "name": "Widodo Makmur Unggas Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "02 Feb 2021",
+   "shares": "12.941.176.500"
+  },
+  {
+   "ticker": "EDGE",
+   "name": "Indointernet Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Feb 2021",
+   "shares": "2.020.250.000"
+  },
+  {
+   "ticker": "UNIQ",
+   "name": "Ulima Nitra Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "08 Mar 2021",
+   "shares": "3.138.983.000"
+  },
+  {
+   "ticker": "BEBS",
+   "name": "Berkah Beton Sadaya Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "10 Mar 2021",
+   "shares": "45.000.000.000"
+  },
+  {
+   "ticker": "SNLK",
+   "name": "Sunter Lakeside Hotel Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "29 Mar 2021",
+   "shares": "450.000.000"
+  },
+  {
+   "ticker": "ZYRX",
+   "name": "Zyrexindo Mandiri Buana Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "30 Mar 2021",
+   "shares": "1.333.334.556"
+  },
+  {
+   "ticker": "LFLO",
+   "name": "Imago Mulia Persada Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "07 Apr 2021",
+   "shares": "1.307.734.937"
+  },
+  {
+   "ticker": "FIMP",
+   "name": "Fimperkasa Utama Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "09 Apr 2021",
+   "shares": "400.000.975"
+  },
+  {
+   "ticker": "TAPG",
+   "name": "Triputra Agro Persada Tbk.",
+   "board": "Utama",
+   "listing_date": "12 Apr 2021",
+   "shares": "19.852.540.000"
+  },
+  {
+   "ticker": "NPGF",
+   "name": "Nusa Palapa Gemilang Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "14 Apr 2021",
+   "shares": "3.240.235.840"
+  },
+  {
+   "ticker": "LUCY",
+   "name": "Lima Dua Lima Tiga Tbk.",
+   "board": "Akselerasi",
+   "listing_date": "05 Mei 2021",
+   "shares": "1.514.773.893"
+  },
+  {
+   "ticker": "ADCP",
+   "name": "Adhi Commuter Properti Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "21 Mei 2021",
+   "shares": "22.222.222.200"
+  },
+  {
+   "ticker": "HOPE",
+   "name": "Harapan Duta Pertiwi Tbk.",
+   "board": "Pengembangan",
+   "listing_date": "24 Mei 2021",
+   "shares": "2.130.360.203"
+  }
+ ]
+}

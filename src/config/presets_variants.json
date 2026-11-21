@@ -1,0 +1,77 @@
+{
+  "version": "VARIANTS_V1",
+  "note": "Hipotesis varian untuk diuji backtest, BUKAN rekomendasi. Disetel pada paruh awal data, dikonfirmasi pada paruh akhir.",
+  "presets": {
+    "PB_TURNING": {
+      "description": "Pullback dalam tren naik yang sudah mulai memantul (close di atas EMA20, naik hari ini, close di separuh atas bar)",
+      "rule": {"all": [
+        {"feature": "ema20_over_ema50", "op": ">", "value": 1},
+        {"feature": "ema20_slope5_pct", "op": ">", "value": 0},
+        {"feature": "min_dist_ema_atr", "op": "<=", "value": 1.5},
+        {"feature": "close_over_ema20", "op": ">=", "value": 1},
+        {"feature": "rsi14", "op": "between", "value": [40, 65]},
+        {"feature": "change_1d_pct", "op": ">", "value": 0},
+        {"feature": "close_loc", "op": ">=", "value": 0.5}
+      ]}
+    },
+    "PB_LOOSE": {
+      "description": "Pullback longgar: tren naik, dekat EMA, RSI 35-60, tanpa syarat volume",
+      "rule": {"all": [
+        {"feature": "ema20_over_ema50", "op": ">", "value": 1},
+        {"feature": "min_dist_ema_atr", "op": "<=", "value": 2},
+        {"feature": "rsi14", "op": "between", "value": [35, 60]}
+      ]}
+    },
+    "BO_CLEAN": {
+      "description": "Breakout 20 sesi dengan volume >=1,5x, close kuat di dekat high, di atas EMA50, bukan lonjakan ekstrem",
+      "rule": {"all": [
+        {"feature": "dist_high20_pct", "op": "<", "value": 0},
+        {"feature": "vol_ratio20", "op": ">=", "value": 1.5},
+        {"feature": "close_loc", "op": ">=", "value": 0.7},
+        {"feature": "close_over_ema50", "op": ">", "value": 1},
+        {"feature": "change_1d_pct", "op": "<", "value": 15}
+      ]}
+    },
+    "BO_VOL2": {
+      "description": "Breakout 20 sesi dengan volume >=2x, bukan lonjakan ekstrem",
+      "rule": {"all": [
+        {"feature": "dist_high20_pct", "op": "<", "value": 0},
+        {"feature": "vol_ratio20", "op": ">=", "value": 2},
+        {"feature": "change_1d_pct", "op": "<", "value": 15}
+      ]}
+    },
+    "PRE_BO_TREND": {
+      "description": "Dekat high 20 sesi (0-4% di bawah) dalam tren naik dengan RSI 50-70",
+      "rule": {"all": [
+        {"feature": "dist_high20_pct", "op": "between", "value": [0, 4]},
+        {"feature": "ema20_over_ema50", "op": ">", "value": 1},
+        {"feature": "close_over_ema50", "op": ">", "value": 1},
+        {"feature": "rsi14", "op": "between", "value": [50, 70]}
+      ]}
+    },
+    "ER_CONFIRMED": {
+      "description": "Early reversal dengan konfirmasi: higher low, di atas EMA20, naik 5 sesi, volume tidak sepi",
+      "rule": {"all": [
+        {"any": [
+          {"feature": "close_over_ema50", "op": "<", "value": 1},
+          {"feature": "ret_60d_pct", "op": "<", "value": 0}
+        ]},
+        {"feature": "low_ratio_5v5", "op": ">", "value": 1},
+        {"feature": "close_over_ema20", "op": ">", "value": 1},
+        {"feature": "change_5d_pct", "op": ">", "value": 0},
+        {"feature": "rsi14", "op": "between", "value": [40, 60]},
+        {"feature": "vol_ratio20", "op": ">=", "value": 1}
+      ]}
+    },
+    "MOMENTUM": {
+      "description": "Kelanjutan tren: di atas EMA20, EMA20 naik, RSI 55-75, volume di atas rata-rata",
+      "rule": {"all": [
+        {"feature": "close_over_ema20", "op": ">", "value": 1},
+        {"feature": "ema20_over_ema50", "op": ">", "value": 1},
+        {"feature": "ema20_slope5_pct", "op": ">", "value": 0},
+        {"feature": "rsi14", "op": "between", "value": [55, 75]},
+        {"feature": "vol_ratio20", "op": ">=", "value": 1}
+      ]}
+    }
+  }
+}

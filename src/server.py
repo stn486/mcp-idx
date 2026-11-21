@@ -41,6 +41,7 @@ from src.tools.intraday import (
     get_pivot_points_tool, get_pivot_points,
     get_gap_analysis_tool, get_gap_analysis
 )
+from src.tools.screener import get_screen_stocks_tool, get_screening_data_tool, screen_stocks, screening_data
 from src.config.settings import settings
 
 # Configure logging
@@ -91,6 +92,8 @@ async def handle_list_tools() -> list[Tool]:
         get_vwap_tool(),
         get_pivot_points_tool(),
         get_gap_analysis_tool(),
+        get_screen_stocks_tool(),
+        get_screening_data_tool(),
     ]
 @server.call_tool()
 async def handle_call_tool(name: str, arguments: dict) -> list[TextContent]:
@@ -127,6 +130,8 @@ async def handle_call_tool(name: str, arguments: dict) -> list[TextContent]:
             "get_vwap": get_vwap,
             "get_pivot_points": get_pivot_points,
             "get_gap_analysis": get_gap_analysis,
+            "screen_stocks": screen_stocks,
+            "screening_data": screening_data,
         }
         
         handler = tool_handlers.get(name)

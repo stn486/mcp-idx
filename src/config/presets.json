@@ -1,0 +1,173 @@
+{
+  "version": "STANDARD_7_V1",
+  "note": "Menu kategori siap pakai; pemanggil memilih (presets) atau mengirim kriteria sendiri (criteria). Angka adalah titik awal, bukan rekomendasi. Uji historis saham likuid IDX (Feb 2025-Nov 2026, nilai transaksi >= Rp500jt/hari, tanpa fee): selisih terhadap rata-rata pasar kecil (di bawah +-0.5% per 7 hari). Hanya TREND_CONTINUATION positif di kedua paruh periode; BREAKOUT dan MOMENTUM positif di paruh awal, tidak stabil di paruh akhir; HEALTHY_PULLBACK dan EARLY_REVERSAL sedikit di bawah rata-rata; BASE_CONSOLIDATION di bawah rata-rata (banyak saham sepi). Satu periode, ada survivorship bias: kategori adalah alat penyaring, bukan sinyal beli.",
+  "presets": {
+    "EARLY_REVERSAL": {
+      "description": "Tren turun/lemah mulai berbalik: higher low 5 sesi dan close kembali di atas EMA20",
+      "rule": {
+        "all": [
+          {
+            "any": [
+              {
+                "feature": "close_over_ema50",
+                "op": "<",
+                "value": 1
+              },
+              {
+                "feature": "ret_60d_pct",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "feature": "low_ratio_5v5",
+            "op": ">",
+            "value": 1
+          },
+          {
+            "feature": "close_over_ema20",
+            "op": ">",
+            "value": 1
+          }
+        ]
+      }
+    },
+    "HEALTHY_PULLBACK": {
+      "description": "Tren naik (EMA20>EMA50), harga dekat EMA, RSI 40-55, volume koreksi menyusut",
+      "rule": {
+        "all": [
+          {
+            "feature": "ema20_over_ema50",
+            "op": ">",
+            "value": 1
+          },
+          {
+            "feature": "min_dist_ema_atr",
+            "op": "<=",
+            "value": 2
+          },
+          {
+            "feature": "rsi14",
+            "op": "between",
+            "value": [
+              40,
+              55
+            ]
+          },
+          {
+            "feature": "vol_ratio_5v5",
+            "op": "<",
+            "value": 1
+          }
+        ]
+      }
+    },
+    "BASE_CONSOLIDATION": {
+      "description": "Konsolidasi sempit 20 sesi (<=10%) dengan ATR menyempit",
+      "rule": {
+        "all": [
+          {
+            "feature": "range20_pct",
+            "op": "<=",
+            "value": 10
+          },
+          {
+            "feature": "atr_ratio_5v10",
+            "op": "<",
+            "value": 1
+          }
+        ]
+      }
+    },
+    "PRE_BREAKOUT": {
+      "description": "Close 2-3% di bawah high 20 sesi dengan volume di atas rata-rata",
+      "rule": {
+        "all": [
+          {
+            "feature": "dist_high20_pct",
+            "op": "between",
+            "value": [
+              2,
+              3
+            ]
+          },
+          {
+            "feature": "vol_ratio20",
+            "op": ">",
+            "value": 1
+          }
+        ]
+      }
+    },
+    "BREAKOUT": {
+      "description": "Close di atas high 20 sesi sebelumnya dengan volume >=1,5x rata-rata",
+      "rule": {
+        "all": [
+          {
+            "feature": "dist_high20_pct",
+            "op": "<",
+            "value": 0
+          },
+          {
+            "feature": "vol_ratio20",
+            "op": ">=",
+            "value": 1.5
+          }
+        ]
+      }
+    },
+    "TREND_CONTINUATION": {
+      "description": "Tren naik sedang berjalan: EMA20 di atas EMA50 dan close di atas EMA20 (cakupan luas)",
+      "rule": {
+        "all": [
+          {
+            "feature": "ema20_over_ema50",
+            "op": ">",
+            "value": 1
+          },
+          {
+            "feature": "close_over_ema20",
+            "op": ">",
+            "value": 1
+          }
+        ]
+      }
+    },
+    "MOMENTUM": {
+      "description": "Kelanjutan tren kuat: di atas EMA20, EMA20 naik, RSI 55-75, volume di atas rata-rata",
+      "rule": {
+        "all": [
+          {
+            "feature": "close_over_ema20",
+            "op": ">",
+            "value": 1
+          },
+          {
+            "feature": "ema20_over_ema50",
+            "op": ">",
+            "value": 1
+          },
+          {
+            "feature": "ema20_slope5_pct",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "feature": "rsi14",
+            "op": "between",
+            "value": [
+              55,
+              75
+            ]
+          },
+          {
+            "feature": "vol_ratio20",
+            "op": ">=",
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

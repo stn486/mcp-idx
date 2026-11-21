@@ -75,3 +75,6 @@ tests/signal_combo.py
 tests/backtest_signal.py
 tests/signal_result_*.txt
 tests/bsjp_*.txt
+# Data screening hasil olahan lokal (besar/ephemeral; snapshot dibuat ulang otomatis)
+data/screening/*
+!data/screening/.gitkeep
