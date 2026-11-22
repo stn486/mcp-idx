@@ -112,3 +112,35 @@ def test_warns_when_not_all_results_shown():
     assert "offset=1" in out["warnings"][0] and "1 ticker belum terbaca" in out["warnings"][0]
     full = engine.screen(criteria=crit, snapshot=_snap(), limit=10, clean=False)
     assert not any("belum terbaca" in w for w in full["warnings"])
+
+
+def _last_value_snap(last_close_vol):
+    """Rata-rata 20 sesi tinggi (lonjakan lama), tapi hari terakhir sepi atau ramai."""
+    n = 80
+    closes = [1000.0] * n
+    vols = [1e4] * n
+    vols[-5] = 1e8          # lonjakan lama => rata-rata 20 sesi >= Rp1 miliar
+    vols[-1] = last_close_vol
+    closes = [1000.0 + (i % 7) * 10 for i in range(n)]  # harga tidak datar
+    f = compute_features(make_df(closes, vols))
+    f.update(name="XXXX", board="Utama")
+    return {"finished": "x", "requested": 1, "ok": 1, "failed": [], "rows": {"XXXX": f}, "universe_complete": True}
+
+
+def test_last_day_value_floor_drops_spike_inflated_average():
+    crit = {"all": [{"feature": "close", "op": ">", "value": 0}]}
+    quiet = _last_value_snap(1e3)            # nilai hari terakhir ~ Rp1 juta
+    assert quiet["rows"]["XXXX"]["avg_value20_est"] >= 1e9
+    out = engine.screen(criteria=crit, snapshot=quiet)
+    assert out["total_matched"] == 0 and out["coverage"]["dropped_as_dead"] == 1
+    assert any("hari terakhir" in w for w in out["warnings"])
+    active = _last_value_snap(5e5)           # nilai hari terakhir ~ Rp500 juta
+    assert engine.screen(criteria=crit, snapshot=active)["total_matched"] == 1
+
+
+def test_last_day_floor_respects_clean_false_and_explicit_filter():
+    crit = {"all": [{"feature": "close", "op": ">", "value": 0}]}
+    quiet = _last_value_snap(1e3)
+    assert engine.screen(criteria=crit, snapshot=quiet, clean=False)["total_matched"] == 1
+    out = engine.screen(criteria=crit, snapshot=quiet, filters={"value_est": [0, None]})
+    assert out["total_matched"] == 1  # filter eksplisit pemanggil didahulukan
