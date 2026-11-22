@@ -136,6 +136,8 @@ def refresh_snapshot(boards: Optional[list[str]] = None, limit: Optional[int] = 
             attempt(tickers[i:i + BATCH_SIZE])
             set_progress(min(i + BATCH_SIZE, len(tickers)))
             time.sleep(sleep)
+        if not limit and tickers and len(rows) < MIN_COVERAGE * len(tickers):
+            raise RuntimeError(f"Cakupan terlalu rendah ({len(rows)}/{len(tickers)}); snapshot lama dipertahankan.")
         snap = {
             "started": started,
             "finished": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -186,6 +188,10 @@ def status() -> dict:
                                                 "boards", "partial_run", "requested", "ok")}
         out["snapshot"]["failed"] = len(snap["failed"])
         out["snapshot"]["latest_bar_date"] = max(dates) if dates else None
+    try:
+        out["current"] = current_freshness(snap)
+    except Exception as e:  # noqa: BLE001
+        out["current"] = {"error": str(e)}
     return out
 
 
@@ -325,3 +331,53 @@ def _within(value: float, bounds: Any) -> bool:
     """bounds: [min, max] dengan None untuk sisi terbuka."""
     lo, hi = bounds
     return (lo is None or value >= lo) and (hi is None or value <= hi)
+
+
+# ---------------------------------------------------------------- kesegaran data
+MIN_COVERAGE = float(os.environ.get("SCREENING_MIN_COVERAGE", "0.7"))
+AUTO_RETRY_MINUTES = int(os.environ.get("SCREENING_RETRY_MINUTES", "60"))
+_last_auto_refresh: dict = {"at": None}
+
+
+def current_freshness(snapshot: Optional[dict] = None, now: Optional[datetime] = None) -> dict:
+    """Apakah snapshot sudah memuat penutupan bursa terakhir (tanggal acuan dari kalender IHSG)."""
+    from . import calendar as cal
+    now = now or datetime.now(timezone.utc)
+    snap = snapshot if snapshot is not None else load_snapshot()
+    expected, source = cal.expected_bar_date(now, cal.trading_dates())
+    out = cal.snapshot_freshness(snap or {}, expected)
+    out["expected_source"] = source
+    return out
+
+
+def request_refresh(reason: str) -> str:
+    """Pemicu dari data: tidak menunggu AI, dibatasi satu kali per AUTO_RETRY_MINUTES."""
+    from datetime import timedelta
+    with _state_lock:
+        if _state.get("running"):
+            return "already_running"
+    now = datetime.now(timezone.utc)
+    last = _last_auto_refresh["at"]
+    if last and now - last < timedelta(minutes=AUTO_RETRY_MINUTES):
+        return "throttled"
+    _last_auto_refresh["at"] = now
+    started = start_refresh_background()
+    logger.info("Refresh snapshot (%s): %s", reason, "dimulai" if started else "sudah berjalan")
+    return "started" if started else "already_running"
+
+
+def screen_current(**kwargs: Any) -> dict:
+    """Seperti screen(), tetapi menolak hasil bila data belum memuat penutupan bursa terakhir."""
+    snap = load_snapshot()
+    if not snap:
+        return screen(**kwargs)  # menghasilkan NO_SNAPSHOT
+    fresh = current_freshness(snap)
+    if fresh["fresh"]:
+        return screen(snapshot=snap, **kwargs)
+    action = request_refresh("data_belum_terbarui")
+    return {
+        "error": True, "code": "DATA_NOT_CURRENT",
+        "message": (f"Data belum memuat penutupan {fresh['expected_bar_date']} untuk cukup banyak ticker "
+                    f"(baru {fresh['share_current']:.0%}). Refresh diproses otomatis ({action}); coba lagi beberapa menit."),
+        "refresh": action, "snapshot_finished": snap.get("finished"), **fresh,
+    }

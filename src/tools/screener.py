@@ -17,7 +17,7 @@ def get_screen_stocks_tool() -> Tool:
     return Tool(
         name="screen_stocks",
         description=(
-            "Penyaring awal: daripada menyisir ~900 ticker satu per satu, panggil tool ini (tanpa argumen pun bisa) dan terima daftar ticker yang sudah bersih (saham sepi/mati dibuang otomatis) dan lolos salah satu kategori setup. Hasil bisa banyak, kategori sengaja tidak dipersempit; analisis akhir tetap oleh pemanggil sesuai aturannya sendiri. Argumen bersifat OPSIONAL: presets (pilih kategori tertentu), criteria (aturan sendiri), filters (mis. likuiditas), sort_by (urutan baca). Hasil memuat alasan lolos, cakupan, dan peringatan. Tool lain tetap bisa dipakai untuk ticker mana pun."
+            "Jika data belum memuat penutupan bursa terakhir, tool menjawab DATA_NOT_CURRENT dan refresh berjalan otomatis; coba lagi beberapa menit. Penyaring awal: daripada menyisir ~900 ticker satu per satu, panggil tool ini (tanpa argumen pun bisa) dan terima daftar ticker yang sudah bersih (saham sepi/mati dibuang otomatis) dan lolos salah satu kategori setup. Hasil bisa banyak, kategori sengaja tidak dipersempit; analisis akhir tetap oleh pemanggil sesuai aturannya sendiri. Argumen bersifat OPSIONAL: presets (pilih kategori tertentu), criteria (aturan sendiri), filters (mis. likuiditas), sort_by (urutan baca). Hasil memuat alasan lolos, cakupan, dan peringatan. Tool lain tetap bisa dipakai untuk ticker mana pun."
         ),
         inputSchema={
             "type": "object",
@@ -69,7 +69,7 @@ def _err(code: str, message: str, suggestion: str | None = None) -> dict:
 async def screen_stocks(args: dict[str, Any]) -> dict[str, Any]:
     try:
         return await asyncio.to_thread(
-            engine.screen,
+            engine.screen_current,
             presets=args.get("presets"), criteria=args.get("criteria"), match=args.get("match", "any"),
             filters=args.get("filters"), sort_by=args.get("sort_by", "value_est"),
             order=args.get("order", "desc"), clean=bool(args.get("clean", True)), limit=min(int(args.get("limit", 100)), 500),

@@ -1,16 +1,9 @@
-"""Refresh snapshot otomatis (untuk server yang berjalan terus, mis. Render).
-
-Aturan (jam WIB = UTC+7, tanpa DST):
-- snapshot belum ada, berasal dari run parsial, atau lebih tua dari MAX_AGE_DAYS -> refresh
-- hari kerja, sudah lewat jam penutupan (default 17:30 WIB), dan snapshot dibuat sebelum jam itu -> refresh
-Kegagalan beruntun tidak diulang terus: jeda minimal antar percobaan (RETRY_MINUTES).
-"""
+"""Pemicu refresh snapshot terjadwal: data tertinggal dari tanggal bursa terakhir, atau snapshot terlalu tua."""
 from __future__ import annotations
 
 import logging
 import os
 import threading
-import time
 from datetime import datetime, timedelta, timezone
 from typing import Callable, Optional
 
@@ -18,17 +11,14 @@ from . import engine
 
 logger = logging.getLogger(__name__)
 
-WIB = timezone(timedelta(hours=7))
-CLOSE_HOUR = int(os.environ.get("SCREENING_REFRESH_AFTER_HOUR_WIB", "17"))
-CLOSE_MINUTE = int(os.environ.get("SCREENING_REFRESH_AFTER_MINUTE_WIB", "30"))
 MAX_AGE_DAYS = int(os.environ.get("SCREENING_MAX_AGE_DAYS", "3"))
 RETRY_MINUTES = int(os.environ.get("SCREENING_RETRY_MINUTES", "60"))
 CHECK_SECONDS = int(os.environ.get("SCREENING_CHECK_SECONDS", "900"))
 AUTO_ENABLED = os.environ.get("SCREENING_AUTO_REFRESH", "true").lower() not in ("0", "false", "no")
 
 
-def should_refresh(snapshot: Optional[dict], now_utc: datetime) -> tuple[bool, str]:
-    """Putuskan perlu-tidaknya refresh. Fungsi murni, tanpa jaringan."""
+def should_refresh(snapshot: Optional[dict], now_utc: datetime, freshness: Optional[dict] = None) -> tuple:
+    """Keputusan refresh. Fungsi murni: tanpa jaringan."""
     if not snapshot:
         return True, "no_snapshot"
     if snapshot.get("partial_run"):
@@ -41,27 +31,27 @@ def should_refresh(snapshot: Optional[dict], now_utc: datetime) -> tuple[bool, s
         finished = finished.replace(tzinfo=timezone.utc)
     if now_utc - finished > timedelta(days=MAX_AGE_DAYS):
         return True, "too_old"
-    now_wib = now_utc.astimezone(WIB)
-    if now_wib.weekday() < 5:
-        cutoff = now_wib.replace(hour=CLOSE_HOUR, minute=CLOSE_MINUTE, second=0, microsecond=0)
-        if now_wib >= cutoff and finished.astimezone(WIB) < cutoff:
-            return True, "after_close"
+    if freshness is not None and not freshness.get("fresh"):
+        return True, "data_not_current"
     return False, "fresh"
 
 
 class AutoRefresher:
     def __init__(self, starter: Callable[[], bool] = engine.start_refresh_background,
                  loader: Callable[[], Optional[dict]] = engine.load_snapshot,
-                 clock: Callable[[], datetime] = lambda: datetime.now(timezone.utc)) -> None:
+                 clock: Callable[[], datetime] = lambda: datetime.now(timezone.utc),
+                 freshness: Optional[Callable] = None) -> None:
         self._starter, self._loader, self._clock = starter, loader, clock
+        self._freshness = freshness or (lambda snap, now: engine.current_freshness(snap, now))
         self._last_attempt: Optional[datetime] = None
         self._stop = threading.Event()
         self._thread: Optional[threading.Thread] = None
 
     def tick(self) -> str:
-        """Satu kali pengecekan. Mengembalikan alasan/keputusan (untuk log dan uji)."""
         now = self._clock()
-        need, why = should_refresh(self._loader(), now)
+        snap = self._loader()
+        fresh = self._freshness(snap, now) if snap else None
+        need, why = should_refresh(snap, now, fresh)
         if not need:
             return why
         if self._last_attempt and now - self._last_attempt < timedelta(minutes=RETRY_MINUTES):
