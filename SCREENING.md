@@ -20,6 +20,15 @@ Server tidak mengandung strategi, fee, atau batas likuiditas pribadi. Semua itu 
 - Likuiditas, harga minimum, sektor dsb.: argumen `filters` pada `screen_stocks` (default: tanpa filter).
 - Backtest: `--fee`, `--min-value`, `--min-close` (default 0 = mentah).
 
+## Filter "bersih" (saham mati/sepi, default aktif)
+Bukan strategi, hanya kebersihan data. Ticker dibuang otomatis bila salah satu terpenuhi (jumlahnya muncul di `coverage.dropped_as_dead` dan peringatan):
+- Harga datar >= 10 dari 20 sesi (`SCREENING_CLEAN_MAX_FLAT_DAYS`).
+- Volume nol >= 3 sesi (`SCREENING_CLEAN_MAX_ZERO_VOL_DAYS`).
+- Rata-rata nilai transaksi 20 sesi < Rp1 miliar/hari (`SCREENING_CLEAN_MIN_AVG_VALUE`, default `1e9`).
+- Nilai transaksi hari terakhir < Rp100 juta (`SCREENING_CLEAN_MIN_LAST_VALUE`, default `1e8`). Rata-rata 20 sesi bisa terdongkrak lonjakan lama sehingga saham yang kini hampir tak diperdagangkan tetap lolos; syarat ini menutup celah itu. Batas 100 juta adalah pilihan pragmatis (uji pada data 20 Nov 2026: hanya 3 dari 105 ticker terbuang, hasil sama untuk batas Rp50-100 juta), bukan hasil uji historis.
+
+Setel batas ke `0` untuk menonaktifkan satu syarat, atau `clean=false` pada `screen_stocks` untuk semuanya. Filter eksplisit pemanggil pada `avg_value20_est` / `value_est` didahulukan atas batas bawaan yang bersangkutan.
+
 ## Cara pakai
 Panggil tanpa argumen = daftar ticker yang sudah tersaring dari semua kategori (default). Opsional untuk menyempitkan: `presets` (kategori siap pakai, lihat `screening_data action=presets`), `criteria` (spesifikasi sendiri), `filters` (likuiditas, harga, papan, ...), `sort_by` (urutan baca). Tanpa presets/criteria = semua kategori (luas).
 Kategori: EARLY_REVERSAL, HEALTHY_PULLBACK, BASE_CONSOLIDATION, PRE_BREAKOUT, BREAKOUT, TREND_CONTINUATION, MOMENTUM.

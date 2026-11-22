@@ -200,15 +200,20 @@ def status() -> dict:
 CLEAN_MAX_FLAT_DAYS = int(os.environ.get("SCREENING_CLEAN_MAX_FLAT_DAYS", "10"))   # hari harga datar dalam 20 sesi
 CLEAN_MAX_ZERO_VOL_DAYS = int(os.environ.get("SCREENING_CLEAN_MAX_ZERO_VOL_DAYS", "3"))
 CLEAN_MIN_AVG_VALUE = float(os.environ.get("SCREENING_CLEAN_MIN_AVG_VALUE", "1e9"))  # estimasi Rp/hari; 0 = nonaktif
+# Rata-rata 20 hari bisa terdongkrak lonjakan lama, jadi nilai transaksi hari terakhir juga harus punya batas bawah.
+CLEAN_MIN_LAST_VALUE = float(os.environ.get("SCREENING_CLEAN_MIN_LAST_VALUE", "1e8"))  # estimasi Rp/hari; 0 = nonaktif
 
 
-def _is_dirty(feats: dict, floor: float) -> bool:
-    """True bila saham sepi/mati: harga datar, sering tanpa volume, atau nilai transaksi sangat kecil."""
+def _is_dirty(feats: dict, floor: float, last_floor: float = 0.0) -> bool:
+    """True bila saham sepi/mati: harga datar, sering tanpa volume, atau nilai transaksi sangat kecil
+    (rata-rata 20 sesi di bawah floor, atau nilai hari terakhir di bawah last_floor)."""
     if (feats.get("flat_days20") or 0) >= CLEAN_MAX_FLAT_DAYS:
         return True
     if (feats.get("zero_vol_days20") or 0) >= CLEAN_MAX_ZERO_VOL_DAYS:
         return True
-    return floor > 0 and (feats.get("avg_value20_est") or 0) < floor
+    if floor > 0 and (feats.get("avg_value20_est") or 0) < floor:
+        return True
+    return last_floor > 0 and (feats.get("value_est") or 0) < last_floor
 
 
 def _days_between(a: str, b: str) -> int:
@@ -255,6 +260,7 @@ def screen(presets: Optional[list[str]] = None, criteria: Optional[dict] = None,
         if not (isinstance(b, list) and len(b) == 2):
             raise rules.RuleError(f"Filter '{k}' harus [min, max] (null = terbuka)")
     floor = 0.0 if "avg_value20_est" in ranges else CLEAN_MIN_AVG_VALUE  # filter eksplisit pemanggil didahulukan
+    last_floor = 0.0 if "value_est" in ranges else CLEAN_MIN_LAST_VALUE
     dirty = 0
     reference = max((r["last_bar_date"] for r in snap["rows"].values()), default=None)
 
@@ -276,7 +282,7 @@ def screen(presets: Optional[list[str]] = None, criteria: Optional[dict] = None,
                 hits[name] = used
         if not hits or (match == "all" and len(hits) < len(selected)):
             continue
-        if clean and not missing_features_for_clean and _is_dirty(feats, floor):
+        if clean and not missing_features_for_clean and _is_dirty(feats, floor, last_floor):
             dirty += 1
             continue
         for n in hits:
@@ -299,7 +305,7 @@ def screen(presets: Optional[list[str]] = None, criteria: Optional[dict] = None,
     if snap["failed"]:
         warnings.append(f"{len(snap['failed'])} ticker gagal diambil dan TIDAK diperiksa (bukan berarti tanpa setup).")
     if dirty:
-        warnings.append(f"{dirty} saham sepi/mati dibuang otomatis (harga datar >= {CLEAN_MAX_FLAT_DAYS} dari 20 sesi, volume nol >= {CLEAN_MAX_ZERO_VOL_DAYS} sesi, atau nilai transaksi rata-rata < Rp{floor:,.0f}/hari). Setel clean=false untuk menonaktifkan.")
+        warnings.append(f"{dirty} saham sepi/mati dibuang otomatis (harga datar >= {CLEAN_MAX_FLAT_DAYS} dari 20 sesi, volume nol >= {CLEAN_MAX_ZERO_VOL_DAYS} sesi, nilai transaksi rata-rata 20 sesi < Rp{floor:,.0f}/hari, atau nilai transaksi hari terakhir < Rp{last_floor:,.0f}). Setel clean=false untuk menonaktifkan.")
     if stale:
         warnings.append(f"{stale} ticker dilewati karena bar terakhir basi (>{STALE_DAYS} hari dari {reference}).")
     warnings.append("value_est = close x volume dari Yahoo (estimasi), bukan nilai transaksi resmi BEI.")
