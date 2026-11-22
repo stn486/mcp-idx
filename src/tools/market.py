@@ -33,38 +33,46 @@ def get_market_summary_tool() -> Tool:
 
 def get_ihsg_data() -> Dict[str, Any]:
     """
-    Get IHSG (Jakarta Composite Index) data.
+    Data IHSG (^JKSE) dari bar harian.
 
-    Returns:
-        Dictionary with IHSG data
+    Memakai bar harian (bukan .info) agar tetap terisi saat bursa tutup atau akhir pekan.
+    Bila gagal, hasilnya memuat "error" (bukan dict kosong) supaya penyebabnya terlihat.
     """
     try:
-        # IHSG ticker is ^JKSE
-        ticker_obj = yahoo_client.get_ticker("^JKSE")
-        info = ticker_obj.info
-        hist = ticker_obj.history(period="1d")
-
-        if not info or hist.empty:
-            return None
-
-        current_value = info.get("regularMarketPrice") or info.get("currentPrice", 0)
-        previous_close = info.get("previousClose", current_value)
-        change = current_value - previous_close if current_value and previous_close else 0
-        change_percent = (change / previous_close * 100) if previous_close else 0
-
-        return {
-            "value": round(current_value, 2) if current_value else None,
-            "previous_close": round(previous_close, 2) if previous_close else None,
-            "change": round(change, 2) if change else 0,
-            "change_percent": round(change_percent, 2) if change_percent else 0,
-            "open": round(hist["Open"].iloc[-1], 2) if not hist.empty else None,
-            "high": round(hist["High"].iloc[-1], 2) if not hist.empty else None,
-            "low": round(hist["Low"].iloc[-1], 2) if not hist.empty else None,
-            "volume": int(hist["Volume"].iloc[-1]) if not hist.empty else None,
-            "trade_value": round(float(hist["Close"].iloc[-1] * hist["Volume"].iloc[-1]), 2) if not hist.empty else None,
+        import yfinance as yf
+        raw = yf.download("^JKSE", period="3mo", interval="1d", auto_adjust=True, progress=False)
+        if raw is None or raw.empty:
+            return {"error": "Data ^JKSE kosong dari Yahoo."}
+        if hasattr(raw.columns, "levels"):
+            raw.columns = raw.columns.get_level_values(0)
+        raw = raw.dropna(subset=["Close"])
+        if len(raw) < 2:
+            return {"error": "Bar ^JKSE kurang dari 2."}
+        last, prev = raw.iloc[-1], raw.iloc[-2]
+        close, prev_close = float(last["Close"]), float(prev["Close"])
+        change = close - prev_close
+        out = {
+            "bar_date": raw.index[-1].strftime("%Y-%m-%d"),
+            "value": round(close, 2),
+            "previous_close": round(prev_close, 2),
+            "change": round(change, 2),
+            "change_percent": round(change / prev_close * 100, 2) if prev_close else 0,
+            "open": round(float(last["Open"]), 2),
+            "high": round(float(last["High"]), 2),
+            "low": round(float(last["Low"]), 2),
+            "volume": int(last["Volume"]) if last["Volume"] == last["Volume"] else None,
+            "source": "Yahoo ^JKSE, bar harian (penutupan terakhir yang tersedia)",
         }
-    except Exception:
-        return None
+        closes = raw["Close"].astype(float)
+        if len(closes) >= 20:
+            ema20 = float(closes.ewm(span=20, adjust=False).mean().iloc[-1])
+            out["ema20"] = round(ema20, 2)
+            out["close_vs_ema20"] = "di atas" if close > ema20 else "di bawah"
+        if len(closes) >= 6:
+            out["change_5d_percent"] = round((close / float(closes.iloc[-6]) - 1) * 100, 2)
+        return out
+    except Exception as e:
+        return {"error": f"Gagal mengambil IHSG: {e}"}
 
 
 def get_top_movers(limit: int = 5) -> Dict[str, List[Dict[str, Any]]]:

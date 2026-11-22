@@ -103,3 +103,12 @@ def test_clean_drops_dead_stocks_but_clean_false_keeps_them():
     assert any("sepi/mati" in w for w in out["warnings"])
     out = engine.screen(criteria=crit, snapshot=snap, clean=False)
     assert {r["ticker"] for r in out["results"]} == {"BBBB"}
+
+
+def test_warns_when_not_all_results_shown():
+    crit = {"all": [{"feature": "close", "op": ">", "value": 0}]}
+    out = engine.screen(criteria=crit, snapshot=_snap(), limit=1, clean=False)
+    assert out["total_matched"] == 2 and out["returned"] == 1 and out["next_offset"] == 1
+    assert "offset=1" in out["warnings"][0] and "1 ticker belum terbaca" in out["warnings"][0]
+    full = engine.screen(criteria=crit, snapshot=_snap(), limit=10, clean=False)
+    assert not any("belum terbaca" in w for w in full["warnings"])
