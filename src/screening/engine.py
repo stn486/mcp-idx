@@ -311,6 +311,10 @@ def screen(presets: Optional[list[str]] = None, criteria: Optional[dict] = None,
         "setups": list(h), "reasons": h,
         "latest": {k: ft.get(k) for k in keep},
     } for t, ft, h in page]
+    shown_to = offset + len(results)
+    if shown_to < total:
+        warnings.insert(0, f"Baru {shown_to} dari {total} hasil ditampilkan; {total - shown_to} ticker belum terbaca. "
+                           f"Ambil sisanya dengan offset={shown_to} (next_offset) sebelum menyimpulkan.")
     out = {
         "snapshot_finished": snap["finished"], "latest_bar_date": reference,
         "universe_as_of": snap.get("universe_as_of"),
