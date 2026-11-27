@@ -40,3 +40,10 @@ Analisis: `scripts/backtest_setups.py` (hasil historis) dan `scripts/coverage_re
 - `/health` publik (keepalive). `/admin/status` dan `/admin/refresh` (GET/POST) dilindungi Bearer yang sama.
 - Snapshot dibuat ulang otomatis oleh server: saat kosong/parsial/lebih tua dari 3 hari, dan tiap hari kerja setelah 17:30 WIB. Jeda ulang 60 menit bila gagal. Matikan dengan `SCREENING_AUTO_REFRESH=false`.
 - Disk Render gratis tidak permanen: setelah deploy/restart snapshot kosong dulu, lalu terbentuk sendiri (sekitar 10-25 menit; selama itu `screen_stocks` memberi pesan NO_SNAPSHOT).
+
+## Level harga dan kalkulator R/R (tool terpisah, tidak mempengaruhi screener)
+
+`screen_stocks` tidak berubah dan tidak memakai level apa pun untuk menyaring. Dua tool tambahan dipanggil per ticker setelah kandidat ada:
+
+- `get_levels(ticker, pivot_bars=2, swing_count=5)`: angka mentah dari data harian (bukan harga live, jadi tersedia saat bursa tutup): swing high/low terkonfirmasi (pengapit `pivot_bars` bar kiri-kanan, beberapa terakhir dengan tanggal), ekstrem sementara dari bar yang belum bisa dikonfirmasi, low 5/10/20 hari, high 20/20-sebelumnya/60 hari, Fibonacci 38,2/50/61,8% dan extension 127,2/161,8% dari swing terakhir, pivot standar dari sesi terakhir, gap belum tertutup (60 sesi, minimal 0,3 ATR), dan `dist_atr` tiap level (negatif = di bawah close). Periksa `data.current` dan `data.last_bar_partial`. Tidak ada rekomendasi entry/SL/TP.
+- `calc_risk_reward(entry, sl, tp, ...)`: R/R bersih setelah fee, slippage (tick BEI), lot dari batas risiko dan alokasi, dan `min_rr` untuk entry maksimal. Semua biaya dan batas berasal dari input; tidak ada nilai bawaan pribadi.

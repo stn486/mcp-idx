@@ -40,6 +40,7 @@ from src.tools.financial_ratios import get_financial_ratios_tool, get_financial_
 from src.tools.volume_analysis import get_volume_analysis_tool, get_volume_analysis
 from src.tools.volatility_analysis import get_volatility_analysis_tool, get_volatility_analysis
 from src.tools.screener import get_screen_stocks_tool, get_screening_data_tool, screen_stocks, screening_data
+from src.tools.levels import get_levels_tool, calc_risk_reward_tool, get_levels, calc_risk_reward
 from src.config.settings import settings
 from src.utils.exceptions import MCPToolError
 
@@ -95,6 +96,8 @@ async def handle_list_tools() -> list[Tool]:
         get_volatility_analysis_tool(),
         get_screen_stocks_tool(),
         get_screening_data_tool(),
+        get_levels_tool(),
+        calc_risk_reward_tool(),
     ]
 
 
@@ -122,6 +125,8 @@ async def handle_call_tool(name: str, arguments: dict) -> list[TextContent]:
             "get_volatility_analysis": get_volatility_analysis,
             "screen_stocks": screen_stocks,
             "screening_data": screening_data,
+            "get_levels": get_levels,
+            "calc_risk_reward": calc_risk_reward,
         }
 
         handler = tool_handlers.get(name)

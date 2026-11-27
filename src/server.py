@@ -42,6 +42,7 @@ from src.tools.intraday import (
     get_gap_analysis_tool, get_gap_analysis
 )
 from src.tools.screener import get_screen_stocks_tool, get_screening_data_tool, screen_stocks, screening_data
+from src.tools.levels import get_levels_tool, calc_risk_reward_tool, get_levels, calc_risk_reward
 from src.config.settings import settings
 
 # Configure logging
@@ -94,6 +95,8 @@ async def handle_list_tools() -> list[Tool]:
         get_gap_analysis_tool(),
         get_screen_stocks_tool(),
         get_screening_data_tool(),
+        get_levels_tool(),
+        calc_risk_reward_tool(),
     ]
 @server.call_tool()
 async def handle_call_tool(name: str, arguments: dict) -> list[TextContent]:
@@ -132,6 +135,8 @@ async def handle_call_tool(name: str, arguments: dict) -> list[TextContent]:
             "get_gap_analysis": get_gap_analysis,
             "screen_stocks": screen_stocks,
             "screening_data": screening_data,
+            "get_levels": get_levels,
+            "calc_risk_reward": calc_risk_reward,
         }
         
         handler = tool_handlers.get(name)
